@@ -64,6 +64,7 @@ them apart. Scientific integrity depends on solving this.
 | Document | Who It's For | What It Covers |
 |----------|-------------|---------------|
 | [PROBLEM.md](PROBLEM.md) | Everyone | Why this framework exists |
+| [DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md) | Researchers, compliance teams | Four pillars: integrity, sovereignty, verification, safety |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Computer scientists, system designers | The five domains and pipelines |
 | [DISCIPLINES.md](DISCIPLINES.md) | Biologists, chemists, physicists, mathematicians | How the framework applies to each field |
 | [GUARDRAILS.md](GUARDRAILS.md) | AI safety researchers | The seven operational guardrails |
