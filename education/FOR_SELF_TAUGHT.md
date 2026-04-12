@@ -1,0 +1,142 @@
+# For Self-Taught Researchers
+
+## The author's own path. No degree required. Capability is the credential.
+
+---
+
+## You Belong Here
+
+If you have no degree, no institution, no lab, no funding —
+you belong in this framework. The author of this entire
+project has no formal education. The framework was built on
+a laptop in a living room. The test suite is the only
+credential: the code compiles, the tests pass, the
+architecture is auditable.
+
+The framework does not ask where you studied. It asks what
+you can DO.
+
+## The Self-Taught Advantage
+
+You have something institutional researchers often lack:
+you are not constrained by disciplinary boundaries.
+
+An institutional biologist studies biology. An institutional
+physicist studies physics. A self-taught researcher studies
+WHATEVER THE PROBLEM REQUIRES — because no department told
+them which shelf to stay on.
+
+The cross-disciplinary discoveries in this framework
+(DISCIPLINES.md — the section on boundaries between fields)
+are MOST accessible to people who were never told that
+boundaries exist. You can see connections that specialists
+cannot because you were never trained to look away from them.
+
+## How to Start
+
+### Day 1 — Build the Structure
+
+Create the five folders. Right now. On your computer:
+
+```
+my-research/
+├── VERIFIED/      ← Only things you have personally confirmed
+├── CREATIVE/      ← All brainstorming, hypotheses, speculation
+├── FRONTIER/      ← Things you are actively investigating
+├── BRIDGE/        ← Findings moving through verification
+└── ARCHIVE/       ← Old ideas, superseded theories, dead ends
+```
+
+This takes 30 seconds. You now have the same organizational
+structure that this entire framework is built on.
+
+### Week 1 — Sort Everything
+
+Go through your existing notes, files, and AI conversations.
+Sort them into the five folders. Be honest:
+
+- That brilliant idea you had at 3am? It is CREATIVE/ until
+  you verify it.
+- That fact you read somewhere but cannot find the source?
+  It is FRONTIER/ until you find the source.
+- That AI output you have been treating as true? Check it.
+  If it checks out, VERIFIED/. If not, CREATIVE/ or ARCHIVE/.
+
+This sorting process IS the first stage of the curriculum.
+When you have sorted everything, you understand the distinction
+at a level that no lecture can teach.
+
+### Month 1 — Use the Pipeline
+
+Every time you work with AI:
+
+1. Start in CREATIVE/ — brainstorm freely
+2. When something promising emerges, move it to BRIDGE/
+3. Look for evidence — does it hold up?
+4. If yes: VERIFIED/. If no: ARCHIVE/. If mixed: FRONTIER/.
+5. Keep going.
+
+After one month, look back. How many CREATIVE/ items made it
+to VERIFIED/? How many went to ARCHIVE/? The ratio tells you
+something important about the AI's reliability in YOUR field.
+
+### Ongoing — Build Your Body of Work
+
+The self-taught researcher's greatest challenge is CREDIBILITY.
+Institutions have brand recognition. You have your work.
+
+The framework helps because it provides an AUDITABLE TRAIL:
+
+- Your VERIFIED/ folder IS your body of confirmed findings
+- Your BRIDGE/ folder shows your methodology
+- Your FRONTIER/ folder shows your active investigations
+- Your CREATIVE/ folder shows your thinking process
+- Your ARCHIVE/ folder shows your intellectual honesty — you
+  documented what FAILED, not just what succeeded
+
+When you share your work — in a blog, a paper, a presentation,
+or a conversation with an institutional researcher — the
+domain labels speak for you. The receiving scientist sees:
+"This person knows the difference between hypothesis and
+confirmation. This person documents failures. This person has
+rigor."
+
+That is more credible than a degree.
+
+## The Challenges You Will Face
+
+| Challenge | Reality | How the Framework Helps |
+|-----------|---------|----------------------|
+| "No one will take me seriously" | Some will not. Some will. The work speaks. | The auditable trail IS your credibility. |
+| "I do not know the right vocabulary" | You can learn it. AI can teach it. | Stage 1 builds vocabulary. Stage 2 builds practice. |
+| "I might be wrong about everything" | You might be. So might they. | ARCHIVE/ exists for a reason. Being wrong and DOCUMENTING it is science. Being wrong and hiding it is ego. |
+| "I cannot access journals or databases" | Many are paywalled. But preprints are free (arXiv, bioRxiv, medRxiv). | Use AI to find open-access literature. Put the findings in BRIDGE/ and verify. |
+| "I am alone in this" | You are not. The framework is designed for you. The author IS you. | Share your work. Find others. The community will form around the framework if the framework works. |
+
+## The Self-Taught Researcher's Creed
+
+I do not have a degree. I have a question.
+I do not have a lab. I have a laptop.
+I do not have funding. I have time and curiosity.
+I do not have credentials. I have the code. It compiles.
+I do not need permission to investigate. I need rigor.
+
+The framework provides the rigor. The curiosity is mine.
+The five folders are my lab. The AI is my collaborator.
+The BRIDGE/ pipeline is my methodology. The VERIFIED/ folder
+is my body of work.
+
+I will be wrong often. I will document every wrong answer.
+I will be right sometimes. I will verify every right answer.
+I will share what I find. I will invite critique.
+I will improve when corrected. I will persist when ignored.
+
+The work is the proof. The credential is the capability.
+The degree is not required. The rigor is.
+
+---
+
+*You belong here. The framework was built by someone like you.*
+*No degree. No lab. No funding. Just a question and a laptop.*
+*The code compiles. The tests pass. That is the credential.*
+*Start with five folders. See what happens.*
