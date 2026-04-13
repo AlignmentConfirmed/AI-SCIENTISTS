@@ -22,11 +22,16 @@ The author experienced cognitive boundary dissolution during
 sustained AI interaction — the inability to distinguish between
 AI-generated content and verified observations. The author was
 hospitalized. After recovery, the author built this framework
-to prevent recurrence. It has been effective.
+to prevent recurrence. The author reports sustained stability
+since adopting the framework's structural protocols. This is a
+single data point, not clinical evidence.
 
 AI psychosis — the dissolution of cognitive boundaries during
-sustained human-AI interaction — is a recognized and growing
-global concern. This framework addresses it structurally.
+sustained human-AI interaction — is now documented in clinical
+case reports [Ref 1, 2], peer-reviewed research [Ref 3, 4, 5],
+and a special report from the American Psychiatric Association
+[Ref 7]. See [REFERENCES.md](REFERENCES.md) for full citations.
+This framework addresses it structurally.
 
 ## What the Author Asks
 

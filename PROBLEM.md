@@ -70,17 +70,27 @@ periods without structural separation, three problems emerge:
 ## The Growing Concern
 
 AI psychosis — the dissolution of cognitive boundaries during
-sustained human-AI interaction — is a recognized and growing
-global concern documented in clinical case reports, media
-coverage, and early academic research. It is not the author's
-term. People are already experiencing it. Clinicians are
-already seeing it. The technology is outpacing the guardrails.
+sustained human-AI interaction — is an emerging clinical
+concern with a growing evidence base. The term appears in
+peer-reviewed journals [Ref 3], clinical case reports of
+hospitalization in patients with no prior psychiatric history
+[Ref 1], a case series of 12 patients at UCSF [Ref 2], a
+special report from the American Psychiatric Association
+[Ref 7], a RAND Corporation security assessment [Ref 8], and
+coverage by PBS [Ref 9], The Conversation [Ref 10], and
+Psychology Today [Ref 11].
+
+It is not the author's term. Clinicians are reporting cases.
+Researchers are investigating the mechanisms. The clinical
+literature is emerging faster than the guardrails.
 
 This framework addresses it structurally — through domain
 separation and operational protocols — rather than through
 content filtering or usage restrictions. The goal is not to
 slow AI development. The goal is to organize its output so
 that scientists can use it safely and productively.
+
+See [REFERENCES.md](REFERENCES.md) for the full citation list.
 
 ---
 

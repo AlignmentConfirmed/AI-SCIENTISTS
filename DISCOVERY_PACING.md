@@ -34,7 +34,9 @@ A correct discovery delivered too fast can:
 - Create a false sense of understanding (the human THINKS
   they absorbed it but actually only processed the surface)
 - In extended sessions, contribute to cognitive boundary
-  dissolution when compounded with fatigue
+  dissolution when compounded with fatigue — a phenomenon
+  now documented in clinical literature (see
+  [REFERENCES.md](REFERENCES.md), Ref 3, 4)
 
 ## The Speed Mismatch
 

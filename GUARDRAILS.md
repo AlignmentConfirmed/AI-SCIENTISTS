@@ -55,10 +55,12 @@ extended AI-assisted research (see ABOUT.md for the full
 personal context).
 
 AI psychosis — the dissolution of cognitive boundaries during
-sustained human-AI interaction — is a recognized and growing
-global concern. This framework addresses it structurally
-through domain separation and operational guardrails rather
-than through content filtering or usage restrictions.
+sustained human-AI interaction — is a documented clinical
+phenomenon with published case reports, peer-reviewed research,
+and institutional recognition (see [REFERENCES.md](REFERENCES.md)).
+This framework addresses it structurally through domain
+separation and operational guardrails rather than through
+content filtering or usage restrictions.
 
 ---
 

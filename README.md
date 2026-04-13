@@ -72,6 +72,7 @@ them apart. Scientific integrity depends on solving this.
 | [DISCOVERY_PACING.md](DISCOVERY_PACING.md) | All researchers | When the AI finds what the human isn't ready to process |
 | [CONTENT_BRIDGE.md](CONTENT_BRIDGE.md) | Content creators, educators | Science to creative production pipeline |
 | [ABOUT.md](ABOUT.md) | Everyone | The author, the disclaimer, the license |
+| [REFERENCES.md](REFERENCES.md) | Everyone | Clinical citations for AI psychosis claims |
 
 ### Chronometry — The Missing Infrastructure
 
