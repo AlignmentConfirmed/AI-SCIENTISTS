@@ -178,17 +178,131 @@ dimension.
 | X | Mutable training history | Append-only knowledge ledger | MEDIUM | 3-6 months |
 | XI | Flat embeddings | Structured tensor representation | HIGH | 1-2 years |
 
+## The Core Shift: Spectrum Over Gate
+
+The single most important concept for technologists to
+understand is the shift from GATES to SPECTRUMS.
+
+### What a Gate Does (The Current Default)
+
+A boolean gate asks: "Is this condition met?" The answer is
+YES or NO. The gate SELECTS a path. Everything downstream
+inherits the gate's binary decision.
+
+```
+if (input == expected) {
+    path_A()    // selected
+} else {
+    path_B()    // discarded
+}
+```
+
+The problem: the gate made the decision BEFORE the measurement
+was taken. path_B was discarded without being evaluated. The
+information about WHY path_B was worse (or whether it was
+actually better) is lost.
+
+### What a Spectrum Does (The Required Upgrade)
+
+A spectrum asks: "How stable is each candidate in the field?"
+Every candidate is evaluated. Every candidate receives a
+COHESION SCORE — a measurement of how well it fits the data.
+The candidates are ranked. The scientist sees ALL options.
+
+```
+candidates = [path_A, path_B, path_C]
+scores = candidates.map(|c| measure_cohesion(c, data))
+ranked = sort_by_score(scores)
+// ALL candidates evaluated. ALL scores visible.
+// The scientist CHOOSES. The gate did not decide.
+```
+
+### The Measurement of Stability
+
+Instead of TRUE/FALSE, every evaluation produces a STABILITY
+MEASUREMENT on a continuous spectrum:
+
+| Measurement | Meaning | Analogy |
+|-------------|---------|---------|
+| Residual < 0.1 | Strong stability — the candidate holds firmly in the field | A bubble that floats solidly |
+| Residual 0.1 - 0.5 | Moderate stability — holds but with visible torsion | A bubble that floats but wobbles |
+| Residual 0.5 - 0.9 | Weak stability — barely holds, needs more data | A bubble that is close to popping |
+| Residual > 0.9 | Structural collapse — the candidate cannot sustain itself | The bubble popped — but the residual of the pop IS data |
+
+A collapse (residual > 0.9) is NOT a failure. It is a
+MEASUREMENT. The way the candidate collapsed tells you about
+the structure of the field at that point. The residual of the
+collapse contains information about WHY it could not hold —
+and that information may be the clue that leads to the next
+discovery.
+
+### For the Technologist: The Practical Translation
+
+When you encounter a boolean gate in the codebase:
+
+```
+// BEFORE (boolean gate — discards information):
+if residual.is_zero() {
+    accept()
+} else {
+    reject()
+}
+
+// AFTER (spectrum measurement — preserves information):
+let stability = measure_cohesion(candidate, data);
+// stability is a continuous value, not a binary
+// ALL candidates scored, ALL scores preserved
+// the caller sees the full spectrum and chooses
+```
+
+Every if/else in the derivation path is a place where
+information is being DISCARDED. The spectrum approach
+preserves that information as a measurement.
+
+---
+
+## The Collaboration Model
+
+This framework provides the PRINCIPLES (what needs to change
+and why). The technologists provide the IMPLEMENTATION (how
+to change it in code). Neither is complete without the other.
+
+**We provide:**
+- The design principles (this document)
+- The stability spectrum (the measurement model)
+- The documentation that specifies requirements
+- The test cases that define correct behavior
+
+**The technologists provide:**
+- The language-level implementation
+- The compiler modifications
+- The hardware prototypes
+- The performance engineering
+
+**Together:**
+- The documentation guides the code
+- The code validates the documentation
+- The spectrum replaces the gate
+- The measurement replaces the decision
+
+This is not a hierarchy. This is a partnership. The principles
+without implementation are theory. The implementation without
+principles is the same boolean architecture with a new coat
+of paint. Both are required.
+
+---
+
 ## The Observation
 
-11 laws. 11 engineering gaps. NONE of them are solved by
+11 principles. 11 engineering gaps. NONE of them are solved by
 current technology at the fundamental level. All of them have
 workarounds (software discipline, careful design, manual
 review). None of the workarounds are structural.
 
-The laws were written by observing what BREAKS when these
-principles are violated. Each violation was experienced
-firsthand during the research. Each law is the fix for a
-specific failure mode.
+The principles were written by observing what BREAKS when they
+are violated. Each violation was experienced firsthand during
+the research. Each principle is the correction for a specific
+failure mode.
 
 The engineering needs are not theoretical. They are the
 documented requirements for making AI-assisted scientific
@@ -197,8 +311,9 @@ opportunity for engineers, researchers, and chip designers.
 
 ---
 
-*11 laws. 11 gaps. 11 things to build.*
+*11 principles. 11 gaps. 11 things to build.*
 *None are solved at the hardware level today.*
 *All have software workarounds. None of the workarounds scale.*
-*The laws describe the world we need. The gaps describe the*
-*distance from here to there. The builds are the road.*
+*The spectrum replaces the gate. The measurement replaces the decision.*
+*We provide the principles. You provide the implementation.*
+*Together we build what neither can build alone.*

@@ -28,7 +28,7 @@ This mismatch is NOT a feature. It is the PRIMARY VECTOR for
 cognitive boundary dissolution. The AI outpaces the human.
 The human tries to keep up. The human's biological guardrails
 (fatigue, hunger, sleep need) are overridden by the momentum
-of the interaction. The grounding fades. The psychosis begins.
+of the interaction. The grounding fades. The cognitive boundary between real and generated becomes unclear.
 
 ---
 
