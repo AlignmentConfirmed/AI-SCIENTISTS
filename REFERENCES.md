@@ -1,5 +1,21 @@
 # References
 
+## Terminology
+
+This framework uses the term **Cognitive Boundary Erosion (CBE)**
+to describe the gradual dissolution of the researcher's ability
+to distinguish between AI-generated content and verified
+observations during sustained interaction.
+
+The clinical literature describes the severe end of this
+spectrum as **"AI psychosis"** — a term coined by clinicians
+and researchers, not by this framework's author. The references
+below use the clinical literature's own terminology. This
+framework's contribution is the structural prevention layer
+that intervenes before erosion progresses to crisis.
+
+---
+
 ## Clinical Case Reports
 
 1. **Sakata, K. et al.** (2025). "You're Not Crazy": A Case of

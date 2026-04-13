@@ -33,8 +33,8 @@ A correct discovery delivered too fast can:
   emotional load exceeds their current capacity
 - Create a false sense of understanding (the human THINKS
   they absorbed it but actually only processed the surface)
-- In extended sessions, contribute to cognitive boundary
-  dissolution when compounded with fatigue — a phenomenon
+- In extended sessions, contribute to Cognitive Boundary
+  Erosion (CBE) when compounded with fatigue — a process
   now documented in clinical literature (see
   [REFERENCES.md](REFERENCES.md), Ref 3, 4)
 

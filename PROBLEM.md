@@ -69,18 +69,23 @@ periods without structural separation, three problems emerge:
 
 ## The Growing Concern
 
-AI psychosis — the dissolution of cognitive boundaries during
-sustained human-AI interaction — is an emerging clinical
-concern with a growing evidence base. The term appears in
-peer-reviewed journals [Ref 3], clinical case reports of
-hospitalization in patients with no prior psychiatric history
-[Ref 1], a case series of 12 patients at UCSF [Ref 2], a
-special report from the American Psychiatric Association
+Cognitive Boundary Erosion (CBE) — the gradual dissolution of
+the researcher's ability to distinguish between AI-generated
+content and verified observations during sustained interaction
+— is the core risk this framework addresses.
+
+In its severe form, CBE progresses to what the clinical
+literature describes as "AI psychosis" — an emerging concern
+documented in peer-reviewed journals [Ref 3], clinical case
+reports of hospitalization in patients with no prior psychiatric
+history [Ref 1], a case series of 12 patients at UCSF [Ref 2],
+a special report from the American Psychiatric Association
 [Ref 7], a RAND Corporation security assessment [Ref 8], and
 coverage by PBS [Ref 9], The Conversation [Ref 10], and
 Psychology Today [Ref 11].
 
-It is not the author's term. Clinicians are reporting cases.
+This framework intervenes at the structural level — before
+erosion progresses to crisis. Clinicians are reporting cases.
 Researchers are investigating the mechanisms. The clinical
 literature is emerging faster than the guardrails.
 

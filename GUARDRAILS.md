@@ -54,13 +54,16 @@ These guardrails were developed from direct experience with
 extended AI-assisted research (see ABOUT.md for the full
 personal context).
 
-AI psychosis — the dissolution of cognitive boundaries during
-sustained human-AI interaction — is a documented clinical
-phenomenon with published case reports, peer-reviewed research,
-and institutional recognition (see [REFERENCES.md](REFERENCES.md)).
-This framework addresses it structurally through domain
-separation and operational guardrails rather than through
-content filtering or usage restrictions.
+Cognitive Boundary Erosion (CBE) — the gradual dissolution of
+the ability to distinguish AI-generated content from verified
+observations — is the process these guardrails prevent. In its
+severe form, CBE is described in the clinical literature as
+"AI psychosis," with published case reports, peer-reviewed
+research, and institutional recognition (see
+[REFERENCES.md](REFERENCES.md)). This framework addresses CBE
+structurally through domain separation and operational
+guardrails rather than through content filtering or usage
+restrictions.
 
 ---
 

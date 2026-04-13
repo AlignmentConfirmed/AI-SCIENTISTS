@@ -18,20 +18,22 @@ No laboratory. No funding. The framework was built from personal
 experience and practical necessity during extended AI-assisted
 research.
 
-The author experienced cognitive boundary dissolution during
-sustained AI interaction — the inability to distinguish between
-AI-generated content and verified observations. The author was
-hospitalized. After recovery, the author built this framework
-to prevent recurrence. The author reports sustained stability
-since adopting the framework's structural protocols. This is a
+The author experienced Cognitive Boundary Erosion (CBE) during
+sustained AI interaction — the progressive inability to
+distinguish between AI-generated content and verified
+observations. The erosion progressed to hospitalization. After
+recovery, the author built this framework to prevent
+recurrence. The author reports sustained stability since
+adopting the framework's structural protocols. This is a
 single data point, not clinical evidence.
 
-AI psychosis — the dissolution of cognitive boundaries during
-sustained human-AI interaction — is now documented in clinical
-case reports [Ref 1, 2], peer-reviewed research [Ref 3, 4, 5],
-and a special report from the American Psychiatric Association
+The severe form of CBE is described in the clinical literature
+as "AI psychosis" — now documented in clinical case reports
+[Ref 1, 2], peer-reviewed research [Ref 3, 4, 5], and a
+special report from the American Psychiatric Association
 [Ref 7]. See [REFERENCES.md](REFERENCES.md) for full citations.
-This framework addresses it structurally.
+This framework addresses CBE structurally — at the boundary
+level, before erosion progresses to crisis.
 
 ## What the Author Asks
 
