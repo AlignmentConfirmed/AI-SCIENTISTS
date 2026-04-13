@@ -91,6 +91,46 @@ that intervenes before erosion progresses to crisis.
     multiple clinical and media sources.
     https://en.wikipedia.org/wiki/Chatbot_psychosis
 
+## Cognitive Load and Expert Vulnerability
+
+13. **Dror, I. et al.** (2020). Cognitive and Human Factors in
+    Expert Decision Making: Six Fallacies and the Eight Sources
+    of Bias. *Analytical Chemistry.* Demonstrates that expertise
+    itself creates susceptibility to bias through pattern
+    recognition and heuristic shortcuts.
+    https://pubs.acs.org/doi/10.1021/acs.analchem.0c00704
+
+14. **Eppler, M.J. & Mengis, J.** (2023). Dealing with
+    Information Overload: A Comprehensive Review. *Frontiers
+    in Psychology.* Establishes working memory limits (~7 ± 2
+    units) and documents performance, health, and decision
+    quality effects of information overload.
+    https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1122200/full
+
+15. **Frontiers in Psychology.** (2025). Cognitive Offloading or
+    Cognitive Overload? How AI Alters the Mental Architecture
+    of Coping. AI imposes new cognitive demands rather than
+    simply relieving existing ones.
+    https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1699320/full
+
+16. **Frontiers in Psychology.** (2025). The Cognitive Paradox of
+    AI in Education: Between Enhancement and Erosion. AI-assisted
+    students answered 48% more problems correctly but scored 17%
+    lower on conceptual understanding — speed up, depth down.
+    https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1550621/full
+
+17. **Ashinoff, B.K. & Abu-Akel, A.** (2021). Hyperfocus: The
+    Forgotten Frontier of Attention. *PMC.* Prolonged intense
+    concentration suppresses biological interrupt signals and
+    neglects other responsibilities.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC7851038/
+
+18. **Psychology Today.** (2017). The Mad Genius Mystery.
+    Historical documentation of cognitive breakdown in Newton,
+    Cantor, Godel, Turing, and Boltzmann during periods of
+    sustained intellectual intensity.
+    https://www.psychologytoday.com/us/articles/201707/the-mad-genius-mystery
+
 ---
 
 *All references accessed and URLs verified as of April 13, 2026.*

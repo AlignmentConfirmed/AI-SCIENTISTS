@@ -70,6 +70,7 @@ them apart. Scientific integrity depends on solving this.
 | [GUARDRAILS.md](GUARDRAILS.md) | AI safety researchers | The seven operational guardrails |
 | [STAGING.md](STAGING.md) | Educators, institutions | Staged access + AI adaptation by level |
 | [DISCOVERY_PACING.md](DISCOVERY_PACING.md) | All researchers | When the AI finds what the human isn't ready to process |
+| [CASE_OVERLOAD.md](CASE_OVERLOAD.md) | All researchers | Why full immersion accelerates CBE — expert vulnerability, hyperfocus, the single-mind problem |
 | [CONTENT_BRIDGE.md](CONTENT_BRIDGE.md) | Content creators, educators | Science to creative production pipeline |
 | [ABOUT.md](ABOUT.md) | Everyone | The author, the disclaimer, the license |
 | [REFERENCES.md](REFERENCES.md) | Everyone | Clinical citations for Cognitive Boundary Erosion |
