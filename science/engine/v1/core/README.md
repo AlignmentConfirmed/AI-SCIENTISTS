@@ -19,7 +19,7 @@ RAW MEASUREMENT (noisy, multi-dimensional)
     ↓ converge (project to irreducible form)
     ↓ repeat (next K-step — next orbit of the scientific method)
     ↓
-IRREDUCIBLE TRUTH (the measurement with all noise removed)
+IRREDUCIBLE FORM (the measurement converged to its minimum representation)
 ```
 
 ## The Core Components
@@ -47,7 +47,7 @@ After convergence:
 - All entries are integers (denominator = 1)
 - The result is the MINIMUM representation of the truth
 - Two measurements that look different but encode the same
-  truth converge to the SAME irreducible form
+  structure converge to the same irreducible form
 
 ### The Measurement — coherence_functional
 

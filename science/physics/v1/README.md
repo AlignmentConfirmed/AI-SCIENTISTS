@@ -62,7 +62,7 @@ properties per line:
 
 The residual tells you: which spectral relationships are NOT
 explained by the current atomic model. Those unexplained
-relationships are where NEW PHYSICS may be hiding.
+relationships may warrant further investigation.
 
 ## Why Exact Arithmetic Matters for Physics
 
@@ -76,9 +76,9 @@ The core engine uses exact rational arithmetic. Every operation
 produces an exact result. No rounding. No accumulation. The
 answer after 10^9 operations is as exact as the answer after 1.
 
-This means: if the engine finds a pattern, the pattern is REAL
-(present in the data), not an artifact of the arithmetic. The
-researcher can trust the convergence because the math is exact.
+This means: if the engine finds a pattern, the pattern is present in the
+data, not an artifact of the arithmetic. The researcher can
+trust the convergence because the math is exact.
 
 ## What v1 Will Deliver
 
@@ -103,4 +103,4 @@ researcher can trust the convergence because the math is exact.
 
 *Physics IS field configurations. The engine IS exact tensors.*
 *The encoding is natural. The convergence is exact.*
-*If the engine finds a pattern, the pattern is real.*
+*If the engine finds a pattern, the pattern is in the data.*
