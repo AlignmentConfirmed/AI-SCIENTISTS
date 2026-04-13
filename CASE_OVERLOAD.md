@@ -321,6 +321,56 @@ protection at 10,000% strength. Not because the mind is
 weak. Because the mind is powerful — and power without
 structure is the definition of erosion.
 
+## Beyond the Flat Spectrum
+
+Current approaches to cognitive risk assessment place the
+individual on a single axis — a spectrum from "fine" to
+"not fine." This is an improvement over binary categories
+("has a problem" / "does not have a problem"), but it
+still collapses a multi-dimensional phenomenon into one
+dimension.
+
+CBE is not a single axis. It is a set of interacting
+dimensions, each of which can erode independently:
+
+| Dimension | What It Measures |
+|-----------|-----------------|
+| Domain confusion | Can the researcher distinguish VERIFIED from CREATIVE output? |
+| Temporal drift | Does the researcher accurately track session duration and cumulative load? |
+| Biological disconnect | Is the researcher ignoring hunger, fatigue, sleep, human contact? |
+| Production/review gap | Is output accumulating faster than the researcher can verify it? |
+| Narrative blurring | Is the researcher confusing their creative explanations with their data? |
+| Reinforcement loop | Is the AI validating without challenging? |
+| External isolation | When did the researcher last have a human review their work? |
+
+A researcher may be completely grounded biologically
+(sleeping well, eating, exercising) but deeply eroded on
+domain confusion (cannot tell which of their 50 documents
+are verified and which are speculative). A flat spectrum
+would rate them as "moderate risk." A dimensional
+assessment would identify the specific erosion and
+address it directly.
+
+This framework proposes that future measurement tools
+for CBE should preserve this dimensionality rather than
+collapsing it to a single score. The phenomenon is
+multi-dimensional. The measurement should be too.
+
+This is not a physics claim or a mathematical claim. It
+is an observation about the structure of the problem: a
+researcher's cognitive state during sustained AI
+interaction cannot be accurately described by a single
+number. It requires a profile — multiple dimensions,
+each measured independently, each addressable
+independently.
+
+The framework described in this repository provides the
+conceptual structure for this kind of measurement. Future
+work will explore tools that implement it. Scientists in
+any discipline are invited to evaluate whether this
+multi-dimensional approach is useful in their own domain.
+If it helps, use it. If it doesn't, discard it.
+
 ---
 
 *The scientist's greatest strength is sustained intensity.*

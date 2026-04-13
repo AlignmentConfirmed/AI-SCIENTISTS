@@ -21,7 +21,7 @@ research.
 The author experienced Cognitive Boundary Erosion (CBE) during
 sustained AI interaction — the progressive inability to
 distinguish between AI-generated content and verified
-observations. The erosion progressed to hospitalization. After
+observations. The erosion progressed to hospitalization.  After
 recovery, the author built this framework to prevent
 recurrence. The author reports sustained stability since
 adopting the framework's structural protocols. This is a
