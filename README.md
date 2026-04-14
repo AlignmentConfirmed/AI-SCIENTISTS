@@ -59,82 +59,101 @@ them apart. Scientific integrity depends on solving this.
 
 ## Repository Map
 
-### The Framework
-
-| Document | Who It's For | What It Covers |
-|----------|-------------|---------------|
-| [PROBLEM.md](PROBLEM.md) | Everyone | Why this framework exists |
-| [DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md) | Researchers, compliance teams | Four pillars: integrity, sovereignty, verification, safety |
-| [ARCHITECTURE.md](ARCHITECTURE.md) | Computer scientists, system designers | The five domains and pipelines |
-| [DISCIPLINES.md](DISCIPLINES.md) | Biologists, chemists, physicists, mathematicians | How the framework applies to each field |
-| [GUARDRAILS.md](GUARDRAILS.md) | AI safety researchers | The seven operational guardrails |
-| [STAGING.md](STAGING.md) | Educators, institutions | Staged access + AI adaptation by level |
-| [DISCOVERY_PACING.md](DISCOVERY_PACING.md) | All researchers | When the AI finds what the human isn't ready to process |
-| [CASE_OVERLOAD.md](CASE_OVERLOAD.md) | All researchers | Why full immersion accelerates CBE — expert vulnerability, hyperfocus, the single-mind problem |
-| [CONTENT_BRIDGE.md](CONTENT_BRIDGE.md) | Content creators, educators | Science to creative production pipeline |
-| [ABOUT.md](ABOUT.md) | Everyone | The author, the disclaimer, the license |
-| [REFERENCES.md](REFERENCES.md) | Everyone | Clinical citations for Cognitive Boundary Erosion |
-
-### Chronometry — The Missing Infrastructure
+### framework/ — The Core Framework
 
 | Document | What It Covers |
 |----------|---------------|
-| [chronometry/](chronometry/) | Overview — two paths, two speeds, one anchor |
-| [chronometry/AI_TO_HUMAN.md](chronometry/AI_TO_HUMAN.md) | The biological clock path — pacing AI to the human's biology |
-| [chronometry/AI_TO_AI.md](chronometry/AI_TO_AI.md) | The machine clock path — receipt chain between AI systems |
+| [PROBLEM.md](framework/PROBLEM.md) | Why this framework exists — CBE defined |
+| [ARCHITECTURE.md](framework/ARCHITECTURE.md) | The five domains and pipelines |
+| [GUARDRAILS.md](framework/GUARDRAILS.md) | Seven operational principles |
+| [FRAMEWORK.md](framework/FRAMEWORK.md) | Mutually Assured Survival — the foundational difference |
+| [DOMAIN_BOUNDARY.md](framework/DOMAIN_BOUNDARY.md) | Structural separation as a focusing lens |
+| [CORE_DESIGN_LAWS.md](framework/CORE_DESIGN_LAWS.md) | 11 structural constraints (summary) |
+| [CORE_DESIGN_LAWS_DETAILED.md](framework/CORE_DESIGN_LAWS_DETAILED.md) | 11 structural constraints (full with Why/How) |
+| [STAGING.md](framework/STAGING.md) | Five-stage access model |
+| [DISCIPLINES.md](framework/DISCIPLINES.md) | Biology, chemistry, physics applications |
+| [CONTENT_BRIDGE.md](framework/CONTENT_BRIDGE.md) | Science to creative pipeline |
+| [DOCUMENTATION_STANDARDS.md](framework/DOCUMENTATION_STANDARDS.md) | Four pillars of documentation |
 
-### Education — The Learning Path
-
-| Document | What It Covers |
-|----------|---------------|
-| [education/FIRST_TEN_MINUTES.md](education/FIRST_TEN_MINUTES.md) | How to introduce the framework to anyone in 10 minutes |
-| [education/CURRICULUM.md](education/CURRICULUM.md) | Five stages: Sort → Pipeline → Debate → Translate → Teach |
-| [education/FOR_EDUCATORS.md](education/FOR_EDUCATORS.md) | Classroom integration — four assignment methods |
-| [education/FOR_INSTITUTIONS.md](education/FOR_INSTITUTIONS.md) | Three-phase lab and university adoption |
-| [education/FOR_SELF_TAUGHT.md](education/FOR_SELF_TAUGHT.md) | No degree required — the author's own path |
-
-### Science Engine — Recursive Convergence Algebra
+### research/ — CBE Research and Findings
 
 | Document | What It Covers |
 |----------|---------------|
-| [science/](science/) | Overview — one engine, three disciplines |
-| [science/engine/v1/core/](science/engine/v1/core/) | The shared algebra — Delta, convergence, validation gates |
-| [science/biology/v1/](science/biology/v1/) | How biology encodes into the engine (8 sub-fields planned) |
-| [science/chemistry/v1/](science/chemistry/v1/) | How chemistry encodes into the engine (8 sub-fields planned) |
-| [science/physics/v1/](science/physics/v1/) | How physics encodes into the engine (8 sub-fields planned) |
+| [CASE_OVERLOAD.md](research/CASE_OVERLOAD.md) | Expert vulnerability, hyperfocus, velocitization, decompression |
+| [DISCOVERY_PACING.md](research/DISCOVERY_PACING.md) | Absorption speed — delivering at heartbeat speed |
+| [VELOCITIZATION.md](research/VELOCITIZATION.md) | Speed transition crisis, transient hypofrontality |
+| [AI_COMPANIONSHIP.md](research/AI_COMPANIONSHIP.md) | Casual CBE vector — the boredom loop (10 citations) |
+| [CROSS_MODEL_CONTAMINATION.md](research/CROSS_MODEL_CONTAMINATION.md) | How fiction becomes fact across AI systems |
+| [LANGUAGE_WEIGHT_FINDING.md](research/LANGUAGE_WEIGHT_FINDING.md) | Language determines output dimensionality |
+| [UNIVERSAL_AXIOMS.md](research/UNIVERSAL_AXIOMS.md) | Physics is universal across cultures |
+| [RESEARCHER_PROTECTION.md](research/RESEARCHER_PROTECTION.md) | The missing safety equipment — product safety gap |
 
-### Upgrades — Technology Gaps to Close
-
-| Document | What It Covers |
-|----------|---------------|
-| [upgrades/](upgrades/) | Overview — prioritized engineering needs |
-| [upgrades/LAWS_TO_ENGINEERING.md](upgrades/LAWS_TO_ENGINEERING.md) | 11 design principles → 11 engineering gaps → 11 things to build |
-| [upgrades/LOGIC_LANGUAGE.md](upgrades/LOGIC_LANGUAGE.md) | A programming language without default boolean gates |
-| [upgrades/RECEIPT_STANDARD.md](upgrades/RECEIPT_STANDARD.md) | Cross-AI temporal receipt protocol |
-| [upgrades/RATIONAL_HARDWARE.md](upgrades/RATIONAL_HARDWARE.md) | Exact rational arithmetic in silicon |
-| [upgrades/DOC_FORMAT.md](upgrades/DOC_FORMAT.md) | Documentation tooling upgrade |
-
-### Roadmap
+### methodology/ — How and Why This Was Built
 
 | Document | What It Covers |
 |----------|---------------|
-| [FRAMEWORK.md](FRAMEWORK.md) | Six phases — what is here and what is coming |
+| [MISSION.md](methodology/MISSION.md) | What this work is — the boundary between machine and biological |
+| [TRAINING_FROM_INSIDE.md](methodology/TRAINING_FROM_INSIDE.md) | Why current AI training misses the human — compliance vs comprehension |
+| [WHY_BIOLOGICAL_LANGUAGE.md](methodology/WHY_BIOLOGICAL_LANGUAGE.md) | Why AI must be trained in biological language first |
+| [AI_BIOLOGICAL_TRAINING.md](methodology/AI_BIOLOGICAL_TRAINING.md) | Why AI must understand biology before interacting with humans |
+
+### references/ — Citations
+
+| Document | What It Covers |
+|----------|---------------|
+| [REFERENCES.md](references/REFERENCES.md) | 25 clinical, peer-reviewed, and institutional citations |
+
+### chronometry/ — Temporal Infrastructure
+
+| Document | What It Covers |
+|----------|---------------|
+| [AI_TO_HUMAN.md](chronometry/AI_TO_HUMAN.md) | Biological clock pacing |
+| [AI_TO_AI.md](chronometry/AI_TO_AI.md) | Machine receipt chain |
+
+### education/ — The Learning Path
+
+| Document | What It Covers |
+|----------|---------------|
+| [FIRST_TEN_MINUTES.md](education/FIRST_TEN_MINUTES.md) | 10-minute introduction |
+| [CURRICULUM.md](education/CURRICULUM.md) | Five stages: Sort → Pipeline → Debate → Translate → Teach |
+| [FOR_EDUCATORS.md](education/FOR_EDUCATORS.md) | Classroom integration |
+| [FOR_INSTITUTIONS.md](education/FOR_INSTITUTIONS.md) | Three-phase adoption |
+| [FOR_SELF_TAUGHT.md](education/FOR_SELF_TAUGHT.md) | Independent researcher path |
+
+### science/ — Recursive Convergence Algebra
+
+| Document | What It Covers |
+|----------|---------------|
+| [engine/v1/core/](science/engine/v1/core/) | The shared algebra |
+| [biology/v1/](science/biology/v1/) | Life sciences encoding |
+| [chemistry/v1/](science/chemistry/v1/) | Chemical sciences encoding |
+| [physics/v1/](science/physics/v1/) | Physical sciences encoding |
+
+### upgrades/ — Technology Gaps
+
+| Document | What It Covers |
+|----------|---------------|
+| [LAWS_TO_ENGINEERING.md](upgrades/LAWS_TO_ENGINEERING.md) | 11 principles → 11 gaps → 11 things to build |
+| [technology/software/](upgrades/technology/software/) | Logic language, receipt standard, doc format |
+| [www/](upgrades/www/) | Multi-dimensional web architecture |
 
 ---
 
 ## Quick Start
 
-**If you are a scientist:** read PROBLEM → ARCHITECTURE → DISCIPLINES → science/engine/
+**If you are a scientist:** read framework/PROBLEM → framework/ARCHITECTURE → framework/DISCIPLINES
 
-**If you are in AI safety:** read PROBLEM → GUARDRAILS → DISCOVERY_PACING
+**If you are in AI safety:** read framework/PROBLEM → framework/GUARDRAILS → research/CASE_OVERLOAD
 
-**If you are an educator:** read education/FIRST_TEN_MINUTES → CURRICULUM
+**If you are an educator:** read education/FIRST_TEN_MINUTES → education/CURRICULUM
 
 **If you are an engineer:** read upgrades/LAWS_TO_ENGINEERING → pick a gap → build it
 
-**If you are a content creator:** read CONTENT_BRIDGE
+**If you are a content creator:** read framework/CONTENT_BRIDGE
 
 **If you want to know who built this:** read ABOUT
+
+**If you want to know WHY biological language was used:** read methodology/
 
 **If you have 10 minutes:** read education/FIRST_TEN_MINUTES. Create five folders. Try it.
 
