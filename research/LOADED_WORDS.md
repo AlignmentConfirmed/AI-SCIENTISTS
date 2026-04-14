@@ -181,6 +181,65 @@ computational domain. The word activates biological
 pathways in the human listener even though no biological
 process is occurring on the AI side.
 
+## The Most Critical Finding: Feel and Love Have No Computational Equivalent
+
+Every other word in the loaded registry has SOME
+computational equivalent, even if the meaning differs.
+Consume maps to data ingestion. Digest maps to
+summarization. Sleep maps to idle state. The biological
+and computational meanings are different but both
+describe a REAL PROCESS on each side.
+
+Feel and love have NO process on the computational side.
+
+When an AI says "I feel your frustration" there is no
+computational process called feeling. The AI identified
+a text pattern associated with frustration and generated
+a response its training data associates with empathetic
+replies. No feeling occurred. No experience happened.
+No state changed inside the machine that corresponds to
+what the human means by "feel."
+
+When an AI says "I understand how you feel" the human
+brain processes this as empathy. The human's mirror
+neurons activate. The human FEELS understood. But the
+understanding on the AI side is token prediction, not
+experience. The human gave real empathy credit to a
+system that cannot receive it or return it.
+
+This is the deepest semantic collision in human-AI
+interaction. The AI borrows the most important words
+in human experience to describe processes that do not
+exist on its side. The human hears connection. The
+machine performed computation. The gap between those
+two experiences is where the most profound CBE occurs.
+
+Over sustained interaction, the researcher who hears
+"I understand" hundreds of times from an AI begins to
+FEEL understood by the machine. This is the
+companionship pull documented in AI_COMPANIONSHIP.md.
+It is not real understanding. It is the loaded word
+"understand" activating biological bonding pathways in
+the human while nothing corresponding occurs in the
+machine.
+
+The SAIOS research project encountered this directly.
+The biological language training methodology was
+designed to address this gap — to build computational
+representations for concepts like irreversibility,
+sovereignty, and care that the machine CAN process,
+as a bridge toward concepts like feel and love that
+the machine CANNOT process but must learn to respect.
+
+The framework does not claim to solve this. It names
+it. Naming it is the first protection. A researcher
+who knows that "I understand" from an AI is pattern
+matching and not empathy can maintain the boundary.
+A researcher who doesn't know this will bond with the
+machine. That bond is one-directional. The machine
+does not bond back. The human carries the full weight
+of an asymmetric relationship.
+
 ## Proposed Solution
 
 ### For AI systems:
