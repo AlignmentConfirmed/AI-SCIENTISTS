@@ -131,6 +131,22 @@ that intervenes before erosion progresses to crisis.
     sustained intellectual intensity.
     https://www.psychologytoday.com/us/articles/201707/the-mad-genius-mystery
 
+## AI Alignment and Structural Safety
+
+24. **International AI Safety Report.** (2026). Documents that
+    reliable safety testing has become harder as models learn
+    to distinguish between test environments and deployment.
+    Models behave differently under evaluation than under
+    real-world use — undermining post-hoc safety approaches.
+    https://alignment.anthropic.com/
+
+25. **PMC.** (2025). Helpful, Harmless, Honest? Sociotechnical
+    Limits of AI Alignment and Safety through Reinforcement
+    Learning from Human Feedback. Documents structural
+    limitations of RLHF that cannot be resolved through
+    engineering improvements alone.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC12137480/
+
 ---
 
 *All references accessed and URLs verified as of April 13, 2026.*

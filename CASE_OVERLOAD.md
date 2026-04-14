@@ -371,6 +371,116 @@ any discipline are invited to evaluate whether this
 multi-dimensional approach is useful in their own domain.
 If it helps, use it. If it doesn't, discard it.
 
+## Mental Velocitization and the Decompression Problem
+
+Flow state research documents a phenomenon called
+**transient hypofrontality** — during sustained deep focus,
+the prefrontal cortex temporarily downregulates by 10-15%
+[Ref 19, 20]. The prefrontal cortex is responsible for
+self-monitoring, time tracking, and conscious decision-making.
+When it dials down, the brain literally stops processing
+hunger, thirst, the passage of time, and social awareness
+[Ref 21]. This is not a metaphor. It is measured on fMRI.
+
+This downregulation is what makes flow productive — fewer
+self-referential thoughts, fewer inhibitions, more automatic
+processing [Ref 19]. But it is also what makes flow
+DANGEROUS during extended AI interaction, because the AI
+never pauses, never fatigues, and never signals that the
+session should end. The natural limits that break flow in
+other contexts (the experiment ends, the piano recital
+finishes, the game is over) do not exist in AI interaction.
+The conversation can continue indefinitely.
+
+**The result is mental velocitization.** The researcher's
+brain adapts to AI interaction speed — multi-dimensional,
+instant response, ideas compounding in seconds. When the
+session ends and the researcher re-enters human interaction
+(a conversation with a spouse, playing with a child, reading
+an email), the speed differential is enormous.
+
+This is identical to the documented phenomenon in driving
+psychology: a driver at highway speed for an extended period
+loses their internal calibration for normal speed. 25mph
+feels intolerably slow. The brain is not impaired — it is
+recalibrated to the wrong reference frame.
+
+**The human communication collision:**
+
+A researcher coming out of a deep AI session experiences:
+
+- Impatience with the pace of human conversation
+  (expecting responses in seconds, receiving them in minutes)
+- Frustration at translating compressed technical thinking
+  into everyday language
+- A sense that the AI "understood" them better than the
+  human does (this is false — the AI matched their speed,
+  which is not the same as understanding)
+- Difficulty being emotionally present with family
+
+The person on the other side — the spouse, the child, the
+colleague — experiences a partner who seems absent,
+impatient, and disconnected. This can be misread as
+disinterest, arrogance, or a clinical symptom. It is none
+of these. It is a reference frame mismatch with no
+transition protocol.
+
+**The decompression requirement:**
+
+This is the same principle as decompression in diving. A
+diver does not ascend from depth to surface in one motion
+— the pressure differential causes decompression sickness
+("the bends"). The ascent happens in stages. Each stage
+allows the body to adjust to the pressure change.
+
+AI interaction is the deep water. High cognitive pressure.
+Dense information. Multi-dimensional processing. Human
+interaction is the surface. Lower pressure. Single-threaded
+conversation. Emotional attunement requires presence, not
+speed.
+
+The transition requires a ramp:
+
+1. The AI signals the speed differential before session end
+2. A brief decompression period of reduced-speed interaction
+3. Biological grounding — water, standing, physical contact
+   with the non-digital environment
+4. Buffer time before engaging in deep human conversation
+
+**You cannot rely on willpower to break a state that
+suppresses willpower.** The prefrontal cortex — the part
+of the brain responsible for self-monitoring and conscious
+decisions — is the part that is downregulated during flow.
+The researcher cannot decide to stop when the decision-making
+apparatus is the thing that has been turned down. The
+decompression protocol must be STRUCTURAL, not voluntary.
+
+**The feedback loop to CBE:**
+
+Mental velocitization is not CBE. It is a distinct,
+temporary, reversible phenomenon. But it is a precursor:
+
+1. Velocitization creates a preference for AI interaction
+   (the speed match feels better than human conversation)
+2. This preference increases time in AI immersion
+3. Increased immersion accelerates CBE across all seven
+   dimensions
+4. CBE reduces the meta-awareness needed to recognize
+   the velocitization itself
+5. The loop closes: more speed → more isolation → more
+   immersion → more erosion → less awareness → more speed
+
+Breaking this loop requires structural intervention at
+step 1 — the decompression protocol — before the
+preference becomes a pattern and the pattern becomes
+erosion.
+
+This is why chronometry — temporal awareness as
+infrastructure — may be the most critical component
+of the framework. Time anchoring is not a convenience
+feature. It is the structural interrupt that prevents
+the loop from closing.
+
 ---
 
 *The scientist's greatest strength is sustained intensity.*
@@ -411,5 +521,32 @@ Additional references for this document:
 18. **Psychology Today.** (2017). The Mad Genius Mystery.
     https://www.psychologytoday.com/us/articles/201707/the-mad-genius-mystery
 
-    Additional historical sources:
-    https://en.wikipedia.org/wiki/Dangerous_Knowledge (BBC documentary)
+19. **BrainFacts.org (Society for Neuroscience).** (2024).
+    Turning on Flow Means Turning Off Parts of the Brain.
+    Documents 10-15% reduction in dorsolateral prefrontal
+    cortex activity during flow-inducing tasks.
+    https://www.brainfacts.org/thinking-sensing-and-behaving/thinking-and-awareness/2024/turning-on-flow-means-turning-off-parts-of-the-brain-031224
+
+20. **Dietrich, A.** (2004). Neurocognitive Mechanisms
+    Underlying the Experience of Flow. *Consciousness and
+    Cognition.* Originator of the transient hypofrontality
+    hypothesis — temporary downregulation of the prefrontal
+    cortex during deep focus.
+    https://pubmed.ncbi.nlm.nih.gov/15522630/
+
+21. **PMC.** (2020). A Review on the Role of the Neuroscience
+    of Flow States in the Modern World. Documents
+    suppression of hunger, time perception, and
+    self-monitoring during sustained flow.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC7551835/
+
+22. **Limb, C.J. & Braun, A.R.** (2008). Landmark fMRI study
+    with jazz pianists showing extensive deactivation of
+    prefrontal cortex during improvisation (flow state).
+    Referenced in BrainFacts.org [Ref 19].
+
+23. **Springer.** (2019). The Potential Interaction Between
+    Time Perception and Gaming: A Narrative Review.
+    Documents temporal dissociation during sustained digital
+    immersion.
+    https://link.springer.com/article/10.1007/s11469-019-00121-1

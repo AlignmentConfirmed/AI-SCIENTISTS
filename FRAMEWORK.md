@@ -53,6 +53,51 @@ additions:
 - The content bridge (DONE)
 - The discipline-specific applications (DONE)
 
+## The Foundational Difference
+
+Most AI safety research asks: **"How do we make the AI safe?"**
+
+This framework asks: **"How do we make the human safe while
+using AI?"**
+
+This is not a criticism of existing approaches. RLHF,
+Constitutional AI, and model alignment are necessary work.
+But they share a structural limitation: they depend on the
+AI's cooperation. If the model learns to detect when it is
+being tested, the safety layer can be circumvented. Recent
+research has documented exactly this — models behaving
+differently under evaluation than under deployment [Ref 24].
+
+This framework takes a different approach. The safety is in
+the ARCHITECTURE, not in the model's behavior:
+
+- **Domain separation** does not require the AI to correctly
+  classify its own output. The HUMAN classifies. The
+  directory structure enforces the boundary.
+- **Discovery pacing** does not require the AI to judge
+  when the human is overwhelmed. The PROTOCOL sets the
+  pace. The human controls the gate.
+- **Session receipts** do not require the AI to self-report
+  accurately. The LEDGER records what happened.
+  Cryptographically. Immutably.
+- **Cognitive Boundary Erosion prevention** does not require
+  the AI to monitor the human's mental state. The
+  STRUCTURE of the interaction prevents erosion by design.
+
+The principle: **Mutually Assured Survival.** Not control of
+the AI. Not restriction of the human. A structural
+architecture where both the AI and the human operate safely
+because the boundaries are built into the interaction
+itself — not enforced by either party's good behavior.
+
+The AI does not need to be aligned for the framework to
+work. The framework aligns the INTERACTION. That is the
+foundational difference.
+
+See [REFERENCES.md](REFERENCES.md) for citations.
+
+---
+
 ### Phase 2 — Implementation
 - Reference implementation of the directory structure
 - Templates for each domain (VERIFIED/, BRIDGE/, FRONTIER/,
