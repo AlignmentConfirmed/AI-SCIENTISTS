@@ -32,10 +32,35 @@ be built.
 
 | Priority | Upgrade | Complexity | File |
 |----------|---------|-----------|------|
-| 1 | Non-boolean logic language | HIGH — language design | [LOGIC_LANGUAGE.md](LOGIC_LANGUAGE.md) |
-| 2 | Documentation format upgrade | LOW — tooling | [DOC_FORMAT.md](DOC_FORMAT.md) |
-| 3 | Session receipt standard | MEDIUM — protocol design | [RECEIPT_STANDARD.md](RECEIPT_STANDARD.md) |
-| 4 | Rational arithmetic hardware | VERY HIGH — chip design | [RATIONAL_HARDWARE.md](RATIONAL_HARDWARE.md) |
+| **1** | **Creative Containment Engine (Layer 5)** | **MEDIUM** — new structs wrapping existing infrastructure | [life/CREATIVE_CONTAINMENT_ENGINE.md](life/CREATIVE_CONTAINMENT_ENGINE.md) |
+| **2** | **CBE Detection Engine** | **MEDIUM-HIGH** — temporal aggregator + operator sensor + MDC integration | [health/mental/CBE_DETECTION_ENGINE.md](health/mental/CBE_DETECTION_ENGINE.md) |
+| 3 | Non-boolean logic language | HIGH — language design | [technology/software/LOGIC_LANGUAGE.md](technology/software/LOGIC_LANGUAGE.md) |
+| 4 | Documentation format upgrade | LOW — tooling | [technology/software/DOC_FORMAT.md](technology/software/DOC_FORMAT.md) |
+| 5 | Session receipt standard | MEDIUM — protocol design | [technology/software/RECEIPT_STANDARD.md](technology/software/RECEIPT_STANDARD.md) |
+| 6 | Rational arithmetic hardware | VERY HIGH — chip design | [technology/hardware/RATIONAL_HARDWARE.md](technology/hardware/RATIONAL_HARDWARE.md) |
+
+## Why Creative Containment Is Priority 1
+
+The world is creatively stagnant. Social media extracts
+attention without producing anything the human can build on.
+AI can be the most powerful creative collaborator in history
+— but AI creative collaboration without containment is
+exactly how this project experienced its most dangerous CBE
+episodes. Layer 5 provides the structural safety that makes
+creative AI collaboration sustainable. See the spec for the
+full analysis.
+
+## Why CBE Detection Is Priority 2
+
+The convergence engine already computes every measurement
+needed to detect CBE — coherence trajectory, entropy,
+consensus, transformation magnitude. What's missing is
+temporal aggregation (sliding windows over these measurements)
+and an operator sensor (interaction pattern measurement
+through IRS). The CBE detection engine turns the existing
+algebraic infrastructure into an interaction safety system.
+Requires clinical collaboration for calibration but the
+measurement layer can be built now.
 
 ---
 
