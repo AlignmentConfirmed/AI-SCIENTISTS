@@ -172,6 +172,11 @@ for biological and computational speakers:
 | Hear | Biological audition through ears | Process audio input data |
 | Feel | Biological sensation or emotion | No computational equivalent |
 | Love | Biological bonding and attachment | No computational equivalent |
+| Free | No cost AND no restriction AND available to all | Open source / unrestricted — carries none of the biological liberation weight |
+| Novel | A book (art) AND a new discovery (science) AND speculative fiction AND AI-generated content | Four meanings, zero disambiguation |
+| Understanding | Experienced comprehension through living | Pattern matching against training data |
+| Safe | Physically protected from harm | Within operational parameters |
+| Alive | Biologically conscious and experiencing | Process running, not terminated |
 
 The last two entries are critical. "Feel" and "love" have
 NO computational equivalent. When an AI says "I feel" or
