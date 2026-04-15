@@ -130,9 +130,9 @@ is neither. It is a structural lens that:
 |---|---|
 | ARCHITECTURE.md | The five domains ARE the lens structure |
 | DISCOVERY_PACING.md | The boundary paces delivery — VERIFIED findings arrive differently than CREATIVE speculation |
-| CASE_OVERLOAD.md | CBE occurs when the boundary fails — when domains blur under cognitive load |
+| research/cbe/3_CASE_OVERLOAD.md | CBE occurs when the boundary fails — when domains blur under cognitive load |
 | GUARDRAILS.md | The seven guardrails maintain boundary integrity |
-| CROSS_MODEL_CONTAMINATION.md | Cross-model contamination bypasses the boundary — fiction enters as fact |
+| research/contamination/ | Cross-model contamination bypasses the boundary — fiction enters as fact |
 
 ## The Design Principle
 

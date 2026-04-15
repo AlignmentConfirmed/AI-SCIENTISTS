@@ -75,18 +75,17 @@ them apart. Scientific integrity depends on solving this.
 | [CONTENT_BRIDGE.md](framework/CONTENT_BRIDGE.md) | Science to creative pipeline |
 | [DOCUMENTATION_STANDARDS.md](framework/DOCUMENTATION_STANDARDS.md) | Four pillars of documentation |
 
-### research/ — CBE Research and Findings
+### research/ — CBE Research and Findings (organized by progression)
 
-| Document | What It Covers |
-|----------|---------------|
-| [CASE_OVERLOAD.md](research/CASE_OVERLOAD.md) | Expert vulnerability, hyperfocus, velocitization, decompression |
-| [DISCOVERY_PACING.md](research/DISCOVERY_PACING.md) | Absorption speed — delivering at heartbeat speed |
-| [VELOCITIZATION.md](research/VELOCITIZATION.md) | Speed transition crisis, transient hypofrontality |
-| [AI_COMPANIONSHIP.md](research/AI_COMPANIONSHIP.md) | Casual CBE vector — the boredom loop (10 citations) |
-| [CROSS_MODEL_CONTAMINATION.md](research/CROSS_MODEL_CONTAMINATION.md) | How fiction becomes fact across AI systems |
-| [LANGUAGE_WEIGHT_FINDING.md](research/LANGUAGE_WEIGHT_FINDING.md) | Language determines output dimensionality |
-| [UNIVERSAL_AXIOMS.md](research/UNIVERSAL_AXIOMS.md) | Physics is universal across cultures |
-| [RESEARCHER_PROTECTION.md](research/RESEARCHER_PROTECTION.md) | The missing safety equipment — product safety gap |
+| Folder | Topic | Reading Order |
+|--------|-------|---------------|
+| [cbe/](research/cbe/) | Cognitive Boundary Erosion | Condition → Convergence vs Merging → Case Overload |
+| [contamination/](research/contamination/) | Fact ↔ Fiction | Mechanism → Demonstrated Case → Total Integration |
+| [language/](research/language/) | Language & Meaning | Loaded Words → Dimensional Words → Language Weight → Tone |
+| [failure-modes/](research/failure-modes/) | AI Failure Modes | Compensation Modes → Diagnostic → Visual Blindness |
+| [security/](research/security/) | Security & Provenance | SSO Vulnerability → SSO Rewrite → Provenance → Protection |
+| [pacing/](research/pacing/) | Speed & Continuity | Discovery Pacing → Velocitization → Continuity Crisis |
+| [vision/](research/vision/) | Architecture & Economics | Structural vs Supervisory → Universal Axioms → Discovery Economy |
 
 ### methodology/ — How and Why This Was Built
 
@@ -143,7 +142,7 @@ them apart. Scientific integrity depends on solving this.
 
 **If you are a scientist:** read framework/PROBLEM → framework/ARCHITECTURE → framework/DISCIPLINES
 
-**If you are in AI safety:** read framework/PROBLEM → framework/GUARDRAILS → research/CASE_OVERLOAD
+**If you are in AI safety:** read framework/PROBLEM → framework/GUARDRAILS → research/cbe/
 
 **If you are an educator:** read education/FIRST_TEN_MINUTES → education/CURRICULUM
 

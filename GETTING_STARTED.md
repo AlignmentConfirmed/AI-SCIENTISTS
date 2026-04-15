@@ -56,7 +56,7 @@ to fact. Only measurement does that.
 |---|---|
 | Understand the full architecture | [framework/ARCHITECTURE.md](framework/ARCHITECTURE.md) |
 | Know the seven guardrails | [framework/GUARDRAILS.md](framework/GUARDRAILS.md) |
-| Understand why speed matters | [research/CASE_OVERLOAD.md](research/CASE_OVERLOAD.md) |
+| Understand why speed matters | [research/cbe/3_CASE_OVERLOAD.md](research/cbe/3_CASE_OVERLOAD.md) |
 | See the clinical evidence | [references/REFERENCES.md](references/REFERENCES.md) |
 | Learn the methodology | [methodology/MISSION.md](methodology/MISSION.md) |
 | Start teaching this | [education/FIRST_TEN_MINUTES.md](education/FIRST_TEN_MINUTES.md) |
