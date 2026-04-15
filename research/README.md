@@ -17,6 +17,7 @@ clinical citations, or both.
 | **CASE_OVERLOAD.md** | Demonstrated + 11 neuroscience citations |
 | **VELOCITIZATION.md** | Published neuroscience (transient hypofrontality) + 7 citations |
 | **AI_COMPANIONSHIP.md** | 10 external citations (APA, Harvard, MIT, Sage) |
+| **contamination/** | **Three-step progression.** 1: mechanism (cross-model). 2: demonstrated case (Google Drive). 3: total integration (AI across entire digital life). Read in order. |
 | **CROSS_MODEL_CONTAMINATION.md** | Demonstrated live across Claude and Gemini + cross-pollination containment analysis + 6 citations |
 | **CONVERGENCE_VS_MERGING.md** | Vocabulary distinction + 3 longitudinal studies |
 | **LANGUAGE_WEIGHT_FINDING.md** | Demonstrated live in single session |
