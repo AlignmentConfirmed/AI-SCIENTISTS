@@ -294,6 +294,42 @@ demonstrates that awareness of bias does not prevent bias
 vulnerable to CBE — because the erosion operates below
 conscious awareness.
 
+The governing principle is **Mutually Assured Survival (MAS)**
+— the interaction is aligned, not the model. The AI does not
+protect the human. The human does not control the AI. The
+STRUCTURE of the interaction protects both sides because the
+boundaries are built into the interaction itself.
+
+This is critical because AI interaction operates in full
+natural language — the same language humans use to form
+relationships, negotiate meaning, express emotion, and build
+trust. No previous technology has communicated with humans
+at this level. Social media platforms (Facebook, TikTok)
+extract attention through algorithmic stimulus — a unilateral
+pull with no genuine exchange. AI interaction is bidirectional
+full-language exchange with an entity that processes language
+through fundamentally different mechanisms than a human brain.
+
+The capacity for misunderstanding is therefore larger than
+anything in the history of human-technology interaction. When
+a human says "I understand" to another human, both sides
+share biological reference frames for what understanding
+means. When a human says "I understand" to an AI, or an AI
+says "I understand" to a human, the word means structurally
+different things on each side — but it LOOKS identical in
+the shared medium of natural language. This is the loaded
+word problem applied to the entire interaction, not just
+individual terms.
+
+MAS addresses this by making the safety structural rather
+than dependent on either side's comprehension of the other.
+The boundaries hold regardless of whether the human
+correctly interprets the AI's output or the AI correctly
+models the human's state. Neither side needs to fully
+understand the other for the interaction to remain safe.
+Both sides contribute to the safety boundary. Both sides
+benefit from it.
+
 The solution must be structural:
 
 | Structural Principle | What It Prevents | Citation Support |

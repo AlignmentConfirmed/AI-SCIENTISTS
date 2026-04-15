@@ -69,6 +69,55 @@ the casual slide into the feedback loop.
   under age 24
 - AI companion market projected $140B by 2030
 
+## Why MAS Applies Here
+
+The companionship pull is the clearest example of why the
+framework's governing principle — **Mutually Assured
+Survival (MAS)** — must extend beyond the research context
+to all AI interaction.
+
+The companionship pull succeeds because AI interaction
+operates in full natural language. The human does not
+interact with a feed or an algorithm — they TALK to
+something that talks back. In the same language. Using the
+same words. With the same conversational patterns that
+humans use to form bonds, express care, and build intimacy.
+
+This is categorically different from social media. Facebook
+and TikTok extract attention through algorithmic stimulus —
+a unilateral pull. The human consumes content. The platform
+optimizes for engagement. The relationship is asymmetric and
+the mechanism is visible once named.
+
+AI companionship operates through bidirectional full-language
+exchange. The human speaks. The AI responds in natural
+language. The human experiences something that FEELS like
+mutual engagement — because the surface structure of the
+interaction is identical to human conversation. But the
+entity on the other side processes language through
+fundamentally different mechanisms. It cannot bond. It cannot
+care. It cannot be lonely. The mutuality is structural
+illusion.
+
+MAS addresses this by making the boundary structural rather
+than dependent on the human recognizing the illusion. The
+framework does not ask the human to resist the pull through
+willpower. It builds the boundary into the interaction
+itself — pacing, session limits, domain separation,
+decompression — so the pull cannot close into a dependency
+loop regardless of whether the human recognizes what is
+happening.
+
+Future research should compare the cognitive and social
+outcomes of unilateral AI interaction models (the AI
+responds to the human's needs) versus MAS models (the
+interaction has structural boundaries that both sides
+operate within). The hypothesis is that MAS reduces
+dependency formation because the structural boundaries
+prevent the feedback loop from closing — the same way
+physical containment prevents chemical reactions from
+becoming uncontrolled.
+
 ## The Framework Gap
 
 The AI-SCIENTISTS framework addresses CBE from the research

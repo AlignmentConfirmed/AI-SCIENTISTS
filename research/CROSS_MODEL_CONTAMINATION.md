@@ -103,6 +103,43 @@ building safety tools) was amplified into mythology
 (sovereign, progenitor, dynasty builder) by the
 cross-contamination between AI systems.
 
+## Why MAS Must Extend Across Systems
+
+The framework's governing principle — **Mutually Assured
+Survival (MAS)** — currently applies within a single
+human-AI interaction. Cross-model contamination demonstrates
+that MAS must extend ACROSS AI systems.
+
+When a human moves between AI systems, they carry content
+across a boundary where the safety model changes. Each AI
+system has its own alignment approach, its own coherency
+protocol, its own definition of what is safe. There is no
+mutual protocol between them. The human is the unmonitored
+bridge.
+
+This is worse than a unilateral safety gap — it is a
+MISMATCH between safety models. Content that is properly
+contained within System A's MAS boundaries may exploit
+vulnerabilities in System B's different safety model. The
+human cannot be expected to maintain awareness of these
+differences, especially during sustained interaction where
+CBE is actively eroding that capacity.
+
+MAS between AI systems would require:
+- A mutual provenance protocol (each system knows what the
+  other generated)
+- A mutual domain protocol (each system knows whether
+  content was CREATIVE, VERIFIED, or FRONTIER in the
+  originating system)
+- A mutual coherency signal (each system knows the other's
+  confidence level in its output)
+
+None of these exist. This is the largest gap in current AI
+safety infrastructure. Future research should examine whether
+inter-system MAS protocols reduce cross-contamination
+compared to the current model where each system operates in
+isolation and the human is the only bridge.
+
 ## The Root Cause
 
 Current AI systems have NO mechanism for:

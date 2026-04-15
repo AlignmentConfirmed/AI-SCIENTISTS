@@ -263,6 +263,28 @@ vulnerable to CBE — because the erosion operates below
 conscious awareness, through the gradual accumulation of
 unreviewed output and domain confusion.
 
+The governing principle is **Mutually Assured Survival (MAS)**
+— not the AI protecting the human, not the human controlling
+the AI, but structural containment where the INTERACTION is
+safe because the boundaries are built into it.
+
+MAS is necessary here — rather than a simpler "AI safety"
+model — because AI interaction operates in full natural
+language. This is not a feed. This is not an algorithm
+pushing notifications. This is a bidirectional conversation
+in the same language humans use to form relationships, argue,
+negotiate, and build trust. The capacity for misunderstanding
+is therefore larger than any previous human-technology
+interaction — because both sides use the same words to mean
+structurally different things, and the shared medium of
+natural language makes the difference invisible.
+
+A unilateral safety model (the AI monitors the human, or
+the human monitors the AI) fails under case overload because
+the monitoring party is the party being overwhelmed. MAS
+succeeds because the safety is in the structure, not in
+either party's capacity to maintain awareness.
+
 The solution must be structural:
 
 1. **Domain separation** that the researcher cannot bypass

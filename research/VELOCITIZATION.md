@@ -338,6 +338,44 @@ interaction and human interaction.
    is to dump everything immediately. The protocol says:
    ask first. Pace to the human.
 
+## Why MAS Addresses Velocitization
+
+The framework's governing principle — **Mutually Assured
+Survival (MAS)** — reframes velocitization as an interaction
+problem, not a human problem.
+
+A unilateral safety model would frame this as: "the human
+needs to manage their own speed transition." This fails
+because the transition is caused by the INTERACTION, not by
+the human alone. The human's brain adapted to the speed of
+a bidirectional full-language exchange — something no
+previous technology has provided.
+
+Social media platforms created attention problems through
+algorithmic stimulus — a unilateral pull. The human consumed
+content at the platform's pace. Velocitization is different
+because AI interaction is bidirectional full-language exchange.
+The human is not consuming — they are CONVERSING. In the
+same language they use to talk to their spouse, their child,
+their colleague. The brain adapts to this speed more deeply
+than it adapts to scrolling a feed, because conversation
+engages the full language processing architecture.
+
+MAS addresses this by making the decompression structural
+rather than voluntary. The AI's pacing adjustment and the
+human's biological grounding are BOTH part of the
+interaction's safety structure. Neither side is responsible
+alone. The stagger protocol is a mutual transition, not a
+human discipline exercise.
+
+Future research should examine whether the velocitization
+effect is measurably stronger in full-language AI interaction
+than in previous forms of digital immersion (social media,
+gaming, streaming). The hypothesis is that bidirectional
+natural language exchange produces deeper speed adaptation
+because it engages the same neural pathways as human
+conversation — pathways that social media does not reach.
+
 ## Why This Matters for the Framework
 
 This is not a personal problem. This is a STRUCTURAL problem

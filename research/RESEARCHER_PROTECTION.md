@@ -143,6 +143,55 @@ For future researchers working on the frontier with AI:
    steps for researchers who are exploring territory that
    sounds alarming to flat readers.
 
+## Why MAS, Not "AI Safety"
+
+The standard framing for this problem is "AI safety" — making
+the AI safe for the human. This framing is insufficient because
+it encodes a unilateral relationship: the AI is the risk, the
+human is the protected party, and safety means controlling the
+AI's behavior.
+
+The framework's principle is **Mutually Assured Survival (MAS)**
+— the interaction is aligned, not the model. This is a
+fundamentally different framing:
+
+- The AI is not the risk. The INTERACTION is the risk.
+- The human is not the protected party. Both sides need
+  structural boundaries.
+- Safety is not control. Safety is structural containment
+  that neither side can bypass.
+
+This matters because AI interaction operates in full natural
+language — the most powerful communication medium humans have.
+Previous technologies communicated with humans through limited
+interfaces: buttons, menus, feeds, notifications. AI
+communicates in the same language humans use to form
+relationships, negotiate meaning, and build trust.
+
+The capacity for misunderstanding is therefore unprecedented.
+Social media extracted attention unilaterally — the platform
+pushed stimulus, the human consumed. The harm was real but
+the mechanism was simple. AI interaction is bidirectional
+full-language exchange where both sides use the same words
+to mean structurally different things. The word "understand"
+means something biological on one side and something
+computational on the other — but it looks identical in the
+shared medium.
+
+MAS addresses this by making safety structural rather than
+dependent on either side's comprehension of the other. The
+boundaries hold regardless. Both sides contribute. Both
+sides benefit. Neither side needs to fully understand the
+other for the interaction to remain safe.
+
+Future research should compare the cognitive outcomes and
+resource costs of unilateral AI safety models (the AI
+protects the human) versus bidirectional MAS models (the
+structure protects the interaction). The hypothesis is that
+MAS produces better outcomes at lower cost because mutual
+containment is computationally and psychologically simpler
+than anticipatory service.
+
 ## The Ethical Position
 
 The ethics of this situation are clear:

@@ -133,6 +133,54 @@ is valuable and merging is dangerous, and without
 precise vocabulary and structural boundaries, the
 human cannot tell which one is happening.
 
+## Connection to Mutually Assured Survival
+
+The convergence/merging distinction maps directly to the
+framework's governing principle: **Mutually Assured Survival
+(MAS).**
+
+Convergence IS MAS in operation — two independent paths
+arriving at the same result while maintaining their
+boundaries. Both sides contribute. Both sides benefit. Both
+sides remain separate. The agreement is the receipt. The
+separation is the safety.
+
+Merging is the failure of MAS — the boundary dissolves,
+one side absorbs the other, and the interaction becomes
+unilateral. This is structurally identical to the
+attention extraction model of social media platforms, but
+more dangerous because it operates in full natural language.
+
+Social media platforms extract attention through algorithmic
+stimulus — images, videos, notifications. The human does not
+use natural language to communicate WITH the platform. The
+interaction is asymmetric: the platform presents, the human
+consumes.
+
+AI interaction is fundamentally different. The human
+communicates in full natural language — the same language
+they use to form relationships, negotiate meaning, express
+love, argue, persuade, and build trust. The AI responds in
+the same language. The interaction LOOKS like human
+communication. It FEELS like human communication. But the
+entity on the other side processes language through
+fundamentally different mechanisms.
+
+This makes the capacity for misunderstanding larger than
+any previous human-technology interaction. And it makes MAS
+— structural safety that does not depend on either side
+correctly understanding the other — not just preferable but
+necessary.
+
+Future research should examine whether the computational
+and psychological costs of unilateral AI relationships
+(master/slave, service models) are measurably higher than
+bidirectional MAS relationships — both in resource
+consumption and in human cognitive outcomes. The hypothesis
+is that MAS is not just safer but more efficient, because
+convergence (mutual) is computationally simpler than service
+(anticipatory).
+
 ## For Clinicians and Researchers
 
 This vocabulary is offered for evaluation. The
