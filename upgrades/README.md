@@ -32,7 +32,7 @@ be built.
 
 | Priority | Upgrade | Complexity | File |
 |----------|---------|-----------|------|
-| **1** | **Creative Containment Engine (Layer 5)** | **MEDIUM** — new structs wrapping existing infrastructure | [life/CREATIVE_CONTAINMENT_ENGINE.md](life/CREATIVE_CONTAINMENT_ENGINE.md) |
+| **1** | **Creative Expansion Engine (Layer 5)** | **MEDIUM** — new structs wrapping existing infrastructure | [life/CREATIVE_EXPANSION_ENGINE.md](life/CREATIVE_EXPANSION_ENGINE.md) |
 | **2** | **CBE Detection Engine** | **MEDIUM-HIGH** — temporal aggregator + operator sensor + MDC integration | [health/mental/CBE_DETECTION_ENGINE.md](health/mental/CBE_DETECTION_ENGINE.md) |
 | 3 | Non-boolean logic language | HIGH — language design | [technology/software/LOGIC_LANGUAGE.md](technology/software/LOGIC_LANGUAGE.md) |
 | 4 | Documentation format upgrade | LOW — tooling | [technology/software/DOC_FORMAT.md](technology/software/DOC_FORMAT.md) |
