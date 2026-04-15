@@ -13,6 +13,7 @@ clinical citations, or both.
 | **CBE_CONDITION.md** | **Formal condition description.** Unifies three phenomena into lifecycle. 13 new citations. Novel contributions identified. AI compensation modes. |
 | **AI_COMPENSATION_MODES.md** | **Two failure modes:** narrative compensation (story hides broken math) and safety theater (wrong gates, no context). Compound case across 3 AI systems. |
 | **CONTINUITY_CRISIS.md** | **The root problem.** Single-session context loss cascades to field-wide fragmentation. Five levels. Why nothing moves. What the platform needs to be. |
+| **DISCOVERY_ECONOMY.md** | **The economic model.** Sandbox→Bridge→Validity Score→Payment→Refinement. Convergence premium. Education to institutional fund. Why $5M checks go to SaaS dashboards when the technology exists to price discovery. |
 | **CASE_OVERLOAD.md** | Demonstrated + 11 neuroscience citations |
 | **VELOCITIZATION.md** | Published neuroscience (transient hypofrontality) + 7 citations |
 | **AI_COMPANIONSHIP.md** | 10 external citations (APA, Harvard, MIT, Sage) |
