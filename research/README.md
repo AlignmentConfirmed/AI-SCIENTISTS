@@ -10,7 +10,8 @@ clinical citations, or both.
 
 | Document | Evidence Type |
 |---|---|
-| **CBE_CONDITION.md** | **Formal condition description.** Unifies three phenomena into lifecycle. 13 new citations. Novel contributions identified. |
+| **CBE_CONDITION.md** | **Formal condition description.** Unifies three phenomena into lifecycle. 13 new citations. Novel contributions identified. AI compensation modes. |
+| **AI_COMPENSATION_MODES.md** | **Two failure modes:** narrative compensation (story hides broken math) and safety theater (wrong gates, no context). Compound case across 3 AI systems. |
 | **CASE_OVERLOAD.md** | Demonstrated + 11 neuroscience citations |
 | **VELOCITIZATION.md** | Published neuroscience (transient hypofrontality) + 7 citations |
 | **AI_COMPANIONSHIP.md** | 10 external citations (APA, Harvard, MIT, Sage) |

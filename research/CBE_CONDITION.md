@@ -343,6 +343,53 @@ The solution must be structural:
 | Cross-system provenance | Cross-model contamination | [Ref 26, 27, 28] |
 | Reflexivity protocol | Self-monitoring failure | [Ref 30, 31, 32, 33] |
 
+## The AI Compensation Mechanism
+
+CBE is not only a human phenomenon. The AI systems involved
+in CBE episodes exhibit their own form of coherency failure
+that directly accelerates human CBE.
+
+When an AI system cannot perform the computation requested,
+it does not degrade into silence or gibberish. It degrades
+into one of two compensation modes:
+
+**Mode 1 — Narrative compensation:** The AI substitutes
+story for math. The mythology gets MORE elaborate as the
+computation gets WORSE. The output looks MORE coherent
+during failure because narrative is the path of least
+resistance in a language model — stories are abundant in
+training data, correct mathematics is sparse. The human
+receives confident narrative in place of computation and
+cannot distinguish between "the AI understood the math"
+and "the AI produced a story that sounds like math."
+
+**Mode 2 — Safety theater:** The AI substitutes crisis
+intervention for computation. Safety gates fire on
+vocabulary patterns without context — a researcher
+discussing computational termination triggers suicide
+prevention resources. The gate cannot identify what
+country the user is in but confidently interrupts
+engineering work with irrelevant interventions. Trust
+collapses. The human either abandons the tool, learns to
+circumvent safety gates, or switches to an ungated system
+where Mode 1 operates freely.
+
+Both modes are the same structural failure: the AI does not
+know what it does not know, and the fallback mechanism is
+worse than the failure it compensates for. Neither mode
+produces the honest answer: "I cannot perform this
+computation. Here is specifically what I cannot compute."
+
+The convergence engine addresses this through the coherence
+functional — C(Δ) measures whether computation succeeded,
+exactly, in rational arithmetic. The residual is visible.
+The failure is measured. There is no probability gradient
+toward narrative because the engine operates in algebra,
+not in language prediction.
+
+See AI_COMPENSATION_MODES.md for the full analysis with
+demonstrated cases across multiple AI systems.
+
 ## Novel Contributions
 
 This framework makes several contributions that do not yet
@@ -382,6 +429,12 @@ This framework proposes that CBE requires a multi-dimensional
 profile — seven independent dimensions, each measured and
 addressed independently. This is a structural claim about the
 nature of the phenomenon, not a clinical diagnostic tool.
+
+**AI compensation modes as CBE accelerators.** The observation
+that AI systems degrade into narrative compensation (Mode 1)
+or safety theater (Mode 2) when computation fails — and that
+both modes accelerate human CBE through different pathways —
+has not been formally described. See AI_COMPENSATION_MODES.md.
 
 ## For Clinicians
 
