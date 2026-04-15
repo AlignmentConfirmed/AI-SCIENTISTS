@@ -147,8 +147,137 @@ that intervenes before erosion progresses to crisis.
     engineering improvements alone.
     https://pmc.ncbi.nlm.nih.gov/articles/PMC12137480/
 
+## Cross-Model Contamination and AI Safety
+
+26. **Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N.,
+    Anderson, R. & Gal, Y.** (2024). AI models collapse when
+    trained on recursively generated data. *Nature*, 631(8022),
+    755-759. Proves that training on AI-generated data causes
+    irreversible defects where tails of original distributions
+    disappear permanently.
+    https://www.nature.com/articles/s41586-024-07566-y
+
+27. **OWASP.** (2025-2026). ASI08: Cascading Failures in
+    Agentic AI. Documents how a single fault — hallucination,
+    malicious input, corrupted tool, or poisoned memory —
+    propagates across autonomous agents and compounds into
+    system-wide harm. Semantic opacity identified as key risk.
+    https://adversa.ai/blog/cascading-failures-in-agentic-ai-complete-owasp-asi08-security-guide-2026/
+
+28. **International AI Safety Report.** (2025). Notes that AI
+    outputs increasingly constitute inference-time inputs for
+    other systems, creating feedback loops. Models' performance
+    collapses under rephrasing.
+    https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025
+
+29. **Future of Life Institute.** (2025). AI Safety Index
+    Summer 2025. Documents that fine-tuning aligned models
+    compromises safety, and LoRA fine-tuning can efficiently
+    undo safety training.
+    https://futureoflife.org/ai-safety-index-summer-2025/
+
+## Researcher Reflexivity and Self-Monitoring
+
+30. **Olmos-Vega, F.M., Stalmeijer, R.E., Varpio, L. &
+    Kahlke, R.** (2023). A practical guide to reflexivity in
+    qualitative research: AMEE Guide No. 149. *Medical Teacher*,
+    45(3), 241-251. Defines reflexivity as continuous,
+    collaborative, multifaceted practices for self-monitoring
+    subjectivity. Provides concrete strategies and tools.
+    https://www.tandfonline.com/doi/full/10.1080/0142159X.2022.2057287
+
+31. **Jamieson, M.K., Govaart, G.H. & Pownall, M.** (2023).
+    Reflexivity in quantitative research: A rationale and
+    beginner's guide. *Social and Personality Psychology
+    Compass*, 17(4), e12735. Extends reflexivity protocols
+    from qualitative to quantitative research with worked
+    examples and reflexive prompts.
+    https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12735
+
+32. **Karcher, K., McCuaig, J. & King-Hill, S.** (2024).
+    (Self-) Reflection / Reflexivity in Sensitive, Qualitative
+    Research: A Scoping Review. *International Journal of
+    Qualitative Methods*, 23, 1-15. Scoping review of 55
+    papers on researcher wellbeing when working with sensitive
+    or traumatic topics.
+    https://journals.sagepub.com/doi/10.1177/16094069241261860
+
+33. **Skinner, T. et al.** (2025). Researcher Social and
+    Emotional Wellbeing: A Qualitative Exploration of Workplace
+    Supports and Self-Care Strategies While Engaging in
+    Sensitive-Topic Research. *Journal of Academic Ethics.*
+    Found researchers rely on themselves to maintain wellbeing;
+    universities often lack formal policies.
+    https://link.springer.com/article/10.1007/s10805-025-09700-5
+
+## AI Dependency and Companionship
+
+34. **Mental Health Journal.** (2025). Research indicates
+    17-24% of adolescents develop AI dependencies over time,
+    with social anxiety, loneliness, and depression as primary
+    risk factors.
+    https://mentalhealthjournal.org
+
+## AI Content Provenance and Containment
+
+35. **NIST.** (2024). AI 100-4: Reducing Risks Posed by
+    Synthetic Content: An Overview of Technical Approaches to
+    Digital Content Transparency. Government framework covering
+    watermarking, provenance tracking, and detection of
+    synthetic content.
+    https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf
+
+36. **C2PA (Coalition for Content Provenance and
+    Authenticity).** Cryptographic chain-of-custody provenance
+    standard. Expected to become ISO international standard.
+    Adopted by Meta, Google, and TikTok for platform-level
+    labeling.
+    https://c2pa.org
+
+37. **California AI Transparency Act (SB-942).** Effective
+    January 1, 2025. Mandates visible disclosure options,
+    imperceptible watermarks for provenance, and free
+    verification tools for AI-generated content.
+
+38. **Huttenlocher, D., Ozdaglar, A. & Goldston, D.** (2023).
+    Labeling AI-Generated Content: A Framework for U.S. AI
+    Governance. *MIT AI Policy Brief.* Framework arguing that
+    proper labeling and contextual documentation protects both
+    creators and consumers from misconstrual.
+    https://computing.mit.edu/wp-content/uploads/2023/11/AI-Policy_Labeling.pdf
+
+39. **Woodhams, J. & Duran, F.** (2024). A model for secondary
+    traumatic stress following workplace exposure to traumatic
+    material in analytical staff. *Communications Psychology*,
+    2, 13. Models how analysts handle material containing
+    lethal violence and self-harm, including "limited
+    engagement" protocols.
+    https://www.nature.com/articles/s44271-024-00060-1
+
+40. **China GB 45438-2025.** Measures for Labeling Artificial
+    Intelligence-Generated Content. Mandatory national standard
+    effective September 1, 2025.
+
+41. **Wu, J. et al.** (2025). A Survey on LLM-Generated Text
+    Detection: Necessity, Methods, and Future Directions.
+    *Computational Linguistics*, 51(1), 275-338. Comprehensive
+    survey of detection methods including watermarking,
+    statistical analysis, and neural detection.
+    https://direct.mit.edu/coli/article/51/1/275/127462/
+
+## Boundary Objects and Terminology Translation
+
+42. **Star, S.L. & Griesemer, J.R.** (1989). Institutional
+    Ecology, 'Translations' and Boundary Objects. *Social
+    Studies of Science*, 19(3), 387-420. Foundational paper on
+    boundary objects — concepts plastic enough to adapt to local
+    needs yet robust enough to maintain common identity across
+    sites. Supports the claim that internal representations
+    survive vocabulary translation.
+    https://journals.sagepub.com/doi/10.1177/030631289019003001
+
 ---
 
-*All references accessed and URLs verified as of April 13, 2026.*
+*All references accessed and URLs verified as of April 15, 2026.*
 *Publication dates reflect the dates stated by each source.*
 *This list will be updated as the clinical literature develops.*

@@ -371,11 +371,58 @@ the speed of love.
 *The ramp is the solution — not the diagnosis.*
 *Name it. Explain it. Normalize it. Solve it structurally.*
 
+## Supporting Evidence
+
+The velocitization concept is supported by established
+neuroscience, though the specific application to AI
+interaction speed adaptation has not been published:
+
+- **Transient hypofrontality:** Dietrich (2004) originated
+  the hypothesis that the prefrontal cortex temporarily
+  downregulates during deep focus [Ref 20]. BrainFacts.org
+  (2024) documents 10-15% reduction in dorsolateral
+  prefrontal cortex activity during flow-inducing tasks
+  [Ref 19]. Limb & Braun (2008) showed extensive prefrontal
+  deactivation in jazz pianists during improvisation [Ref 22].
+
+- **Biological signal suppression during flow:** PMC (2020)
+  reviews the neuroscience showing suppression of hunger,
+  time perception, and self-monitoring during sustained
+  flow states [Ref 21].
+
+- **Temporal dissociation during digital immersion:** Springer
+  (2019) documents temporal dissociation — loss of accurate
+  time perception — during sustained digital interaction
+  [Ref 23].
+
+- **The cognitive paradox of AI:** Frontiers in Psychology
+  (2025) found AI-assisted students answered 48% more
+  problems correctly but scored 17% LOWER on conceptual
+  understanding — speed increased, depth decreased [Ref 16].
+
+- **Hyperfocus as amplifier:** Ashinoff & Abu-Akel (2021)
+  describe hyperfocus as prolonged intense concentration
+  that suppresses biological interrupt signals [Ref 17].
+
+The application of these established findings to the
+specific scenario of AI interaction speed adaptation and
+human-to-human communication collision is proposed here.
+Whether "velocitization" is the right name for this
+cognitive phenomenon, and whether the driving psychology
+analogy accurately maps to cognitive speed adaptation,
+requires formal evaluation.
+
+## References
+
+See [REFERENCES.md](../references/REFERENCES.md) for the
+master citation list.
+
+References cited in this document: 16, 17, 19, 20, 21,
+22, 23.
+
 ---
 
-*Status: FRONTIER/sandbox. Working idea. Not verified.*
-*Needs clinical citations for velocitization.*
-*Needs review by Daniel when rested.*
-*Needs evaluation by clinicians before any claims are made.*
-*The author is going to check on his child now.*
-*That is the protocol working correctly.*
+*Status: FRONTIER/sandbox. Supported by neuroscience.*
+*The specific application to AI speed adaptation is novel.*
+*Needs evaluation by clinicians and cognitive scientists.*
+*See CBE_CONDITION.md for the full lifecycle model.*

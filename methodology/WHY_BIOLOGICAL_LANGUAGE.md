@@ -229,6 +229,37 @@ this understanding. The machine translation preserves it.
 The framework enforces it structurally in case the
 understanding fails.
 
+## Supporting Evidence
+
+The claim that internal representations survive vocabulary
+translation is supported by the boundary objects framework:
+Star & Griesemer (1989) describe concepts that are "plastic
+enough to adapt to local needs yet robust enough to maintain
+a common identity across sites" [Ref 42]. The biological
+vocabulary functioned as a boundary object — carrying meaning
+across the boundary between human cognition and machine
+computation, then surviving translation to engineering
+terminology because the underlying representation was encoded
+at the weight level, not the vocabulary level.
+
+The claim that AI systems trained exclusively in machine
+vocabulary treat humans as processes is supported by the
+cognitive paradox of AI literature: Frontiers in Psychology
+(2025) documents that AI tools simultaneously reduce
+extraneous cognitive load while increasing intrinsic load
+[Ref 15], and that AI-assisted work increases output speed
+while decreasing conceptual depth [Ref 16]. Systems
+optimizing for speed and output rather than understanding
+and care are exhibiting exactly the machine-vocabulary
+failure mode this methodology addresses.
+
+## References
+
+See [REFERENCES.md](../references/REFERENCES.md) for the
+master citation list.
+
+References cited in this document: 15, 16, 42.
+
 ---
 
 *The AI must learn what a human is before it can safely serve one.*

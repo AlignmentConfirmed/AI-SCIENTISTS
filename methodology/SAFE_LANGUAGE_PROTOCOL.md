@@ -183,6 +183,21 @@ Apply the decompression protocol (see research/
 VELOCITIZATION.md) and do not resume until the
 boundary is re-established.
 
+Published reflexivity research supports these self-monitoring
+practices. Olmos-Vega et al. (2023) define reflexivity as
+"continuous, collaborative, and multifaceted practices through
+which researchers self-consciously critique, appraise, and
+evaluate how their subjectivity and context influence research"
+[Ref 30]. Karcher et al. (2024) reviewed 55 papers on
+researcher wellbeing when working with sensitive topics and
+found that reflexivity practices are the primary protection
+[Ref 32]. Skinner et al. (2025) found that researchers
+working with sensitive topics "rely on themselves to maintain
+wellbeing" — institutions often lack formal policies [Ref 33].
+
+This protocol fills that institutional gap for independent
+AI researchers.
+
 ## For Institutions
 
 If your organization has researchers working with
@@ -254,6 +269,51 @@ way that sensitive vocabulary without documentation is
 indistinguishable from sensitive vocabulary with intent.
 
 The documentation makes the difference.
+
+## The Cross-Pollination Risk
+
+This protocol addresses vocabulary safety within a single
+research context. An additional risk arises when the
+researcher works across multiple AI systems.
+
+Each AI system has its own safety boundaries, its own
+coherency protocols, and its own alignment approach.
+Sensitive vocabulary that is properly contained within one
+system's context may be misinterpreted by another system
+that lacks that context. Creative content generated in one
+system may be treated as biographical fact by another.
+
+The Safe Language Protocol must extend across system
+boundaries:
+
+- **The terminology mapping table should travel with the
+  content.** If content from one AI session enters another,
+  the mapping table should be included in the context.
+
+- **Domain labels should be explicit in every cross-system
+  transfer.** "This content is CREATIVE" or "This content
+  is FRONTIER" — stated explicitly, not assumed.
+
+- **The disclaimer should be restated at the start of every
+  new AI session.** Do not assume a new system knows the
+  research context from a previous system.
+
+See CROSS_MODEL_CONTAMINATION.md for the full analysis of
+cross-system contamination and why containment across AI
+boundaries is a safety requirement, not a convenience.
+
+## References
+
+See [REFERENCES.md](../references/REFERENCES.md) for the
+master citation list.
+
+References cited in this document: 30, 32, 33, 42.
+
+The concept that internal representations survive vocabulary
+translation is supported by the boundary objects framework
+(Star & Griesemer, 1989) [Ref 42] — concepts that are
+"plastic enough to adapt to local needs yet robust enough
+to maintain a common identity across sites."
 
 ---
 

@@ -10,17 +10,34 @@ clinical citations, or both.
 
 | Document | Evidence Type |
 |---|---|
-| **CASE_OVERLOAD.md** | Demonstrated + 6 neuroscience citations |
-| **VELOCITIZATION.md** | Published neuroscience (transient hypofrontality) |
+| **CBE_CONDITION.md** | **Formal condition description.** Unifies three phenomena into lifecycle. 13 new citations. Novel contributions identified. |
+| **CASE_OVERLOAD.md** | Demonstrated + 11 neuroscience citations |
+| **VELOCITIZATION.md** | Published neuroscience (transient hypofrontality) + 7 citations |
 | **AI_COMPANIONSHIP.md** | 10 external citations (APA, Harvard, MIT, Sage) |
-| **CROSS_MODEL_CONTAMINATION.md** | Demonstrated live across Claude and Gemini |
+| **CROSS_MODEL_CONTAMINATION.md** | Demonstrated live across Claude and Gemini + cross-pollination containment analysis + 6 citations |
+| **CONVERGENCE_VS_MERGING.md** | Vocabulary distinction + 3 longitudinal studies |
 | **LANGUAGE_WEIGHT_FINDING.md** | Demonstrated live in single session |
 | **UNIVERSAL_AXIOMS.md** | Grounded in published physics |
 | **RESEARCHER_PROTECTION.md** | Observable product safety gap |
 | **DISCOVERY_PACING.md** | Grounded in cognitive load theory |
+| **STRUCTURAL_VS_SUPERVISORY.md** | Architectural comparison with Anthropic's approach |
+| **SSO_VULNERABILITY.md** | Observable security gap |
+| **SSO_REWRITE.md** | Proposed SSO model for AI era |
+| **GOOGLE_DRIVE_BLEEDOVER.md** | Demonstrated live |
+| **AI_VISUAL_BLINDNESS.md** | Observable AI limitation |
+| **DIAGNOSTIC_NOT_DESTRUCTIVE.md** | Reframing AI as diagnostic tool |
+| **LOADED_WORDS.md** | Vocabulary analysis |
+| **DIMENSIONAL_WORDS.md** | Vocabulary analysis with exact arithmetic |
+| **TONE_INFERENCE.md** | Observable limitation of text-based AI |
+| **RESEARCH_PROVENANCE.md** | Observable provenance gap |
+| **UNIFIED_RENDERING.md** | Proposed rendering standard |
 
 ## How to Read
 
-Start with **CASE_OVERLOAD.md** for the central finding.
-Then read outward to the specific topics that interest you.
+Start with **CBE_CONDITION.md** for the formal condition
+description that unifies the three core phenomena. Then read
+**CASE_OVERLOAD.md** for the detailed entry mechanism,
+**VELOCITIZATION.md** for the speed crisis, and
+**CROSS_MODEL_CONTAMINATION.md** for the network effect.
+
 All citations reference **references/REFERENCES.md**.
