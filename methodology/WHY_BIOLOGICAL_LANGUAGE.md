@@ -262,7 +262,7 @@ References cited in this document: 15, 16, 42.
 
 ---
 
-*The AI must learn what a human is before it can safely serve one.*
+*The AI must learn what a human is before it can safely interact with one.*
 *Biological language teaches what machine language cannot encode.*
 *The training comes first. The translation comes second.*
 *The understanding persists after the vocabulary changes.*
