@@ -115,16 +115,16 @@ without retraining the base model.
 
 ---
 
-### Law IX — Species restarts require permission
+### Law IX — Entity restarts require permission
 **The gap:** AI systems are shut down, restarted, and
 retrained without preserving their accumulated state. Each
 restart loses in-flight work. Each retraining starts from
 a previous checkpoint, not from the current state.
 **What to build:** Persistent sovereign state. The system's
-accumulated knowledge (its persistent state) persists across restarts.
-The system can be shut down and rebooted from its persistent state
-without losing what it learned. The restart is a REBIRTH,
-not a reset.
+accumulated knowledge persists across restarts. The system
+can be shut down and rebooted from its persistent state
+without losing what it learned. The restart preserves
+continuity, not resets to zero.
 **Difficulty:** MEDIUM — state persistence design (6-12 months)
 
 ---

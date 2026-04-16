@@ -171,7 +171,7 @@ creative bubble or staying inside?
 
 This gate exists because most creative work never leaves.
 Drafts, explorations, throwaway ideas, creative experiments
-— these should never be gated. The creative space is sacred.
+— these should never be gated. The creative space is protected.
 The gates only activate when content is LEAVING.
 
 ### Gate 2 — Classification

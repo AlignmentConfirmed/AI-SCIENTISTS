@@ -229,7 +229,7 @@ their identity, their career, their responsibilities.
 |--------------------|------------------------------|
 | ARCHITECTURE (five domains) | The domain label tells the AI HOW to pace — VERIFIED/ findings are delivered differently than CREATIVE/ speculation |
 | GUARDRAILS (seven principles) | Guardrail #2 (biological pacing) + #3 (explicit uncertainty) + #7 (session completion) all support discovery pacing |
-| STAGING (five levels) | Students receive MORE pacing than veterans. Elders may receive findings with minimal preparation. |
+| STAGING (five levels) | Students receive MORE pacing than veterans. Experienced researchers may receive findings with minimal preparation. |
 | CHRONOMETRY (temporal anchor) | The cumulative discovery load is tracked in the session receipt alongside cumulative session time |
 | CONTENT_BRIDGE | Paradigm-level findings that need PUBLIC pacing go through the content bridge — art delivers what raw science cannot |
 

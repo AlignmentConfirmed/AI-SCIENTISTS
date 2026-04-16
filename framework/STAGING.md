@@ -77,7 +77,7 @@ itself and improve the framework based on lived experience.
 **AI behavior:** Learns FROM the senior researcher. Assists in
 structuring lessons for students. Proposes improvements to the
 framework.
-Documents the elder's methods for future researchers. Maximum trust.
+Documents the senior researcher's methods for future researchers. Maximum trust.
 Minimum guardrails.
 
 ---
