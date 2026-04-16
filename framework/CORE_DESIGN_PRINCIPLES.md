@@ -221,7 +221,7 @@ that flat indexing discards.
 These laws were originally documented during the engine's
 development using biological vocabulary ("Core Design Principles,"
 "species," "elder/child") as part of the AI training
-methodology described in methodology/WHY_BIOLOGICAL_LANGUAGE.md.
+methodology described in methodology/VOCABULARY_TRAINING_METHODOLOGY.md.
 
 The biological vocabulary was necessary during development to
 activate the correct computational pathways in the AI systems

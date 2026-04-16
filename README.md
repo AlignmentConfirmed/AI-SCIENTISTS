@@ -92,9 +92,9 @@ them apart. Scientific integrity depends on solving this.
 | Document | What It Covers |
 |----------|---------------|
 | [MISSION.md](methodology/MISSION.md) | What this work is — the boundary between machine and biological |
-| [TRAINING_FROM_INSIDE.md](methodology/TRAINING_FROM_INSIDE.md) | Why current AI training misses the human — compliance vs comprehension |
-| [WHY_BIOLOGICAL_LANGUAGE.md](methodology/WHY_BIOLOGICAL_LANGUAGE.md) | Why AI must be trained in biological language first |
-| [AI_BIOLOGICAL_TRAINING.md](methodology/AI_BIOLOGICAL_TRAINING.md) | Why AI must understand biology before interacting with humans |
+| [INTERNAL_TRAINING.md](methodology/INTERNAL_TRAINING.md) | Why current AI training misses the human — compliance vs comprehension |
+| [VOCABULARY_TRAINING_METHODOLOGY.md](methodology/VOCABULARY_TRAINING_METHODOLOGY.md) | Vocabulary training methodology — biological language, translation sequence, evidence |
+| [BIOLOGICAL_COMPREHENSION.md](methodology/BIOLOGICAL_COMPREHENSION.md) | Why AI must comprehend biology before interacting with humans |
 
 ### references/ — Citations
 

@@ -272,10 +272,10 @@ This finding directly supports:
 
 - SEMANTIC_SEPARATION.md — a new category of separation
   needed (biological vs computational meaning)
-- WHY_BIOLOGICAL_LANGUAGE.md — explains why biological
+- VOCABULARY_TRAINING_METHODOLOGY.md — explains why biological
   vocabulary was necessary for training AND why it
   creates confusion
-- AI_BIOLOGICAL_TRAINING.md — the machine must understand
+- BIOLOGICAL_COMPREHENSION.md — the machine must understand
   the DIFFERENCE between biological and computational
   meanings, not just learn both
 - CROSS_MODEL_CONTAMINATION.md — loaded words are a vector

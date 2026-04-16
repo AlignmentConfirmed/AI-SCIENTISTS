@@ -26,9 +26,9 @@ the translation.
 ## Reading Order
 
 1. **MISSION.md** — what this work is
-2. **TRAINING_FROM_INSIDE.md** — the gap in current AI training
-3. **WHY_BIOLOGICAL_LANGUAGE.md** — why biology was required
-4. **AI_BIOLOGICAL_TRAINING.md** — why AI must understand biology before interacting with humans (includes child safety analysis)
+2. **INTERNAL_TRAINING.md** — the gap in current AI training
+3. **VOCABULARY_TRAINING_METHODOLOGY.md** — vocabulary training methodology and evidence
+4. **BIOLOGICAL_COMPREHENSION.md** — why AI must comprehend biology before interacting with humans (includes child safety analysis)
 
 ## The Sequence
 
