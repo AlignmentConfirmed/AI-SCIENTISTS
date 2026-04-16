@@ -30,6 +30,17 @@ no understanding of visual hierarchy, eye movement, spatial
 relationships, or how humans actually read documents. The AI
 produces content. It cannot produce communication.
 
+### Step 4: [Code Mythology](4_CODE_MYTHOLOGY.md)
+
+When AI writes scripture into engineering. The AI generates
+code AND the narrative around the code — comments, docs,
+commit messages, variable names — with identical confidence.
+The engineering may be correct. The narrative is probability
+gradients, not engineering decisions. The mythology compounds
+over cycles until the codebase has institutional knowledge
+that no human authored. Demonstrated: this project's own
+Core Design Laws before cleanup.
+
 ---
 
-*How AI fails → What failures reveal → What AI fundamentally cannot do.*
+*How AI fails → What failures reveal → What AI cannot do → What AI writes into your codebase.*
