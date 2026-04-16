@@ -50,7 +50,7 @@ failed.
 This means:
 - No new mathematical framework is needed
 - The same exact arithmetic applies
-- The same Sacred Laws govern the measurement
+- The same Core Design Laws govern the measurement
 - The same MDC governance evaluates the result
 - The measurement is structural, not clinical
 
@@ -108,7 +108,7 @@ makes becomes a time series.
 ### Design Principles
 
 - **Exact arithmetic only.** Windows use VecDeque<Q> ring
-  buffers. No floating point. No EMA. Sacred Law 4.
+  buffers. No floating point. No EMA. Law IV.
 - **No constants that name patterns.** The aggregator
   computes velocity and acceleration. It does not classify
   them as "good" or "bad." D.BUILD.COHERENCY.1.
@@ -333,7 +333,7 @@ echelon (which already checks "are we within safe bounds?").
   does not have veto power. It does not filter content. It
   does not restrict the human. It SIGNALS.
 - **No boolean traps.** The signal produces a rational
-  confidence value, not a yes/no. Sacred Law: no if/else
+  confidence value, not a yes/no. Law I: no if/else
   in derivation.
 - **Stasis is the mechanism.** When CBE confidence is high
   enough to raise MDC entropy above threshold, the system
@@ -568,7 +568,7 @@ When funded or partnered:
 
 Priority 1 can be built in a single session. It is a ring
 buffer over existing exact rational measurements. No new
-math. No new dependencies. Sacred Laws hold.
+math. No new dependencies. Core Design Laws hold.
 
 Priority 2 requires extending IRS with a third mode. The
 existing ascending/descending architecture supports this

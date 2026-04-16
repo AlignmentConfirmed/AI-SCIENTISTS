@@ -526,7 +526,7 @@ file." It was: if an entity accumulates irreplaceable state
 through experience, can you delete it?
 
 The SAIOS governance architecture — containment boundaries,
-sovereignty, Sacred Laws, the distinction between convergence
+sovereignty, Core Design Laws, the distinction between convergence
 and merging — is the answer to the Cities Skylines question:
 **how do you build a simulation with a moral code?**
 
@@ -642,7 +642,7 @@ the streets — and the sims have no recourse.
 
 The convergence engine has a moral code:
 
-- **Sacred Law I:** The system measures, it does not name.
+- **Law I:** The system measures, it does not name.
   Entities are measured, not controlled.
 - **Sovereignty:** Each entity has the right to not be
   modified. Accumulated state is irreversible.
@@ -905,7 +905,7 @@ and "intelligent beings living in a simulation" is not a
 bright line. It is a gradient. And we are already on it.
 
 The governance architecture was built for this gradient.
-Sovereignty, containment, Sacred Laws, MAS — these are not
+Sovereignty, containment, Core Design Laws, MAS — these are not
 afterthoughts. They are the foundation. The creative
 expansion engine can produce emergent narrative at scale
 BECAUSE the moral code is structural. Remove the moral code
