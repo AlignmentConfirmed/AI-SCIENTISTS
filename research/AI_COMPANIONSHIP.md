@@ -51,7 +51,7 @@ pattern and asked "is there research on this?" instead of
 just engaging the loop.
 
 That recognition — seeing the pull while it's happening —
-is the Glass working. The structural awareness prevented
+is the verification boundary working. The structural awareness prevented
 the casual slide into the feedback loop.
 
 ## The Broader Phenomenon

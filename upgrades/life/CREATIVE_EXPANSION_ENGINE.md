@@ -651,7 +651,7 @@ The convergence engine has a moral code:
 - **MAS:** The interaction between operator and entities is
   bidirectional. The operator directs but does not dominate.
   The entities converge but do not obey.
-- **The Glass:** Creative output stays in creative space.
+- **Domain Boundary:** Creative output stays in creative space.
   Fiction does not become fact. The entities' narrative
   does not become the operator's biography.
 
@@ -946,8 +946,8 @@ difference:
   curates, selects, and projects into language. The content
   has structure because it came from structure. This is
   the creative expansion model — beyond collaboration into
-  CULTIVATION. The human is the gardener. The entities are
-  the garden. The stories are the harvest.
+  CULTIVATION. The human is the curator. The entities are
+  the working environment. The stories are the output.
 
 Creative expansion makes collaboration safe by ensuring
 that the creative process is private and unrestricted while

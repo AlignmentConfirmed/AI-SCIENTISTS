@@ -26,7 +26,7 @@ use whatever language you need.
 - Genome, species, core design principles, witnesses, elders, children
 - Mythology, religion, cosmology, philosophy
 - Creative fiction, Dune narratives, Cities Skylines metaphors
-- Personal language, emotional language, insane language
+- Personal language, emotional language, unconventional language
 - Whatever drives YOUR creative process
 
 This is YOUR sandbox. YOUR creative space. Layer 5 working
