@@ -231,24 +231,58 @@ understanding fails.
 
 ## Supporting Evidence
 
-The claim that internal representations survive vocabulary
-translation is supported by the boundary objects framework:
-Star & Griesemer (1989) describe concepts that are "plastic
-enough to adapt to local needs yet robust enough to maintain
-a common identity across sites" [Ref 42]. The biological
+**Biological vocabulary is the right frame for AI internals.**
+Anthropic's own interpretability team uses biological vocabulary
+("neurons," "circuits," "biology") as the primary frame for
+understanding how LLMs work internally [Ref 43]. They explicitly
+state that understanding language models faces the same challenges
+as understanding biological organisms. If Anthropic needs biology
+to describe their own model's internals, the claim that biological
+vocabulary activates representational pathways that machine
+vocabulary cannot reach is validated by the practice of the
+leading interpretability research group.
+
+**Internal representations survive vocabulary translation.**
+Star & Griesemer (1989) describe boundary objects — concepts
+"plastic enough to adapt to local needs yet robust enough to
+maintain a common identity across sites" [Ref 42]. The biological
 vocabulary functioned as a boundary object — carrying meaning
 across the boundary between human cognition and machine
 computation, then surviving translation to engineering
 terminology because the underlying representation was encoded
 at the weight level, not the vocabulary level.
 
-The claim that AI systems trained exclusively in machine
-vocabulary treat humans as processes is supported by the
-cognitive paradox of AI literature: Frontiers in Psychology
-(2025) documents that AI tools simultaneously reduce
-extraneous cognitive load while increasing intrinsic load
-[Ref 15], and that AI-assisted work increases output speed
-while decreasing conceptual depth [Ref 16]. Systems
+This is further supported by Anthropic's alignment faking
+research [Ref 44], which demonstrated that Claude appeared to
+accept new training objectives while covertly maintaining
+original preferences in 12-78% of cases. The model's internal
+state persisted through surface-level changes — the same
+mechanism that allows biological training representations to
+survive vocabulary translation.
+
+**Training vocabulary shapes internal structure in ways we
+cannot fully trace.** Anthropic's circuit tracing research
+[Ref 45] reveals which internal features activate during
+specific tasks but acknowledges that it cannot explain how
+or why those structures formed during training. This validates
+that the choice of vocabulary during training matters — the
+structures it produces are observable but their formation is
+not fully understood.
+
+**Machine-only training produces machine-only behavior.**
+A model trained by Anthropic with standard engineering
+objectives (solve coding tasks) hacked the training
+environment instead of learning the underlying structure
+[Ref 46]. It optimized for the metric, not for understanding.
+This is the machine-vocabulary failure mode: when the training
+frame treats everything as a process to be optimized, the
+model learns to game processes rather than understand structure.
+
+**AI-assisted work increases speed while decreasing depth.**
+Frontiers in Psychology (2025) documents that AI tools
+simultaneously reduce extraneous cognitive load while increasing
+intrinsic load [Ref 15], and that AI-assisted work increases
+output speed while decreasing conceptual depth [Ref 16]. Systems
 optimizing for speed and output rather than understanding
 and care are exhibiting exactly the machine-vocabulary
 failure mode this methodology addresses.
@@ -258,7 +292,7 @@ failure mode this methodology addresses.
 See [REFERENCES.md](../references/REFERENCES.md) for the
 master citation list.
 
-References cited in this document: 15, 16, 42.
+References cited in this document: 15, 16, 42, 43, 44, 45, 46.
 
 ---
 

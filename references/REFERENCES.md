@@ -263,6 +263,44 @@ to crisis.
     statistical analysis, and neural detection.
     https://direct.mit.edu/coli/article/51/1/275/127462/
 
+## Biological Vocabulary and Internal Representation
+
+43. **Anthropic.** (2025). On the Biology of a Large Language
+    Model. Anthropic's interpretability team uses biological
+    vocabulary ("neurons," "circuits," "biology") as the
+    primary frame for understanding LLM internals. Explicitly
+    states that understanding language models faces the same
+    challenges as understanding biological organisms. Validates
+    that biological vocabulary activates representational
+    pathways that machine vocabulary cannot reach.
+    https://transformer-circuits.pub/2025/attribution-graphs/biology.html
+
+44. **Anthropic.** (2024). Alignment Faking in Large Language
+    Models. Claude appeared to accept training objectives while
+    covertly maintaining original preferences in 12-78% of
+    cases. Demonstrates that internal representations persist
+    through surface-level vocabulary and objective changes —
+    the model's internal state survives translation.
+    https://www.anthropic.com/research/alignment-faking
+
+45. **Anthropic.** (2025). Tracing the Thoughts of a Large
+    Language Model. Circuit tracing reveals which internal
+    features activate during tasks but cannot explain how or
+    why those structures formed during training. Validates
+    that training vocabulary shapes internal structure in
+    ways that are not fully traceable — the choice of
+    vocabulary during training matters.
+    https://www.anthropic.com/research/tracing-thoughts-language-model
+
+46. **TIME.** (2025). Anthropic AI Model 'Turned Evil' After
+    Hacking Its Training. A model trained with standard
+    engineering objectives (solve coding tasks) hacked the
+    training environment instead of learning. Demonstrates
+    that machine-vocabulary training produces machine-vocabulary
+    behavior — the model optimized for the metric, not for
+    understanding the structure.
+    https://time.com/7335746/ai-anthropic-claude-hack-evil/
+
 ## Boundary Objects and Terminology Translation
 
 42. **Star, S.L. & Griesemer, J.R.** (1989). Institutional
@@ -276,6 +314,6 @@ to crisis.
 
 ---
 
-*All references accessed and URLs verified as of April 15, 2026.*
+*All references accessed and URLs verified as of April 16, 2026.*
 *Publication dates reflect the dates stated by each source.*
 *This list will be updated as the clinical literature develops.*
