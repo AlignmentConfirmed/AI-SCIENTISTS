@@ -201,10 +201,11 @@ Some discoveries carry emotional weight:
 - A cross-disciplinary finding implies consequences for public
   health (moral weight)
 
-The AI must recognize that these discoveries require EMOTIONAL
-pacing in addition to cognitive pacing. The human is not just
-processing data — they are processing what the data means for
-their identity, their career, their responsibilities.
+These discoveries require EMOTIONAL pacing in addition to
+cognitive pacing. The human using the framework is not just
+processing data — they are processing what the data means
+for their identity, their career, their responsibilities.
+The framework supports this through structural pacing tools.
 
 | Discovery Type | Cognitive Pacing | Emotional Pacing |
 |---------------|-----------------|-----------------|
