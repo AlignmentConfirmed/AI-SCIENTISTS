@@ -9,11 +9,11 @@ AI-assisted scientific research.
 
 1. **PROBLEM.md** — why this framework exists
 2. **ARCHITECTURE.md** — the five-domain system
-3. **GUARDRAILS.md** — seven operational principles
+3. **GUIDELINES.md** — seven operational principles
 4. **FRAMEWORK.md** — Mutually Assured Survival
 5. **DOMAIN_BOUNDARY.md** — the boundary as a focusing lens
-6. **CORE_DESIGN_LAWS.md** — 11 structural constraints (summary)
-7. **CORE_DESIGN_LAWS_DETAILED.md** — 11 constraints with full Why/How
+6. **CORE_DESIGN_PRINCIPLES.md** — 11 structural constraints (summary)
+7. **CORE_DESIGN_PRINCIPLES_DETAILED.md** — 11 constraints with full Why/How
 
 ## Also In This Directory
 

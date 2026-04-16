@@ -77,8 +77,8 @@ content and verified observations during sustained interaction
 In its severe form, CBE progresses to what the clinical
 literature describes as "AI psychosis" — an emerging concern
 documented in peer-reviewed journals [Ref 3], clinical case
-reports of hospitalization in patients with no prior psychiatric
-history [Ref 1], a case series of 12 patients at UCSF [Ref 2],
+reports involving individuals with no prior clinical history
+[Ref 1], a case series of 12 patients at UCSF [Ref 2],
 a special report from the American Psychiatric Association
 [Ref 7], a RAND Corporation security assessment [Ref 8], and
 coverage by PBS [Ref 9], The Conversation [Ref 10], and

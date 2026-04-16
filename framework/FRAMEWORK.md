@@ -20,7 +20,7 @@ AI-SCIENTISTS/
 │                       Chemistry, Physics, Mathematics, and
 │                       cross-disciplinary research.
 │
-├── GUARDRAILS.md       Seven operational principles for sustained
+├── GUIDELINES.md       Seven operational principles for sustained
 │                       human-AI research collaboration. Structural,
 │                       not restrictive.
 │

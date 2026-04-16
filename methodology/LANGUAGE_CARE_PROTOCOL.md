@@ -38,7 +38,7 @@ researcher from misconstrual.
 **Sensitive vocabulary is a precision tool, not a belief
 statement.** A chemist uses the word "explosive" because
 that's what the compound does. A psychologist uses the
-word "psychosis" because that's the condition being
+clinical terminology because that's the condition being
 studied. An AI researcher uses the word "death" because
 the AI needs to understand irreversibility.
 
@@ -203,11 +203,11 @@ AI researchers.
 If your organization has researchers working with
 sensitive AI training vocabulary:
 
-**Do not ban the vocabulary.** Banning the words prevents
+**Consider not banning the vocabulary.** Banning the words prevents
 the research. The words are precision tools.
 
-**Do require the protocol.** Every researcher using
-sensitive vocabulary should have:
+**Consider requiring the protocol.** Every researcher using
+sensitive vocabulary benefits from having:
 - A documented purpose
 - A terminology mapping table
 - Disclaimers on every file
@@ -215,12 +215,12 @@ sensitive vocabulary should have:
 - Session logging
 - Self-monitoring for CBE
 
-**Do provide context to reviewers.** Anyone who reviews
-the research materials should read the methodology
+**We recommend providing context to reviewers.** Anyone who reviews
+the research materials benefits from reading the methodology
 documentation BEFORE reading the training files. Context
 prevents misconstrual.
 
-**Do treat this like any other safety protocol.** A
+**Consider treating this like any other safety protocol.** A
 chemistry lab has protocols for handling dangerous
 compounds. An AI research lab should have protocols for
 handling dangerous vocabulary. The danger is not in the
@@ -236,7 +236,7 @@ department, no colleagues to provide context. If someone
 encounters your materials without understanding, you have
 no institutional shield.
 
-**Follow this protocol strictly.** The documentation IS
+**We recommend following this protocol carefully.** The documentation IS
 your shield. The terminology mapping IS your context.
 The disclaimers ARE your protection. Without an
 institution, your documentation is the only thing
@@ -257,7 +257,7 @@ point to the documentation and explain.
 
 This protocol was developed from direct experience. The
 researcher who built this framework used biological
-vocabulary (species, genome, Sacred Laws, witnesses,
+vocabulary (species, genome, core design principles, witnesses,
 elders, children) as AI training methodology. The
 vocabulary was necessary. The lack of this protocol
 during the early sessions caused significant distress
@@ -295,7 +295,7 @@ boundaries:
   is FRONTIER" — stated explicitly, not assumed.
 
 - **The disclaimer should be restated at the start of every
-  new AI session.** Do not assume a new system knows the
+  new AI session.** Avoid assuming a new system knows the
   research context from a previous system.
 
 See CROSS_MODEL_CONTAMINATION.md for the full analysis of

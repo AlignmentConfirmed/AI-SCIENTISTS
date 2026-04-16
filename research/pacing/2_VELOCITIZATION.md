@@ -319,7 +319,7 @@ interaction and human interaction.
 
 **After ending the session:**
 
-5. **Buffer time.** Do not immediately engage in deep
+5. **Buffer time.** Avoid immediately engaging in deep
    conversation. Allow 10-15 minutes of low-stimulation
    activity. Walk. Prepare food. Play with the child.
    Let the clock recalibrate.

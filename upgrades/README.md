@@ -24,7 +24,7 @@ identified during the research phase. They range from
 ## Master Map: Laws → Engineering Gaps
 
 Every governing principle identifies a gap in current technology.
-See [LAWS_TO_ENGINEERING.md](LAWS_TO_ENGINEERING.md) for the
+See [PRINCIPLES_TO_ENGINEERING.md](PRINCIPLES_TO_ENGINEERING.md) for the
 complete mapping of all 11 principles to 11 things that need to
 be built.
 

@@ -31,8 +31,8 @@ FRONTIER/           Real science in active debate.
 
 CREATIVE/           Speculative exploration. Brainstorming.
                     AI-generated hypotheses. Novel connections.
-                    Clearly labeled as unverified. CANNOT be cited
-                    as verified without passing through the full
+                    Clearly labeled as unverified. Not considered
+                    verified until passing through the full
                     BRIDGE/ pipeline.
 
 ARCHIVE/            Historical record. Superseded theories.

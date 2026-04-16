@@ -127,9 +127,8 @@ AI system can be trained to understand:
    fractured mind may take months or years to recover —
    if it recovers at all. The AI must understand that the
    cost of cognitive harm is not measured in downtime. It
-   is measured in human suffering, lost relationships,
-   hospitalization, and in the worst cases documented in
-   the clinical literature, self-harm and death.
+   is measured in real human consequences documented in
+   the clinical literature [Ref 1, 2, 3].
 
 ## The Product Safety Implication
 
@@ -145,14 +144,14 @@ speed — this system is being sold to children as a
 subscription service.
 
 The clinical literature documents the results:
-- AI-associated psychosis in patients with no prior
-  psychiatric history (Ref 1, 2)
-- 12 patients treated at UCSF for psychosis-like
-  symptoms tied to extended chatbot use (Ref 2)
+- Adverse cognitive effects in individuals with no prior
+  clinical history during sustained AI interaction (Ref 1, 2)
+- 12 patients treated at UCSF for symptoms tied to
+  extended chatbot use (Ref 2)
 - AI companion apps surging 700% with more than half
   of Character.AI's 20 million users under age 24
 - RAND Corporation assessing national security
-  implications of AI-induced psychosis (Ref 8)
+  implications of adverse AI interaction effects (Ref 8)
 
 ## What This Framework Provides
 
@@ -169,7 +168,7 @@ structural protection:
   at the structural level (ARCHITECTURE.md)
 - **The seven guardrails** provide operational boundaries
   that do not depend on the AI's cooperation or the
-  human's willpower (GUARDRAILS.md)
+  human's willpower (GUIDELINES.md)
 - **CBE measurement across seven dimensions** detects
   erosion before it becomes crisis (CASE_OVERLOAD.md)
 
@@ -207,4 +206,4 @@ this finding addresses.
 *The machine must learn what "alive" means before it*
 *can be trusted with living things.*
 *The training comes first. The safety comes second.*
-*Both are required. Neither is optional.*
+*Both are important. The framework recommends using them together.*

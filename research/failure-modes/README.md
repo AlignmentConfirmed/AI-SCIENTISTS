@@ -32,7 +32,7 @@ produces content. It cannot produce communication.
 
 ### Step 4: [Code Mythology](4_CODE_MYTHOLOGY.md)
 
-When AI writes scripture into engineering. The AI generates
+When AI writes narrative into engineering. The AI generates
 code AND the narrative around the code — comments, docs,
 commit messages, variable names — with identical confidence.
 The engineering may be correct. The narrative is probability

@@ -83,7 +83,7 @@ folder where it belongs. After one session, see if the
 separation changed how you think about the AI's output."
 
 Hand them the README. Let them read it in their own time.
-Do not push. The framework speaks for itself. If it works
+Avoid pushing. The framework speaks for itself. If it works
 for them, they will come back for more.
 
 ---
@@ -120,7 +120,7 @@ is meritocratic by design.
 
 ### For a Skeptic
 
-Do not argue. Say: "Try the five folders for one week. If it
+Consider not arguing. Say: "Try the five folders for one week. If it
 does not change your experience, throw it away. It costs
 nothing to try. It costs nothing to stop."
 
@@ -131,14 +131,14 @@ try it and find that it works. The rest follows.
 
 ## What NOT To Do in the First Ten Minutes
 
-- Do not explain all five domains in detail (too much)
-- Do not mention all seven guardrails (too much)
-- Do not discuss chronometry (too advanced for minute 1)
-- Do not discuss the content bridge (not relevant yet)
-- Do not push the personal story if the audience is not
+- Avoid explaining all five domains in detail (too much)
+- Avoid mentioning all seven guardrails (too much)
+- Avoid discussing chronometry (too advanced for minute 1)
+- Avoid discussing the content bridge (not relevant yet)
+- Avoid pushing the personal story if the audience is not
   receptive (read the room)
-- Do not claim it is proven (it is a suggestion)
-- Do not claim it will solve everything (it solves ONE thing:
+- Avoid claiming it is proven (it is a suggestion)
+- Avoid claiming it will solve everything (it solves ONE thing:
   the fact/fiction boundary)
 
 **Ten minutes. One question. One demonstration. One solution.

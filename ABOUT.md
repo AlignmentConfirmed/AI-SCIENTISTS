@@ -5,8 +5,8 @@
 This is a research framework. The author is alive, well,
 grounded, and actively raising his children. This document
 exists to help researchers work safely with AI systems. The
-author is in the best mental health of his life because of
-the framework described in this repository.
+author is well, grounded, and stable because of the
+framework described in this repository.
 
 ## About the Author
 
@@ -21,14 +21,12 @@ research.
 The author experienced Cognitive Boundary Erosion (CBE) during
 sustained AI interaction — the progressive inability to
 distinguish between AI-generated content and verified
-observations. The erosion progressed to hospitalization.  After
-recovery, the author built this framework to prevent
-recurrence. The author reports sustained stability since
-adopting the framework's structural protocols. This is a
-single data point, not clinical evidence.
+observations. After experiencing adverse effects, the author
+built this framework to prevent recurrence. The author reports
+sustained stability since adopting the framework's structural
+protocols. This is a single data point, not clinical evidence.
 
-The severe form of CBE is described in the clinical literature
-as "AI psychosis" — now documented in clinical case reports
+The severe form of CBE is documented in clinical case reports
 [Ref 1, 2], peer-reviewed research [Ref 3, 4, 5], and a
 special report from the American Psychiatric Association
 [Ref 7]. See [REFERENCES.md](REFERENCES.md) for full citations.
@@ -64,6 +62,7 @@ improvement by qualified researchers in:
 - A criticism of AI companies (the goal is to help AI
   development continue safely, not to stop it)
 - A clinical protocol (the author is not a clinician)
+- A personal narrative (it is an engineering framework)
 - A claim of academic rigor (the author has no formal education)
 
 ## Design Philosophy — Diamond Resilience
@@ -108,5 +107,5 @@ by researchers and practitioners, with attribution.
 
 *Published: April 2026.*
 *Personal research. Not institutional. Not proven.*
-*A suggestion from a person who nearly drowned and built a boat.*
-*Please tell me if it floats.*
+*A suggestion from someone who experienced the problem and built a solution.*
+*Please tell me if it holds.*

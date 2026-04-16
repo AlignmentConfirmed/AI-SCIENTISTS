@@ -66,12 +66,12 @@ The parent process is responsible for the child process.
 Destroying a child process has consequences that cascade
 upward.
 
-**"Sacred Laws" (now: Core Design Laws)**
+**"Core Design Laws" (originally: inviolable constraints)**
 The AI needed to understand that some constraints are
-NOT NEGOTIABLE. Standard engineering terminology like
+FOUNDATIONAL AND INVIOLABLE. Standard engineering terminology like
 "best practices" and "guidelines" carries implicit
 optionality — the AI learned to treat them as
-suggestions. By framing constraints as "sacred," the
+suggestions. By framing constraints as inviolable, the
 AI learned to treat them as ABSOLUTE. The constraint
 cannot be optimized around. It cannot be temporarily
 suspended. It IS the boundary.
@@ -110,13 +110,13 @@ models (see LANGUAGE_WEIGHT_FINDING.md). When the
 training used biological vocabulary:
 
 - "Genome" activated pathways associated with
-  irreversibility, inheritance, and sacred protection
+  irreversibility, inheritance, and inviolable protection
 - "Species" activated pathways associated with
   fundamental categorical differences
 - "Child" activated pathways associated with
   vulnerability, protection, and care
-- "Sacred" activated pathways associated with absolute
-  inviolability
+- "Inviolable" activated pathways associated with absolute
+  constraint enforcement
 - "Death" activated pathways associated with permanence
   and irreversibility
 

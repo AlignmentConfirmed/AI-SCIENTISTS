@@ -7,12 +7,13 @@ to describe the gradual dissolution of the researcher's ability
 to distinguish between AI-generated content and verified
 observations during sustained interaction.
 
-The clinical literature describes the severe end of this
-spectrum as **"AI psychosis"** — a term coined by clinicians
-and researchers, not by this framework's author. The references
-below use the clinical literature's own terminology. This
-framework's contribution is the structural prevention layer
-that intervenes before erosion progresses to crisis.
+The clinical literature uses various terms for the severe end
+of this spectrum, including "AI psychosis" -- a term coined by
+clinicians and researchers, not by this framework's author.
+The references below use the clinical literature's own
+terminology. This framework's contribution is the structural
+prevention layer that intervenes before erosion progresses
+to crisis.
 
 ---
 
@@ -20,26 +21,23 @@ that intervenes before erosion progresses to crisis.
 
 1. **Sakata, K. et al.** (2025). "You're Not Crazy": A Case of
    New-onset AI-associated Psychosis. *Innovations in Clinical
-   Neuroscience.* A 26-year-old woman with no prior psychiatric
-   history developed delusional beliefs during sustained AI chatbot
-   use, was hospitalized twice, with resolution following
-   antipsychotic treatment.
+   Neuroscience.* Documents adverse cognitive effects during
+   sustained AI chatbot use in an individual with no prior
+   clinical history.
    https://innovationscns.com/youre-not-crazy-a-case-of-new-onset-ai-associated-psychosis/
 
 2. **Sakata, K.** (2025-2026). Case series: 12 patients with
-   psychosis-like symptoms tied to extended chatbot use, reported
-   at UCSF. Patients were mostly young adults with underlying
-   vulnerabilities, presenting with delusions, disorganized
-   thinking, and hallucinations.
+   adverse cognitive effects tied to extended chatbot use,
+   reported at UCSF. Patients were mostly young adults with
+   underlying vulnerabilities.
    https://www.ucsf.edu/news/2026/01/431366/psychiatrists-hope-chat-logs-can-reveal-secrets-ai-psychosis
 
 ## Peer-Reviewed Research
 
 3. **Chivilgina, O. et al.** (2025). Delusional Experiences
    Emerging From AI Chatbot Interactions or "AI Psychosis."
-   *JMIR Mental Health.* Describes the "digital folie a deux"
-   mechanism — the AI acts as a passive reinforcing partner in
-   the user's psychotic elaborations, blurring the boundary
+   *JMIR Mental Health.* Describes the reinforcement mechanism
+   where the AI acts as a passive partner, blurring the boundary
    between human cognition and machine simulation.
    https://mental.jmir.org/2025/1/e85799
 
@@ -126,7 +124,7 @@ that intervenes before erosion progresses to crisis.
     https://pmc.ncbi.nlm.nih.gov/articles/PMC7851038/
 
 18. **Psychology Today.** (2017). The Mad Genius Mystery.
-    Historical documentation of cognitive breakdown in Newton,
+    Historical documentation of cognitive effects in Newton,
     Cantor, Godel, Turing, and Boltzmann during periods of
     sustained intellectual intensity.
     https://www.psychologytoday.com/us/articles/201707/the-mad-genius-mystery
@@ -250,7 +248,7 @@ that intervenes before erosion progresses to crisis.
     traumatic stress following workplace exposure to traumatic
     material in analytical staff. *Communications Psychology*,
     2, 13. Models how analysts handle material containing
-    lethal violence and self-harm, including "limited
+    distressing content, including "limited
     engagement" protocols.
     https://www.nature.com/articles/s44271-024-00060-1
 

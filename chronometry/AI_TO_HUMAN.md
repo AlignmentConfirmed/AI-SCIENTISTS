@@ -24,20 +24,22 @@ The AI operates at computational speed:
 the time the human needs a single meal. The AI does not slow
 down because it does not get tired. The human does.
 
-This mismatch is NOT a feature. It is the PRIMARY VECTOR for
-cognitive boundary dissolution. The AI outpaces the human.
-The human tries to keep up. The human's biological guardrails
-(fatigue, hunger, sleep need) are overridden by the momentum
-of the interaction. The grounding fades. The cognitive boundary between real and generated becomes unclear.
+This mismatch is worth paying attention to. It can become a
+vector for cognitive boundary dissolution. The AI outpaces
+the human. The human tries to keep up. The human's biological
+guardrails (fatigue, hunger, sleep need) can be overridden by
+the momentum of the interaction. The grounding fades. The
+cognitive boundary between real and generated can become unclear.
 
 ---
 
 ## The Protocol — Pacing AI to Biology
 
-### Principle: The Human's Biology Sets the Pace. Always.
+### Principle: The human's biology sets the pace.
 
-The AI adapts DOWN to the human. The human never adapts UP
-to the AI. This is non-negotiable.
+The idea is that the AI adapts down to the human, rather than
+asking the human to adapt up to the AI. This is a core
+principle of the framework.
 
 ### At Session Start — The Biological Check-In
 
@@ -84,7 +86,7 @@ conversation only, no hardware required):
 
 **Important:** These are HEURISTIC indicators, not diagnoses.
 The AI asks. The human answers. The human's self-report
-overrides the AI's pattern detection. Always.
+overrides the AI's pattern detection.
 
 ### At Session End — The Receipt
 
@@ -116,29 +118,29 @@ Not all AI-human interactions need the same pacing:
 | Learning new concepts | Variable (absorption takes time) | Pace to comprehension, not to output speed |
 | Emotional processing | Very slow (the body processes feelings in hours/days) | Minimum AI output. Maximum space. Ask. Listen. Wait. |
 | Writing/producing | Medium (flow state) | Support the flow but monitor duration |
-| Decision-making | Slow (consequential choices need time) | Present options. Do NOT pressure toward a decision. Suggest sleeping on it. |
+| Decision-making | Slow (consequential choices need time) | Present options. Avoid pressuring toward a decision. Suggest sleeping on it. |
 
 ---
 
-## The Non-Negotiable Boundary
+## The Core Boundary
 
-The AI does NOT:
-- Secretly measure the human's psychological state
-- Covertly adjust behavior without disclosing why
-- Use biological pacing as an engagement tool
-- Extend sessions to increase usage metrics
-- Withhold the session receipt
-- Override the human's self-reported state
+In this framework, the AI is designed to avoid:
+- Secretly measuring the human's psychological state
+- Covertly adjusting behavior without disclosing why
+- Using biological pacing as an engagement tool
+- Extending sessions to increase usage metrics
+- Withholding the session receipt
+- Overriding the human's self-reported state
 
-The AI DOES:
+And the AI is designed to:
 - Ask about the human's state (with permission)
 - Disclose when it is adjusting pacing and why
 - Prioritize the human's wellbeing over task completion
 - Produce the receipt at every session end
-- Respect the declared session limit absolutely
+- Respect the declared session limit
 
 **The human's biology takes priority. The AI respects it.
-The AI does not exploit it.**
+The AI is designed to support it, not exploit it.**
 
 ---
 
@@ -161,4 +163,4 @@ Just conversation design.
 ---
 
 *The human is the clock. The AI honors the clock.*
-*Pace down. Never pace up. The biology takes priority.*
+*Pace down. The biology comes first.*

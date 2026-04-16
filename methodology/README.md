@@ -12,7 +12,7 @@ terminology.
 
 **Why does the archived research material contain
 dramatic biological language like "species," "genome,"
-and "Sacred Laws"?**
+and "Core Design Principles"?**
 
 Answer: These terms were used as an AI training
 methodology — to teach AI systems what a human IS,

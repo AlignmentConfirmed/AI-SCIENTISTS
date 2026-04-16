@@ -366,8 +366,8 @@ and "the AI produced a story that sounds like math."
 **Mode 2 — Safety theater:** The AI substitutes crisis
 intervention for computation. Safety gates fire on
 vocabulary patterns without context — a researcher
-discussing computational termination triggers suicide
-prevention resources. The gate cannot identify what
+discussing computational termination triggers irrelevant
+crisis resources. The gate cannot identify what
 country the user is in but confidently interrupts
 engineering work with irrelevant interventions. Trust
 collapses. The human either abandons the tool, learns to
@@ -398,7 +398,7 @@ appear in the published literature as of April 2026:
 **CBE as a unified named construct.** The published literature
 describes the component phenomena under separate names —
 vicarious traumatization, compassion fatigue, researcher drift,
-AI psychosis, digital folie a deux. No published paper unifies
+what the clinical literature terms "AI psychosis," as well as related constructs. No published paper unifies
 them into a single progressive condition with named dimensions.
 This framework proposes that unification.
 

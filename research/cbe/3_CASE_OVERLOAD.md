@@ -2,7 +2,7 @@
 
 **Prerequisites:** This document assumes you have read
 [PROBLEM.md](PROBLEM.md) (domain confusion),
-[GUARDRAILS.md](GUARDRAILS.md) (the seven principles), and
+[GUIDELINES.md](GUIDELINES.md) (the seven principles), and
 [DISCOVERY_PACING.md](DISCOVERY_PACING.md) (absorption speed).
 
 ---
@@ -113,18 +113,18 @@ between its domains [Ref 3].
 The vulnerability of fast-moving minds to cognitive boundary
 erosion is not new. It predates AI. The historical record
 documents repeated cases of brilliant scientists whose
-sustained intensity led to cognitive breakdown:
+sustained intensity led to documented cognitive effects:
 
-- **Newton** suffered persecutory delusions and psychotic
-  episodes during his most productive periods [Ref 18]
-- **Cantor** was hospitalized repeatedly while pursuing
-  set theory and the continuum hypothesis [Ref 18]
-- **Godel** developed paranoid ideation so severe he
-  starved himself to death [Ref 18]
-- **Turing** experienced depression during and after his
+- **Newton** experienced adverse cognitive effects during
+  his most productive periods [Ref 18]
+- **Cantor** experienced recurring difficulties while
+  pursuing set theory and the continuum hypothesis [Ref 18]
+- **Godel** experienced severe adverse effects during his
+  most intense mathematical work [Ref 18]
+- **Turing** experienced difficulties during and after his
   most intense codebreaking work [Ref 18]
-- **Boltzmann** died by suicide while fighting for the
-  acceptance of statistical mechanics [Ref 18]
+- **Boltzmann** experienced severe adverse effects while
+  fighting for the acceptance of statistical mechanics [Ref 18]
 
 These were not weak minds. These were the fastest minds of
 their generations. The speed was the vulnerability. The

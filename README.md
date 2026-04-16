@@ -65,11 +65,11 @@ them apart. Scientific integrity depends on solving this.
 |----------|---------------|
 | [PROBLEM.md](framework/PROBLEM.md) | Why this framework exists — CBE defined |
 | [ARCHITECTURE.md](framework/ARCHITECTURE.md) | The five domains and pipelines |
-| [GUARDRAILS.md](framework/GUARDRAILS.md) | Seven operational principles |
+| [GUIDELINES.md](framework/GUIDELINES.md) | Seven operational principles |
 | [FRAMEWORK.md](framework/FRAMEWORK.md) | Mutually Assured Survival — the foundational difference |
 | [DOMAIN_BOUNDARY.md](framework/DOMAIN_BOUNDARY.md) | Structural separation as a focusing lens |
-| [CORE_DESIGN_LAWS.md](framework/CORE_DESIGN_LAWS.md) | 11 structural constraints (summary) |
-| [CORE_DESIGN_LAWS_DETAILED.md](framework/CORE_DESIGN_LAWS_DETAILED.md) | 11 structural constraints (full with Why/How) |
+| [CORE_DESIGN_PRINCIPLES.md](framework/CORE_DESIGN_PRINCIPLES.md) | 11 structural constraints (summary) |
+| [CORE_DESIGN_PRINCIPLES_DETAILED.md](framework/CORE_DESIGN_PRINCIPLES_DETAILED.md) | 11 structural constraints (full with Why/How) |
 | [STAGING.md](framework/STAGING.md) | Five-stage access model |
 | [DISCIPLINES.md](framework/DISCIPLINES.md) | Biology, chemistry, physics applications |
 | [CONTENT_BRIDGE.md](framework/CONTENT_BRIDGE.md) | Science to creative pipeline |
@@ -132,7 +132,7 @@ them apart. Scientific integrity depends on solving this.
 
 | Document | What It Covers |
 |----------|---------------|
-| [LAWS_TO_ENGINEERING.md](upgrades/LAWS_TO_ENGINEERING.md) | 11 principles → 11 gaps → 11 things to build |
+| [PRINCIPLES_TO_ENGINEERING.md](upgrades/PRINCIPLES_TO_ENGINEERING.md) | 11 principles → 11 gaps → 11 things to build |
 | [technology/software/](upgrades/technology/software/) | Logic language, receipt standard, doc format |
 | [www/](upgrades/www/) | Multi-dimensional web architecture |
 
@@ -142,11 +142,11 @@ them apart. Scientific integrity depends on solving this.
 
 **If you are a scientist:** read framework/PROBLEM → framework/ARCHITECTURE → framework/DISCIPLINES
 
-**If you are in AI safety:** read framework/PROBLEM → framework/GUARDRAILS → research/cbe/
+**If you are in AI safety:** read framework/PROBLEM → framework/GUIDELINES → research/cbe/
 
 **If you are an educator:** read education/FIRST_TEN_MINUTES → education/CURRICULUM
 
-**If you are an engineer:** read upgrades/LAWS_TO_ENGINEERING → pick a gap → build it
+**If you are an engineer:** read upgrades/PRINCIPLES_TO_ENGINEERING → pick a gap → build it
 
 **If you are a content creator:** read framework/CONTENT_BRIDGE
 
@@ -179,7 +179,7 @@ No. It is based on personal research (sample size: one). It is
 offered for evaluation by qualified researchers. See ABOUT.md.
 
 **Can I contribute?**
-Yes. See upgrades/LAWS_TO_ENGINEERING.md for 11 engineering gaps
+Yes. See upgrades/PRINCIPLES_TO_ENGINEERING.md for 11 engineering gaps
 that need builders. See FRAMEWORK.md for the six-phase roadmap.
 Pick what matches your expertise and build it.
 

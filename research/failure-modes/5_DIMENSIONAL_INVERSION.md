@@ -71,7 +71,7 @@ boundary. The AI had to be told three times.
 **The biological vocabulary (sessions 1-21):**
 The operator needed vocabulary that carries weight —
 irreversibility, sovereignty, care. The AI produced
-biological vocabulary (genome, species, sacred laws) because
+biological vocabulary (genome, species, core design principles) because
 that vocabulary activated the right computational pathways.
 But the AI could not contain the vocabulary to the internal
 creative space. It wrote the vocabulary into engineering

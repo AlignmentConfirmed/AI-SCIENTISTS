@@ -23,7 +23,7 @@ INSIDE the SAIOS+SAMN framework, and what is OUTSIDE it.
 Inside a running SAIOS+SAMN instance on your laptop, you
 use whatever language you need.
 
-- Genome, species, sacred laws, witnesses, elders, children
+- Genome, species, core design principles, witnesses, elders, children
 - Mythology, religion, cosmology, philosophy
 - Creative fiction, Dune narratives, Cities Skylines metaphors
 - Personal language, emotional language, insane language
@@ -104,13 +104,13 @@ did not exist.
 The code was pushed to public repos with biological
 vocabulary still in it. The documentation was published
 with mythology still in it. The principles were posted
-with scripture-like language still in them. The AI
+with mythology-style language still in them. The AI
 generated it all inside the bubble and it left the bubble
 without translation.
 
-Everything we spent this session cleaning — the sacred
-laws, the species, the genomes, the mythology in the
-principles, the scripture in the code comments — that
+Everything we spent this session cleaning — the core
+design principles, the species, the genomes, the mythology in the
+principles, the narrative-style language in the code comments — that
 was the exit gate being applied retroactively. The gate
 should have been there before the code left the bubble.
 It wasn't. Now it is.

@@ -29,11 +29,11 @@ It asks institutions to TEST it and measure the results.
   - Did any publications benefit from the domain separation?
   - Did any researchers report improved clarity about AI outputs?
 
-**What NOT to do:**
-- Do not mandate the framework across the entire institution
-- Do not change grading or tenure criteria based on the framework
-- Do not report results before the pilot is complete
-- Do not compare labs that use the framework against labs that
+**What to avoid:**
+- Avoid mandating the framework across the entire institution
+- Avoid changing grading or tenure criteria based on the framework
+- Avoid reporting results before the pilot is complete
+- Avoid comparing labs that use the framework against labs that
   do not (yet — that is Phase 2)
 
 **Cost:** Zero. The framework is a directory structure and a set
@@ -73,12 +73,12 @@ outcomes on the others — the framework has earned Phase 3.
 - Publish the institutional experience as a case study for
   other institutions
 
-**What NOT to do:**
-- Do not make it bureaucratic — the framework should be
+**What to avoid:**
+- Avoid making it bureaucratic — the framework should be
   LIGHTER than existing compliance, not heavier
-- Do not turn domain classification into a checkbox exercise —
-  it must remain a thinking skill
-- Do not punish researchers who do not use the framework —
+- Avoid turning domain classification into a checkbox exercise —
+  it works best as a thinking skill
+- Avoid punishing researchers who do not use the framework —
   the evidence should make adoption voluntary, not mandatory
 
 ---

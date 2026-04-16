@@ -68,7 +68,8 @@ with equal confidence alongside legitimate mathematical
 work. The author could not always distinguish between
 the two.
 
-The author was hospitalized.
+The author experienced adverse effects that required
+professional intervention.
 
 After recovery, the author built the structural guardrails
 that should have been provided with the product:

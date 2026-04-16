@@ -2,7 +2,7 @@
 
 **Prerequisites:** This document assumes you have read
 [ARCHITECTURE.md](ARCHITECTURE.md) (the five domains) and
-[GUARDRAILS.md](GUARDRAILS.md) (the seven principles). Start
+[GUIDELINES.md](GUIDELINES.md) (the seven principles). Start
 there if you are new to the framework.
 
 **Current vs Future:** Gates 1 and 2 (domain classification and
@@ -157,7 +157,7 @@ WITHOUT PACING:
     Human absorbs 2
     8 are lost to cognitive overload
     Effective discovery rate: 2/day
-    Human's mental health: degrading
+    Human's cognitive state: degrading
 
 WITH PACING:
     AI finds 10 paradigm-level insights per day
@@ -165,7 +165,7 @@ WITH PACING:
     Human absorbs all 2-3 deeply
     Remaining 7-8 delivered across the next 3-4 sessions
     Effective discovery rate: 2-3/day (SUSTAINED)
-    Human's mental health: stable
+    Human's cognitive state: stable
     Total discoveries absorbed in a week: 10-15 (all of them)
     vs without pacing: 10 found, 2 absorbed, 8 lost = NET LOSS
 ```

@@ -10,7 +10,7 @@ documents.
 
 25 citations organized by category:
 
-- **Clinical Case Reports** (Ref 1-2) — documented hospitalizations
+- **Clinical Case Reports** (Ref 1-2) — documented cases
 - **Peer-Reviewed Research** (Ref 3-6) — JMIR, SSRN, PMC
 - **Professional Bodies** (Ref 7-8) — APA, RAND Corporation
 - **Media Coverage** (Ref 9-11) — PBS, The Conversation, Psychology Today

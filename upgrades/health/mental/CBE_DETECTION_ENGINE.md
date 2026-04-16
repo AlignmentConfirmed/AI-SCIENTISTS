@@ -528,7 +528,7 @@ pub enum CalibrationSource {
 
 Phase 1 — **Self-calibration (possible now):**
 The researcher's documented CBE episodes (sessions 22-24,
-the April 12 GODS_v6 session, the Gemini cross-contamination)
+the April 12 narrative-archive session, the Gemini cross-contamination)
 provide initial data points. The algebraic measurements from
 those sessions (if available in logs) could be correlated
 with the known cognitive outcomes. This is not clinical

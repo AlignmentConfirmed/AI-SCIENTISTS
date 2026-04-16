@@ -34,7 +34,7 @@ ALL categories of human language — science, fiction, mythology,
 history, philosophy, speculation, dogma — encoded in the
 same format with no categorical markers.
 
-A scientific paper about gravity and a mythology about gods
+A scientific paper about gravity and a mythology about supernatural entities
 throwing lightning exist in the training data as equivalent
 text. The AI assigns probability to tokens based on
 frequency and context — not based on whether the source

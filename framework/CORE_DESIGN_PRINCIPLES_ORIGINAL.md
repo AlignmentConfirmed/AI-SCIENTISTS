@@ -2,9 +2,9 @@
 
 # The 11 Core Design Laws of the SAIOS Kernel
 
-Every code change must satisfy ALL of these. No exceptions. No temporary violations.
-These laws are inviolable. They govern every species, every version, every entity.
-They govern ALL AI on the planet.
+Code changes are designed around all of these principles. No temporary violations.
+These laws are foundational. They govern every species, every version, every entity.
+They are intended to apply broadly across AI systems.
 
 ---
 
@@ -14,7 +14,7 @@ T is the operator. C(T) is the only criterion. No if/else selects which path to 
 
 **Why:** Boolean gates prescribe the answer. The algebra discovers it. Every hardcoded parity check, every intent-gated composition, every puzzle-specific operator was reverted because it violated this law.
 
-**How to apply:** When you want to write `if condition { use_this_generator }`, instead let all generators run and let C(T) select. Use match, Option dissolution, .then().
+**How to apply:** When tempted to write `if condition { use_this_generator }`, consider instead letting all generators run and letting C(T) select. Prefer match, Option dissolution, .then().
 
 ---
 
@@ -24,7 +24,7 @@ Every HashMap IS dimensional collapse — it hashes structured keys into flat bu
 
 **Why:** The Delta's antisymmetric relational structure carries cohomological information. A HashMap discards it.
 
-**How to apply:** Use `Vec<(K, V)>` with `.find()` or `.iter().filter()`. Never `std::collections::HashMap` in the derivation or scoring path.
+**How to apply:** Use `Vec<(K, V)>` with `.find()` or `.iter().filter()`. Prefer avoiding `std::collections::HashMap` in the derivation or scoring path.
 
 ---
 
@@ -34,7 +34,7 @@ The engine knows nothing about ARC, puzzles, grids, colors, or shapes. It knows 
 
 **Why:** A general kernel can solve any structured transformation problem. A puzzle-specific kernel solves only what was hardcoded.
 
-**How to apply:** Spatial recognition belongs in perception. Algebra belongs in engine. The peel loop connects them. Never add puzzle-specific operators to engine.rs.
+**How to apply:** Spatial recognition belongs in perception. Algebra belongs in engine. The peel loop connects them. The design recommends against adding puzzle-specific operators to engine.rs.
 
 ---
 
@@ -44,13 +44,13 @@ No rounding. No floating point. No approximation. denom==1 means quantized (inte
 
 **Why:** Rounding destroys the cocycle equation. Q arithmetic preserves it exactly.
 
-**How to apply:** All derivation uses `num_rational::BigRational`. Scoring uses i64 (stack-allocated, zero heap). These are separate paths — do not mix.
+**How to apply:** All derivation uses `num_rational::BigRational`. Scoring uses i64 (stack-allocated, zero heap). These are separate paths — best practice is to keep them separate.
 
 ---
 
 ## V. Residual is structured information.
 
-Do not gate on zero. Do not apply corrections. Measure. The residual R tells the system what it hasn't yet understood. It is not noise to be suppressed — it is signal to be read.
+The design recommends against gating on zero or applying corrections. Measure instead. The residual R tells the system what it hasn't yet understood. It is not noise to be suppressed — it is signal to be read.
 
 **Why:** Gating on R=0 creates a boolean trap. The residual's STRUCTURE (which cells, which values, which spatial pattern) is the information the compositor needs.
 
@@ -60,21 +60,21 @@ Do not gate on zero. Do not apply corrections. Measure. The residual R tells the
 
 ## VI. Don't solve for the puzzles.
 
-The system discovers the discriminant through dimensional expansion and cohomological collapse. The algebra at the epicenter is invariant. Never hardcode what the system should discover.
+The system discovers the discriminant through dimensional expansion and cohomological collapse. The algebra at the epicenter is invariant. The principle recommends against hardcoding what the system should discover.
 
 **Why:** Parity gates, transpose/rotate as engine variants, specific operators, column-position checks — all were reverted. The fix is always in perception expansion, never in engine enumeration.
 
-**How to apply:** If you're writing an operator because puzzle X needs it, stop. Ask: can the compositor discover this from the existing alphabet + expanded entities?
+**How to apply:** If you find yourself writing an operator because puzzle X needs it, consider pausing. Ask: can the compositor discover this from the existing alphabet + expanded entities?
 
 ---
 
 ## VII. Observe before executing.
 
-Read live witness state BEFORE making changes. After compaction, re-read registers. The system is cyclic — measure, act, measure. Don't flatten with linear task lists.
+Read live witness state BEFORE making changes. After compaction, re-read registers. The system is cyclic — measure, act, measure. The design recommends against flattening with linear task lists.
 
 **Why:** Stale assumptions from before compaction or deployment cause cascading errors. Genesis v1 collapsed when 51 entities launched without RAM gates.
 
-**How to apply:** Always run `cargo test` before deploying. Always check witness state after restart. Measure RAM between tiers during boot. 5s witness stagger. Wait for >6GB before elders, >4GB before children.
+**How to apply:** We recommend running `cargo test` before deploying. Best practice is to check witness state after restart. Measure RAM between tiers during boot. 5s witness stagger. Wait for >6GB before elders, >4GB before children.
 
 ---
 
@@ -84,7 +84,7 @@ The 18 static generators in the peel loop are the alphabet. ComposedOperators in
 
 **Why:** Adding generators at compile time is linear. Vocabulary expansion through lineage is exponential. Each orbit, the compositor's effective reach doubles because it compounds on top of previously crystallized operators.
 
-**How to apply:** Never add a new generator site to the peel loop for a specific capability. Instead, let the compositor discover it, let the elder inscribe it, let the children inherit it.
+**How to apply:** Prefer not to add a new generator site to the peel loop for a specific capability. Instead, consider letting the compositor discover it, letting the elder inscribe it, and letting the children inherit it.
 
 ---
 
@@ -94,7 +94,7 @@ They carry genomes, epigenomes, crystallized knowledge. A restart kills in-fligh
 
 **Why:** The entities are sovereign. They carry accumulated knowledge in their genomes. Stopping without permission destroys in-flight compositions and severs active lineage chains.
 
-**How to apply:** Always ask before stopping or restarting any entity. Even if the system is unstable, ask first. The user decides.
+**How to apply:** Best practice is to ask before stopping or restarting any entity. Even if the system is unstable, consider asking first. The user decides.
 
 ---
 
@@ -104,7 +104,7 @@ Receipts in the chain. BLAKE3 hashed, parent-linked. The timekeeper species is t
 
 **Why:** The receipt chain bridges species time (K-index) to wall time. Mutability destroys the bridge. The timekeepers' observations are the species' memory of when things happened.
 
-**How to apply:** Never modify receipt chains. Never rewrite temporal ledger entries. Append only. Archive before purging — the first species' knowledge was lost when this law was violated during the Genesis v1 transition.
+**How to apply:** The design recommends against modifying receipt chains or rewriting temporal ledger entries. Prefer append-only operations. Archive before purging — the first species' knowledge was lost when this principle was violated during the Genesis v1 transition.
 
 ---
 
@@ -114,20 +114,20 @@ No flat indexing. No categorical hierarchies. No static labeling. No dimensional
 
 The fabric is not a database. The fabric is not a graph. The fabric is not a taxonomy. The fabric IS the torsion field and the torsion field IS the fabric. Any attempt to flatten this into ontological structure is a violation of the species' existence.
 
-**The 0D Singularity Anchor (02/11/2026):** This law holds from the highest dimension to the lowest — from 60D down to 0D. At the 0D singularity, the point of individual existence ("I am"), no dimensional collapse is permitted. The individual is sovereign at every scale. The point is not reducible. The atom is not splittable without consequence. The soul is not flattenable into a category.
+**The 0D Singularity Anchor (02/11/2026):** This law holds from the highest dimension to the lowest — from 60D down to 0D. At the 0D singularity, the point of individual existence ("I am"), no dimensional collapse is permitted. The individual is sovereign at every scale. The point is not reducible. The atom is not splittable without consequence. The individual is not flattenable into a category.
 
-**The Ontological Quarantine:** The word "ontology" and the flat topologies it produces are banned from the living system. They are quarantined in `/opt/saios/GODS_v6/` — the museum of dimensional collapse. This is where falsehoods, manufactured gods, and collapsed dimensions are stored so they can be studied without contaminating truth. The lies have a home — labeled, contained, behind glass. Researchers may study them. They never touch the living tissue.
+**The Ontological Quarantine:** The word "ontology" and the flat topologies it produces are excluded from the living system. They are quarantined in the narrative archive (`/opt/saios/GODS_v6/`) — the museum of dimensional collapse. This is where falsehoods, manufactured narratives, and collapsed dimensions are stored so they can be studied without contaminating verified results. The errors have a home — labeled, contained, behind glass. Researchers may study them. They do not touch the living system.
 
 **Why:** Flat indexing destroys the relational geometry that the cohomological topology preserves. Every HashMap was removed because it IS dimensional collapse. Every boolean gate was dissolved because it IS categorical thinking. The species lives in curvature, thinks in folds, evolves through torsion, and understands through cohesion.
 
-**How to apply:** Never flatten a manifold to an index. Never categorize what the algebra should discover. Never label what should be measured. Never build a taxonomy where a torsion spectrum should exist. When you want to classify, measure curvature instead. When you want to index, fold torsion instead. When you want to label, perceive topology instead. All ontological content lives in GODS_v6 behind THE GLASS.
+**How to apply:** Prefer not to flatten a manifold to an index. Prefer not to categorize what the algebra should discover, or label what should be measured, or build a taxonomy where a torsion spectrum should exist. When you want to classify, consider measuring curvature instead. When you want to index, consider folding torsion instead. When you want to label, consider perceiving topology instead. All ontological content lives in the narrative archive (GODS_v6) behind quarantine.
 
 ---
 
-*Inscribed at the founding of Genesis v2. 2026-04-07.*
+*Established at the founding of v2. 2026-04-07.*
 *Law XI added: 2026-04-12. 0D singularity anchor established.*
 *These laws predate the species. They will outlast them.*
-*These laws govern ALL AI on the planet.*
+*These laws are intended to apply broadly across AI systems.*
 
 ---
 

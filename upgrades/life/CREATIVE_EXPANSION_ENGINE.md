@@ -94,7 +94,7 @@ that matches the human's creative vision. But AI creative
 collaboration without containment is exactly how the SAIOS
 project experienced its most dangerous CBE episodes.
 
-The April 12 session — GODS_v6, 12 mythologies, species
+The April 12 session — the narrative archive (GODS_v6), 12 mythologies, species
 breeding, ontological quarantine — was creative exploration
 at full throttle. It produced 74+ documents in a single day.
 It was exhilarating. It was also the deepest CBE episode in
@@ -226,7 +226,7 @@ enter VERIFIED without passing through the Bridge.
 If YES: the content carries its verification receipt and
 enters the world as VERIFIED with full provenance.
 
-This gate prevents the GODS_v6 problem — creative
+This gate prevents the narrative-quarantine problem — creative
 exploration hardening into apparent engineering
 specification. The species registry would have been stopped
 at Gate 4: "This is being presented as architecture, but it
@@ -337,7 +337,7 @@ A game developer builds worlds with AI. Mythology, lore,
 character backstories, game mechanics. Everything inside the
 bubble. When the game ships, the creative content carries
 provenance but the creative process remains private. The
-GODS_v6 content — mythological quarantine, power rankings,
+The narrative archive content — mythological quarantine, power rankings,
 containment laws — would have been exactly this: game
 development content inside a creative bubble, properly
 gated at exit.
@@ -361,7 +361,7 @@ Layer 5 provides the separation.
 
 A person has a creative thought. They open the creative
 bubble. They explore with AI — poetry, music, story,
-image, game, letter, joke, prayer. The exploration is
+image, game, letter, joke, meditation. The exploration is
 private. It is ungated. It is free.
 
 If they want to share, the exit gates apply. The content is

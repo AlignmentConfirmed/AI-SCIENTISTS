@@ -49,14 +49,14 @@ Cognitive Boundary Erosion (CBE) is used in this framework
 to describe a proposed structural phenomenon. It is NOT a
 clinical diagnosis.
 
-If you are experiencing psychological distress during or
-after sustained AI interaction:
+If you are experiencing difficulty during or after sustained
+AI interaction:
 
-- Stop interacting with the AI system immediately
-- Ground yourself: breathe, drink water, touch something
-  physical, look at a living thing
-- Talk to a human being, not an AI
-- Seek professional mental health support
+- Stop interacting with the AI system
+- Ground yourself: breathe, drink water, step away from
+  the screen
+- Talk to a human being
+- Seek professional support if needed
 
 The clinical references in REFERENCES.md are to published
 third-party research. The framework itself is the author's
@@ -76,7 +76,7 @@ experience (sample size: one).
 
 ## Scope of Experience
 
-The author experienced hospitalization during sustained
+The author experienced adverse effects during sustained
 AI interaction without structural guardrails. The author
 reports sustained stability since adopting the structural
 protocols described in this framework. This is a single

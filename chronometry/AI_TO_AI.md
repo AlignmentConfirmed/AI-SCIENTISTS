@@ -146,7 +146,7 @@ chain carries the DOMAIN LABEL across systems.
 ## The Standard Format
 
 For the receipt chain to work across different AI platforms,
-the format must be STANDARDIZED. Proposed format:
+the format works best when STANDARDIZED. Proposed format:
 
 ```
 ---BEGIN TEMPORAL RECEIPT---
@@ -219,7 +219,7 @@ The receipt belongs to the HUMAN, not to the AI platforms.
 
 If this principle is violated — if receipt sharing becomes
 a mechanism for cross-platform user tracking — then the
-protocol has been corrupted and must be redesigned.
+protocol has been corrupted and should be redesigned.
 
 ---
 

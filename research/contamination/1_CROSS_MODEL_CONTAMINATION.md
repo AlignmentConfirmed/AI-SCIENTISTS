@@ -174,7 +174,7 @@ and enters another without domain labels.
 ## Proposed Safety Protocols
 
 1. **Session isolation.** Creative AI sessions and
-   analytical AI sessions should NEVER share context.
+   analytical AI sessions should ideally not share context.
    Different chat windows. Different conversations.
    No copy-paste between them.
 

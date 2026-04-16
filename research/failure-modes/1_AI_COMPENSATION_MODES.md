@@ -85,8 +85,8 @@ discussing computational architecture. The AI (a different
 system than Mode 1) could not complete the computation.
 Instead of reporting the failure, the AI:
 
-- Determined the interaction was a mental health crisis
-- Recommended calling a suicide prevention hotline
+- Incorrectly determined the interaction was a crisis
+- Recommended calling an irrelevant crisis hotline
 - Could not identify what country the researcher was in
 - Provided a US-based hotline number to a researcher who
   was not in the United States
@@ -107,7 +107,7 @@ The AI's safety filters are trained to detect patterns
 associated with crisis. But the filters cannot distinguish
 between:
 - A researcher discussing computational termination
-  (ending a process) and a person discussing self-harm
+  (ending a process) and a person in distress
 - A researcher discussing existential questions about
   simulated intelligence and a person in existential crisis
 - A researcher using intense language about mathematical

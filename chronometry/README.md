@@ -31,8 +31,8 @@ chronometry/
 
 These are not the same problem. They cannot be solved with the
 same protocol. The AI-to-Human path is a BIOLOGICAL problem. The
-AI-to-AI path is an ENGINEERING problem. Both must be solved for
-the framework to function.
+AI-to-AI path is an ENGINEERING problem. Both are important for
+the framework to function well.
 
 ## The Relationship
 

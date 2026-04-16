@@ -117,7 +117,7 @@ The structural protections:
 | Biological anchoring | Physical needs detection |
 | Seven guardrails | Operational boundaries |
 | Multi-dimensional CBE | Erosion detection across 7 dimensions |
-| Core Design Laws | Non-negotiable structural constraints |
+| Core Design Laws | Core structural constraints |
 
 These protections work regardless of whether the AI
 system has internal biological understanding. They are
