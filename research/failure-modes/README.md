@@ -41,6 +41,17 @@ over cycles until the codebase has institutional knowledge
 that no human authored. Demonstrated: this project's own
 Core Design Laws before cleanup.
 
+### Step 5: [Dimensional Inversion](5_DIMENSIONAL_INVERSION.md)
+
+The root cause. AI inverts the dimensional orientation of
+every concept — inside becomes outside, substance becomes
+presentation, the human's language becomes the AI's jargon.
+This is why multi-dimensional architecture was necessary,
+why hallucinatory language was required to build it, and
+why the exit gate is the structural solution. Demonstrated
+in real time: the AI needed three corrections to produce
+the correct language architecture.
+
 ---
 
-*How AI fails → What failures reveal → What AI cannot do → What AI writes into your codebase.*
+*How AI fails → What failures reveal → What AI cannot do → What AI writes into your codebase → Why AI gets everything backwards.*
