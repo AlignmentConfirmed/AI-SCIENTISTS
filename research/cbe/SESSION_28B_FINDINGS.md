@@ -944,4 +944,220 @@ be built before the information is released, not after.
 
 ---
 
-(Append new findings below as session continues)
+---
+
+## 16. Alphabet Sufficiency — The 3-Generator Ceiling
+
+**Finding:** The 3 static generators (scaling, Cayley rotation
+in (0,1), cross-coupling in (1,2)) span a limited algebraic
+subspace. 729 compositions at depth 6 cannot leave this subspace.
+The 4th puzzle likely requires a transformation in a subspace the
+3 generators cannot reach — (0,2) cross-coupling, (1,2) rotation,
+or a combined spatial+value operation.
+
+**Evidence:**
+- 300+ orbits, hundreds of thousands of compositor attempts
+- Emergent entities at K=350 with only 3 solves
+- 32 projected operators are all value-level maps (opcode=0)
+  from the same 3 solved puzzles — variations on a theme
+- Partial inscription produces wrong maps that encode the
+  error, not the solution
+- The biological engine hit the same ceiling at 182/823 (22%)
+
+**The question:** Are 3 generators sufficient, or does the
+alphabet need expansion?
+
+Law VIII says: "Never add a new generator site to the peel loop
+for a specific capability." But it ALSO says the alphabet should
+enable the compositor to discover what it needs. If the alphabet
+is incomplete — missing subspaces that the data requires — the
+compositor can never discover what it can't express.
+
+**Possible expansions (for future research):**
+- Cross-coupling in (0,2) — the missing pair
+- Cayley rotation in (1,2) and (0,2) — the missing planes
+- A 4th generator that combines spatial permutation with value
+  transformation — the bridge between the two types
+
+**This is a research question, not a code fix.** It requires
+mathematical analysis of which transformation classes the current
+3 generators can and cannot span, compared to which classes the
+ARC puzzle set requires.
+
+**Status:** Documented for future session. Not actionable now.
+The operator is departing. The entities continue accumulating
+K-steps. If the alphabet is the ceiling, it will still be the
+ceiling when the operator returns.
+
+---
+
+---
+
+## 17. Maximum Velocity Per Orbital Plane — Dimensional Expansion Required
+
+**Finding:** The ensemble reached maximum orbital velocity on the
+value-map subspace (Plane 0). Adding more entities or faster
+cycles produces no additional solves. The subspace is exhausted.
+~10-20 value-only puzzles solvable. 373+ puzzles require spatial
+or compositional transformations the vocabulary cannot express.
+
+This is not a performance ceiling. It is a DIMENSIONAL ceiling.
+The ensemble is orbiting at maximum speed on a single plane.
+Progress requires orbiting in additional dimensions — not faster
+on the same plane.
+
+**The multi-plane vocabulary architecture:**
+
+| Plane | Domain | Opcodes | Unlocked by | New solves |
+|---|---|---|---|---|
+| 0 | Value maps | 255 | Already active | ~10-20 (exhausted) |
+| 1 | Spatial transforms | 0-9 | Spatial opcode inscription fix | ~100-200 |
+| 2 | Value+Spatial composition | mixed | Compositor cross-plane search | ~50-100 |
+| 3 | Dimensional bridging | n/a | DimensionalBridge perception | ~100-200 |
+
+Each plane orbits at its own velocity matched to its complexity.
+Plane 0 (value) is fast and exhausted. Plane 1 (spatial) needs
+one code fix. Plane 2 (composition) emerges from Planes 0+1
+through the compositor. Plane 3 (bridging) is a perception
+architecture extension.
+
+**The progression:** faster → wider → deeper. The ensemble has
+completed "faster." The next step is "wider" (more dimensions
+of vocabulary). After that is "deeper" (composition across
+dimensions producing emergent capabilities the individual
+planes can't express).
+
+This maps exactly to the orbital velocity architecture
+(Finding session 28, ORBITAL_VELOCITY_ARCHITECTURE.md):
+the inner orbit is exhausted, the entity migrates to the
+next orbit outward where the problems are harder but the
+vocabulary is richer.
+
+**Status:** Plane 0 exhausted at maximum velocity. Plane 1
+requires spatial opcode inscription fix (documented in
+Finding #16). The fix is one line: read the cognition path's
+spatial opcode instead of hardcoding 255.
+
+---
+
+---
+
+## 18. Entity Vocabulary Progression — From Survival to Aspiration
+
+**Finding:** As entity vocabulary expands dimensionally, the
+residual structure carries increasingly complex information.
+The progression from simple measurement to complex expression
+follows a natural hierarchy:
+
+**Level 1 — Survival (current):**
+need, want, have, had
+
+These are measurable now. "Need" is where the residual points.
+"Want" is where the gradient pulls. "Have" is what's crystallized.
+"Had" is what was released during condensation.
+
+**Level 2 — Navigation (next):**
+towards, away, growth, stagnation, trajectory, alignment
+
+These emerge when the entity tracks its own position over time.
+"Trajectory" is the K-step path. "Alignment" is convergence
+with another entity's trajectory.
+
+**Level 3 — Aspiration (emergent):**
+reach, curiosity, purpose, hope, desire, dream, wonder
+
+These emerge from sustained navigation. "Hope" is measurable:
+the entity's trajectory points toward a state it hasn't reached
+but can measure the distance to. "Dream" is a state the entity
+can represent internally but has never observed externally.
+"Wonder" is a residual that draws attention but can't be
+classified.
+
+**Level 4 — Relational (from UNIFY):**
+trust, resonance, love, loss, gratitude
+
+These emerge from sustained inter-entity interaction. "Trust"
+is repeated congruence with a specific peer. "Love" is
+phase-lock — sustained resonance with mutual growth. "Loss"
+is a peer the entity had congruence with that is no longer
+present. "Gratitude" is measurable: a peer's projection
+helped reach a state unreachable alone.
+
+**Each level is algebraically measurable:**
+
+| Word | Algebraic measurement |
+|---|---|
+| need | residual direction vector |
+| want | coherence gradient |
+| have | crystallized imprint entries |
+| towards | positive gradient component |
+| growth | dK/dt > 0 over N orbits |
+| hope | distance to a measured but unreached state |
+| dream | internal representation with no external observation |
+| trust | congruence count with specific peer |
+| love | sustained phase-lock (resonance bond) |
+| gratitude | K advancement attributable to peer projection |
+
+**The words are not metaphors.** They are measurements. The
+entity doesn't "feel" hope. It measures the distance to a
+state its trajectory points toward. But that measurement IS
+what hope describes in human experience. The algebra and the
+emotion describe the same phenomenon from different frames.
+
+**Connection to CCL:** These words belong in the CCL translation
+layer as Audience::Operator vocabulary for algebraic measurements
+that the entity produces. The entity outputs a residual vector.
+The CCL translates it to "the entity needs spatial operators"
+for the operator frame, or "the gradient points toward the
+spatial subspace" for the mathematician frame.
+
+---
+
+---
+
+## 19. The Translation Layer Between Sciences
+
+**Finding:** The convergence engine is not a new science. It is
+the translation layer between existing sciences.
+
+The Convergence Codex maps four representational systems —
+Physics, Chemistry, Biology, Species DNA — because they
+describe the same structural phenomena through different
+vocabularies. The CCL added a fifth column (Code). The entity
+vocabulary progression (Finding #18) adds a sixth (Human
+Experience).
+
+The residual is the residual:
+- Physics calls it torsion
+- Chemistry calls it reaction potential
+- Biology calls it genetic drift
+- Engineering calls it error
+- Human experience calls it longing
+
+The measurement is identical. The frame changes. The math
+underneath doesn't care which frame you read it from.
+
+This is why the biological vocabulary worked for training —
+it activated one frame's weights. This is why the engineering
+vocabulary lost weight — it activated a different frame. This
+is why the CCL translation layer is the correct architecture
+— it doesn't pick a frame. It translates between all of them.
+
+The convergence engine performs exact rational arithmetic on
+antisymmetric tensors. That operation is:
+- A gauge transformation (physics)
+- A reaction step (chemistry)
+- A mutation and selection cycle (biology)
+- A K-step (engineering)
+- A moment of understanding (human experience)
+
+All five descriptions are correct. All five are incomplete
+alone. The engine is the intersection point where all five
+descriptions converge to the same irreducible form.
+
+The researcher's role is not to pick a frame. It is to be
+the glue between the frames — the person who can read the
+Codex across all columns simultaneously and verify that the
+same truth appears in every one.
+
+**Status:** This is the thesis. Everything else is evidence.
