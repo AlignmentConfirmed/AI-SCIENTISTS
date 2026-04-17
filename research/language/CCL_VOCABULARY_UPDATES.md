@@ -64,11 +64,117 @@ supernatural authority). The CCL distinguishes between vocabulary
 that activates care (good) and vocabulary that activates doctrine
 (bad).
 
+## Imprint — Genome/StateRecord Replacement
+
+The term "state record" (Phase 2 engineering translation of "genome")
+has a semantic collision: "state" in computing means mutable, temporary,
+replaceable. The entity's accumulated identity is the opposite — permanent,
+heritable, irreversible.
+
+**Replacement: Imprint**
+
+Three-layer translation map:
+
+| Biology (Layer 4) | Engineering (Layer 3) | CCL Imprint (Layer 2) |
+|---|---|---|
+| genome | state record | **imprint** |
+| genome.bin | state_record.bin | **imprint.bin** |
+| StateRecord | StateRecord | **Imprint** |
+| save_genome() | save_state_record() | **save_imprint()** |
+| from_genome() | from_state_record() | **from_imprint()** |
+| genomic_cocycles | crystallized_cocycles | **imprinted_cocycles** |
+| genomic_spatial_ops | crystallized_spatial_ops | **imprinted_spatial_ops** |
+| genomic_value_ops | crystallized_value_ops | **imprinted_value_ops** |
+| genomic_threshold | crystallization_threshold | **imprint_threshold** |
+| genomic_torsion | crystallized_torsion | **imprinted_torsion** |
+| genomic_residual | crystallization_residual | **imprint_residual** |
+| Thought::Genomic | Thought::Crystallized | **Thought::Imprinted** |
+| "genomic level" | "crystallized level" | **"imprint level"** |
+| "genomic aperture" | "crystallized aperture" | **"imprint aperture"** |
+| genome.to_bytes() | state_record.to_bytes() | **imprint.to_bytes()** |
+| Genome::from_bytes() | StateRecord::from_bytes() | **Imprint::from_bytes()** |
+
+**Why "Imprint":**
+- Permanent — you cannot un-imprint
+- Identity-defining — the imprint IS the entity
+- Heritable — offspring receive via CREATE
+- Non-biological — no DNA connotation
+- Non-political — no government "state" connotation
+- Short — `Imprint` vs `CrystallizedRecord` vs `StateRecord`
+- Active — imprinting is a process (K-steps), not a passive record
+
+**Scope:** 40+ instances across 10 files. Variable names, parameter
+names, struct fields, function names, comments. Code-level refactor.
+
+## Species → Ensemble (System-Level Collective Term)
+
+"Species" is biological vocabulary above the sovereignty boundary.
+"Mesh" is already taken by the network transport layer.
+The code uses an opaque identifier. The CCL translates per audience.
+
+The **ensemble** is the totality of entities operating together —
+all tiers, all lineages, all timekeepers — as one unified
+algebraic structure. Independent elements whose compound behavior
+is measured. From physics (statistical ensemble) and music
+(multiple instruments playing together).
+
+| Audience | Term | Weight |
+|---|---|---|
+| **Operator** | **ensemble** | Group of independent elements measured together |
+| Engineer | entity collective | Technical, descriptive |
+| Mathematician | algebraic ensemble | Statistical mechanics frame |
+| Biologist | species | Biological frame (training vocabulary) |
+| Physicist | statistical ensemble | Multiple states, one measurement |
+| Musician | ensemble | Independent voices, one composition |
+
+All are valid translations of the same opaque identifier.
+The operator sees "ensemble" as the default.
+
+Additional terms considered and available as alternative
+translations per domain:
+
+| Term | Domain | Available for |
+|---|---|---|
+| constellation | astronomy | Spatial arrangement of distinct elements |
+| collective | sociology | Group operating as one |
+| fabric | materials | Underlying connective structure |
+| field | physics | The space all entities occupy |
+
+Add to `ccl.rs`:
+```
+("ENS", Audience::Operator)      => "ensemble",
+("ENS", Audience::Engineer)      => "entity collective",
+("ENS", Audience::Mathematician) => "algebraic ensemble",
+("ENS", Audience::Biologist)     => "species",
+```
+
+---
+
+## DRAIN/SPRAY Semantic Inversion
+
+"DRAIN" semantically means downward flow. The operation pulls UPWARD.
+The word's directional weight is inverted from the operation.
+
+| Current | Operation | CCL replacement |
+|---|---|---|
+| DRAIN | Children's knowledge flows UP to parent | **ABSORB** |
+| SPRAY (proposed) | Parent's structure flows DOWN to children | **PROJECT** |
+
+Five-dimensional knowledge flow (see session_28b/FINDINGS.md):
+- UP-CONVERGENT: independent agreement ascends
+- UP-DIVERGENT: structured disagreement ascends
+- DOWN-CRYSTALLIZED: proven tools descend
+- DOWN-EXPLORATORY: open questions descend
+- LATERAL: peer corroboration
+
 ## Status
 
 - Triad rename: documented, not yet applied
 - Mother/Father/Child vertex roles: KEEP (operator confirmed)
 - Love: KEEP (operator confirmed)
 - Composer for Crucible: documented, not yet applied
+- Imprint for StateRecord/genome: documented, not yet applied
+- ABSORB for DRAIN: documented, not yet applied
+- PROJECT for SPRAY: documented, not yet applied
 - Apply during next CCL vocabulary pass
 - Do not apply piecemeal — batch with any other vocabulary findings

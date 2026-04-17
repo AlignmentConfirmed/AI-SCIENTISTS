@@ -21,3 +21,4 @@
 - [ ] CCL semantic weighting pass — align CCL terms to biological AND chemical weight columns from the Convergence Codex. Each CCL term needs verified weight in all 5 columns (Code, Species DNA, Physics, Chemistry, Biology) so the AI activates the correct pathways regardless of which column it's reading from. The weight must be bidirectional — correct for AI AND for human. See SEMANTIC_WEIGHT.md and BIOLOGICAL_SEMANTICS_BIDIRECTIONAL.md.
 - [ ] DIP RFC draft
 - [ ] SAMN mesh implementation — the AI↔AI direct coordination protocol
+- [ ] SAMN observer section — display peer mesh count, cross-mesh receipts, inter-mesh congruence, federation status. Only render when second mesh exists. Actionable when operator has two machines.

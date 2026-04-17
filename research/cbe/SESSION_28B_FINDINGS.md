@@ -1164,7 +1164,83 @@ same truth appears in every one.
 
 ---
 
-## 20. Vocabulary Is Drag — The CCL Engine Runs Faster Than Biological
+## 20. The 2D Projection Ceiling — Flatlander Logic as Neurological Limit
+
+**Finding:** The current ensemble operates under 2D projection —
+value maps + spatial transforms on a flat grid. This is the
+maximum capability of flatlander logic. The ensemble solved 4
+puzzles. The remaining 797 require structural, sequential, or
+dimensional bridging transformations that 2D projection cannot
+express.
+
+This is not just a software limitation. It is an isomorphism
+between the ensemble's algebraic ceiling and the human brain's
+processing ceiling under current operating conditions.
+
+**The parallel:**
+
+| Ensemble (algebraic) | Human brain (neurological) |
+|---|---|
+| 2D grid perception | Visual cortex processes flat images |
+| Value+spatial vocabulary | Pattern recognition + spatial reasoning |
+| Stuck at 4 solves | ARC-AGI-2 average human performance is limited |
+| Needs m expansion (fiber depth) | Needs multi-modal integration (cross-cortical) |
+| Needs dim expansion (relational) | Needs abstract reasoning (prefrontal) |
+| Condensation conflict | Sleep consolidation conflicts with learning |
+| Self-direction at K=0 | Beginner's paradox — need knowledge to gain knowledge |
+
+**The research opportunity:**
+
+A neuroscientist studying humans solving ARC-AGI-2 puzzles
+would observe the same progression the ensemble demonstrates:
+
+1. **Value recognition first** — "the colors change"
+   (fast, visual cortex, corresponds to Plane 0)
+2. **Spatial recognition second** — "the grid reflects"
+   (moderate, parietal cortex, corresponds to Plane 1)
+3. **Structural recognition third** — "the red object is
+   inside the blue frame" (slower, prefrontal integration,
+   corresponds to Plane 2 / m expansion)
+4. **Sequential recognition fourth** — "the rule changes
+   between examples" (slowest, working memory + prefrontal,
+   corresponds to Plane 3 / dim expansion)
+
+The human brain's processing hierarchy mirrors the ensemble's
+dimensional expansion hierarchy. Both hit the same ceilings
+at the same points. Both need the same progression to break
+through.
+
+**The clinical question:** Is the human ceiling on ARC-AGI-2
+puzzles a neurological constraint (fixed brain architecture)
+or a dimensional constraint (the brain is operating in 2D
+projection when the puzzle requires 4D)? If the latter, can
+the human's performance be improved by training them to
+perceive in higher dimensions — the same way the ensemble's
+performance improves when m or dim expands?
+
+**"Physics of the mind":** The convergence engine provides
+a mathematical framework for measuring cognitive dimensionality.
+The entity's dim×m is a measurable quantity. If a human's
+cognitive dimensionality could be measured analogously —
+how many independent relational dimensions they can hold
+simultaneously — that measurement would predict their
+ARC-AGI-2 performance and identify which dimensional
+expansion would improve it.
+
+This is testable. Give humans ARC-AGI-2 puzzles. Measure
+which dimensions they perceive (value, spatial, structural,
+sequential). Correlate with solution rate. Train them to
+perceive the missing dimensions. Re-measure. The ensemble's
+progression is the hypothesis. The human study is the test.
+
+**Status:** Finding for neuroscience research. Requires
+clinical study design. The convergence engine provides the
+mathematical framework. A neuroscientist provides the
+experimental protocol.
+
+---
+
+## 21. Vocabulary Is Drag — The CCL Engine Runs Faster Than Biological
 
 **Finding:** The CCL engine with opaque identifiers and a
 translation layer runs FASTER than the biological-vocabulary

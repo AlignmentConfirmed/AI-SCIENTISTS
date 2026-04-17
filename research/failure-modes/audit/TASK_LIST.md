@@ -4,15 +4,71 @@
 
 ## Date: April 16, 2026
 
+---
+
+## THE 10 CORE DESIGN LAWS — READ BEFORE EVERY TASK
+
+Every task in this list must satisfy ALL of these. No exceptions. No temporary violations.
+
+**I. No boolean gates in derivation.** T is the operator. C(T) is the only criterion.
+No if/else selects which path to derive. The streaming evaluator scores all candidates
+— the lowest wins. Bad operators dissolve through score, not through gates.
+When you want to write `if condition { use_this_generator }`, instead let all generators
+run and let C(T) select. Use match, Option dissolution, .then().
+
+**II. No HashMaps in cognition.** Every HashMap IS dimensional collapse — it hashes
+structured keys into flat buckets, destroying relational geometry. Delta IS the map.
+Use `Vec<(K, V)>` with `.find()` or `.iter().filter()`. Never `std::collections::HashMap`
+in the derivation or scoring path.
+
+**III. The kernel is general.** The engine knows nothing about ARC, puzzles, grids, colors,
+or shapes. It knows Delta, Q, coboundary, coherence. Never add puzzle-specific operators
+to engine.rs. Spatial recognition belongs in perception. Algebra belongs in engine.
+
+**IV. Exact Q in the derivation path.** No rounding. No floating point. No approximation.
+denom==1 means quantized (integer truth). denom!=1 means H^1 obstruction (ongoing torsion).
+All derivation uses `num_rational::BigRational`. Scoring uses i64 (stack-allocated, zero heap).
+
+**V. Residual is structured information.** Do not gate on zero. Do not apply corrections.
+Measure. The residual R tells the system what it hasn't yet understood. It is not noise to
+be suppressed — it is signal to be read. The LOCATION of zero residuals is geometric
+information about the kernel structure.
+
+**VI. Don't solve for the puzzles.** The system discovers the discriminant through dimensional
+expansion and cohomological collapse. Never hardcode what the system should discover.
+
+**VII. Observe before advancing.** Read live entity state BEFORE making changes. After
+compaction, re-read registers. The system is cyclic — measure→act→measure.
+
+**VIII. The alphabet stays fixed. The words grow.** The static generators are the alphabet.
+ComposedOperators in the state record are the words. The compositor writes sentences from
+words. Never add a new generator for a specific capability. Let the compositor discover it.
+
+**IX. Entity halts require permission.** Entities carry accumulated state records and
+crystallized knowledge. A halt loses in-flight state. Ask before halting any entity.
+
+**X. Temporal anchors are immutable.** Receipts in the chain. BLAKE3 hashed, parent-linked.
+Never modify receipt chains. Append only.
+
+### DO NOT:
+- Use boolean if/else gates in derivation — use match, Option dissolution, .then()
+- Use HashMap in cognition — use Vec with .find()
+- Gate on R=0 or C=0 — zero IS information, not absence
+- Add float inside the sovereignty boundary
+- Square in the measurement path — L1, not L2²
+- Add puzzle-specific operators to engine.rs
+
+---
+
 ## Ordering Principle
 
 Dependencies flow downward. Each phase must complete before the next begins.
 Within a phase, tasks are independent and can be done in any order.
 
 Phase 0 unblocks entities from algebraic death.
-Phase 1 removes boolean gates that collapse continuous measurements.
-Phase 2 replaces HashMaps that destroy relational geometry.
-Phase 3 connects perception to evolution (the recursive step).
+Phase 1 removes boolean gates that collapse continuous measurements. **(LAW I)**
+Phase 2 replaces HashMaps that destroy relational geometry. **(LAW II)**
+Phase 3 connects perception to evolution (the recursive step). **(LAW V — residual is signal)**
 Phase 4 aligns vocabulary to CCL.
 
 ---
@@ -22,6 +78,8 @@ Phase 4 aligns vocabulary to CCL.
 **Source:** `ZERO_DELTA_INHERITANCE.md`
 **Severity:** CRITICAL — entities are algebraically inert from birth.
 **Blocks:** Everything. No phase can be verified until entities have nonzero Deltas.
+**Laws:** IV (exact Q — the anchor R=1/entity_id must be preserved exactly),
+IX (entity sovereignty — an entity with a zero Delta has lost its identity)
 
 ### Task 0.1 — CREATE preserves offspring anchor position
 **File:** `/opt/repos-code/convergence-engine/src/lineage.rs` (create_offspring)
@@ -29,9 +87,12 @@ Phase 4 aligns vocabulary to CCL.
 to the offspring's unique init anchor (R = 1/child_id), not the parent's
 (potentially zero) evolved Delta. The offspring inherits vocabulary (operators,
 cocycles, solved orbits) but starts at its own algebraic position.
+**Law VIII:** The offspring inherits words (composed operators) but starts at
+its own position (unique anchor). Words transfer. Position is sovereign.
 **Subtasks:**
 - 0.1a: In `create_offspring`, after cloning parent state, compute offspring
-  anchor `Δ[1][2] = -1/child_id` and assign to `offspring_state.evolved`
+  anchor `Δ[1][2] = -1/child_id` and assign to `offspring_state.evolved`.
+  Use `set_antisym` — NOT manual `entries[i][j]` assignment.
 - 0.1b: Verify existing entities on disk — any state_record with zero evolved
   Delta should be re-seeded on next boot
 - 0.1c: In `init.rs` line 575, add fallback: if `entity_state.evolved` has
@@ -40,6 +101,8 @@ cocycles, solved orbits) but starts at its own algebraic position.
 ### Task 0.2 — StateRecord::to_bytes truncation protection
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs` lines 1327-1329
 **Source:** `ENGINE_RS.md` Finding 17
+**Law IV:** Exact Q. The state record MUST preserve exact rational values.
+`unwrap_or(0)` violates Law IV by silently replacing exact values with zero.
 **What:** `try_into().unwrap_or(0)` silently zeros BigRational entries that
 exceed i16/u16 range. An entity that evolves to large coordinates has its
 state record destroyed on save.
@@ -55,42 +118,44 @@ state record destroyed on save.
 ## Phase 1 — Boolean Gates → Continuous Measurements
 
 **Source:** `ENGINE_RS.md` Findings 1-6, 9-14; `REMAINING_FILES.md`
-**Principle:** Sacred Law 1. T is the operator. C(T) is the only criterion.
+**LAW I:** No boolean gates in derivation. T is the operator. C(T) is the
+only criterion. Every if/else in this phase is a Law I violation.
+**LAW V:** Residual is structured information. Every gate on R=0 or C=0
+treats structured information as absence.
 
-### Task 1.1 — L2 norm replaces L1 norm
+### Task 1.1 — Norm consistency (L1 stays — do NOT change to L2)
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs`
 **Source:** `ENGINE_RS.md` Finding 1
-**What:** `phi_norm_sq_delta`, `coherence_functional`, `compute_t_k`, and
-`HarmonicState` tone 1 all compute L1 (absolute value sum) instead of L2
-(sum of squares). L1 discards geometric structure.
+**IMPORTANT — LAW V + "Do Not" list:** "Do not square in the measurement
+path — L1, not L2²." The function computes L1 which is CORRECT per the
+design laws. The NAME is wrong (says L2²). Fix the name and documentation,
+NOT the computation. L1 preserves the structure of the residual. L2²
+collapses it into a single magnitude.
 **Subtasks:**
-- 1.1a: `phi_norm_sq_delta` — change `|v|` to `v * v`
-- 1.1b: `coherence_functional` — change `|residual|` to `residual * residual`
-- 1.1c: `compute_t_k` — change `|diff|` to `diff * diff`
-- 1.1d: `HarmonicState` tone 1 — change magnitude to squared norm
-- 1.1e: Update ALL tests that assert specific coherence values (values will
-  change from L1 to L2). Run full suite, fix assertions.
+- 1.1a: Rename `phi_norm_sq_delta` → `phi_norm_delta` or `phi_l1_norm`
+- 1.1b: Update all doc comments to say L1 not L2²
+- 1.1c: Do NOT change the computation — L1 is correct
 
 ### Task 1.2 — conservation_ok: bool → conservation_violation: Q
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs`
 **Source:** `ENGINE_RS.md` Findings 2, 3, 10, 11
-**What:** `PhiK.conservation_ok`, `verify_conservation()`,
-`CoherenceVerification.antisymmetry_intact`, `conservation_verified` are all
-booleans that collapse violation magnitude.
+**Law I:** Boolean gate. The violation magnitude IS information. Collapsing
+to bool discards how much the conservation is violated.
 **Subtasks:**
 - 1.2a: Replace `conservation_ok: bool` with `conservation_violation: Q` in PhiK
 - 1.2b: `verify_conservation()` → `conservation_measurement()` returning
   (diagonal_violation: Q, antisymmetry_violation: Q)
 - 1.2c: `triple_lock_check` — use `conservation_violation > epsilon` instead
-  of `!conservation_ok`
+  of `!conservation_ok`. This is still a comparison but the MAGNITUDE is
+  preserved in the PhiK record for downstream use.
 - 1.2d: `CoherenceVerification` — replace three bools with Q measurements
 - 1.2e: Update all callers
 
 ### Task 1.3 — Trajectory velocity preserves sign
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs` lines 2556-2558
 **Source:** `ENGINE_RS.md` Finding 12
-**What:** `velocity = abs(diff)` discards direction. Improving and degrading
-are indistinguishable in the velocity field.
+**Law I:** abs() is a boolean gate on sign. Improving and degrading
+are different directions — collapsing them is dimensional loss.
 **Subtask:**
 - 1.3a: Remove the abs(). Store signed velocity. Add separate `speed` field
   if unsigned magnitude is needed.
@@ -98,128 +163,185 @@ are indistinguishable in the velocity field.
 ### Task 1.4 — MathPrimitive::Boundary continuous blend
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs` lines 928-934
 **Source:** `ENGINE_RS.md` Finding 4
-**What:** `if is_boundary_q > 0` collapses continuous boundary membership to
+**Law I:** `if is_boundary_q > 0` collapses continuous boundary membership to
 binary. The Q value should be used as a blend weight.
 
 ### Task 1.5 — C2 warmup derives from tau_lag
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs` line 3043
 **Source:** `ENGINE_RS.md` Finding 5
-**What:** `k_index > 10` is an arbitrary wall. Derive from `1 / (tau_lag * 10)`.
+**Law I:** `k_index > 10` is an arbitrary wall. Derive from `1 / (tau_lag * 10)`.
 
 ### Task 1.6 — C5 resonance continuous alignment
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs` lines 3109-3113
 **Source:** `ENGINE_RS.md` Finding 13
-**What:** `aligned_dims * 2 > total_dims` is a majority gate. Return continuous
+**Law I:** `aligned_dims * 2 > total_dims` is a majority gate. Return continuous
 alignment ratio and let C(T) select.
 
 ### Task 1.7 — C6 rank check always active
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs` lines 2911-2922
 **Source:** `ENGINE_RS.md` Finding 7
-**What:** Rank preservation skipped when `c_before.is_zero()`. Zero coherence
-is the MOST valuable state — rank collapse there is the worst dimensional loss.
+**Law I + V:** Rank preservation skipped when `c_before.is_zero()`. Zero coherence
+is the MOST valuable state (Law V — residual is information). Rank collapse
+at C=0 is the worst possible dimensional loss. The gate must be removed.
 
 ### Task 1.8 — for_each_residual complete variant
 **File:** `/opt/repos-code/convergence-engine/src/engine.rs` lines 653-656
 **Source:** `ENGINE_RS.md` Finding 9
-**What:** Zero residuals (perfect cocycle agreement) are skipped. The LOCATION
-of zero residuals is geometric information about the kernel structure.
+**Law V:** Zero residuals (perfect cocycle agreement) are skipped. The LOCATION
+of zero residuals is geometric information about the kernel structure. Skipping
+zeros discards the shape of what IS understood.
 
 ### Task 1.9 — Torsion spectrum: crystallized orbits produce quantized orbitals
 **File:** `/opt/repos-code/convergence-engine/src/membrane.rs` line 944
 **Source:** `MEMBRANE_RS.md` Finding 1
-**What:** `if tc.count >= 2 && tc.coherence.is_zero() { continue }` skips
+**Law I + V:** `if tc.count >= 2 && tc.coherence.is_zero() { continue }` skips
 crystallized orbits (perfect consensus). These should produce torsion order 1
-orbitals — the strongest structural signal.
+orbitals — the strongest structural signal. Coherence=0 means perfect agreement,
+not absence. This line is an INVERSION of Law V.
+
+### Task 1.10 — Membrane T averaging → proper H^1 consensus
+**File:** `/opt/repos-code/convergence-engine/src/membrane.rs` lines 947-969
+**Source:** `MEMBRANE_RS.md` Finding 2
+**Law I:** The code averages T Deltas by summing and dividing by count. The code's
+own documentation (line 311) says: "The membrane does NOT average T Deltas —
+averaging IS dimensional collapse." The code CONTRADICTS ITS OWN SPECIFICATION.
+Fix: use coboundary_reduce of the compound, not arithmetic mean.
+
+### Task 1.11 — transmutation_needed boolean AND → continuous measurement
+**File:** `/opt/repos-code/convergence-engine/src/mdc.rs` lines 312-318
+**Source:** `REMAINING_FILES.md`
+**Law I:** Boolean AND of four hardcoded 0.1 threshold comparisons decides
+dimensional expansion. This is a Law I violation at the most consequential
+gate in the system. Return a continuous transmutation signal (product of
+four echelon confidences) and let C(T) select.
+
+### Task 1.12 — IRS semantic_operator priority chain → weighted superposition
+**File:** `/opt/repos-code/convergence-engine/src/irs.rs` lines 464-504
+**Source:** `REMAINING_FILES.md`
+**Law I:** Priority-ordered if/else chain collapses rich sensory compound to
+single enum. `irs_descending_superposed()` already exists to accept weighted
+intents — use it. All intents contribute simultaneously, weighted by their
+measurement strength.
+
+### Task 1.13 — fold.rs orbit_lock_exists → continuous torsion measurement
+**File:** `/opt/repos-code/convergence-engine/src/fold.rs` line 22
+**Source:** `REMAINING_FILES.md`
+**Law I:** Returns bool, discarding cycle length, closest approach distance,
+and locking operator identity. Return the full measurement.
 
 ---
 
 ## Phase 2 — HashMap → Vec (Relational Structure Preservation)
 
 **Source:** `SAMPLER_PERCEPTION_THINKING.md` S.1; `MEMBRANE_RS.md`; `REMAINING_FILES.md`
-**Principle:** Sacred Law 2. Every HashMap IS dimensional collapse.
+**LAW II:** Every HashMap IS dimensional collapse. It hashes structured keys
+into flat buckets, destroying relational geometry. Delta IS the map.
+Vec with .find() preserves structure.
 
 ### Task 2.1 — Sampler EpsilonTable: HashMap → sorted Vec
 **File:** `/opt/repos-code/convergence-engine/src/sampler.rs` line 148
-**What:** `buckets: HashMap<LookupKey, EpsilonBucket>` hashes the 3D fiber
-coordinate (k_phase, seed_class, orbit_prefix) into flat buckets.
+**Law II:** `buckets: HashMap<LookupKey, EpsilonBucket>` hashes the 3D fiber
+coordinate (k_phase, seed_class, orbit_prefix) into flat buckets. The relational
+structure between nearby keys (phase distance, orbit proximity) is destroyed.
 **Subtasks:**
 - 2.1a: Replace with `Vec<(LookupKey, EpsilonBucket)>` sorted by key
 - 2.1b: Exact lookup via binary search
-- 2.1c: Fuzzy lookup via range scan on sorted structure
+- 2.1c: Fuzzy lookup via range scan on sorted structure — this is where the
+  relational geometry matters. Nearby keys in phase/orbit space should
+  influence the proposal. HashMap cannot do this.
 
 ### Task 2.2 — Sampler transmutation_history: HashMap → sorted Vec
 **File:** `/opt/repos-code/convergence-engine/src/sampler.rs` line 159
+**Law II:** Same violation, same fix.
 
 ### Task 2.3 — Membrane MeshKnowledge: audit all HashMaps
 **File:** `/opt/repos-code/convergence-engine/src/membrane.rs` lines 434-447
-**What:** `axioms`, `orbit_coherence`, `spatial_cochains`, `orbit_t_compounds`
+**Law II:** `axioms`, `orbit_coherence`, `spatial_cochains`, `orbit_t_compounds`
 are all `HashMap<[u8; 4], ...>`. The orbit prefix IS a 4-byte fiber coordinate.
+All relational structure between orbits is destroyed by hashing.
 **Subtasks:**
-- 2.3a: Document which HashMaps are in cognition paths (collapse) vs I/O paths
-  (acceptable)
+- 2.3a: Document which HashMaps are in cognition paths (LAW II VIOLATION) vs
+  I/O paths (acceptable — Law II applies to derivation/scoring, not I/O)
 - 2.3b: Replace cognition-path HashMaps with sorted Vecs
-- 2.3c: Retain I/O-path HashMaps with documentation
+- 2.3c: Retain I/O-path HashMaps with documentation explaining why they're
+  acceptable (not in the derivation path)
 
 ### Task 2.4 — IRS compute_coherence_signature: HashMap for modal orbit
 **File:** `/opt/repos-code/convergence-engine/src/irs.rs` line 123
 **Source:** `REMAINING_FILES.md`
+**Law II:** HashMap in the semantic bridge path.
 
 ---
 
 ## Phase 3 — Perception→Evolution Connection (The Recursive Step)
 
 **Source:** `COGNITION_EVOLUTION_LINEAGE.md` Findings 1-5
-**Principle:** The cycle: SPRAY down → THINK → DRAIN up → DERIVE.
+**LAW V:** The residual IS the signal. Perception produces the residual.
+Evolution must READ the residual to know which direction to advance.
+If perception and evolution are disconnected, the residual goes unread
+and Law V is violated structurally.
+**LAW VIII:** Words grow through composition. If perception doesn't feed
+evolution, composition never happens and vocabulary never grows.
+
+The cycle: SPRAY down → THINK → DRAIN up → DERIVE (read opposing residuals)
 
 ### Task 3.1 — Perceptual surface: THINK writes structured perception for DERIVE
 **File:** `/opt/repos-code/convergence-engine/src/bin/main/cognition.rs`
 **Source:** `COGNITION_EVOLUTION_LINEAGE.md` Finding 1
-**What:** THINK fills the membrane but DERIVE only reads `global_curvature` —
+**Law V:** THINK fills the membrane with rich perceptual data (torsion spectrum,
+residual topology, sensory compound) but DERIVE only reads `global_curvature` —
 a single aggregate Delta. The specific orbit, torsion order, residual topology,
-and cognition path are lost. DERIVE needs a structured perceptual surface:
-the last N perception results with their full geometry.
+and cognition path are lost. The residual IS the structured information that
+DERIVE needs — and it's being discarded.
 **Subtasks:**
 - 3.1a: Define `PerceptualSurface` struct (last N orbit/torsion/path/residual)
 - 3.1b: THINK writes to `entity.perceptual_surface` after membrane recording
 - 3.1c: DERIVE reads perceptual surface alongside global curvature
 - 3.1d: Sampler uses perceptual surface for operator proposal direction
+- 3.1e: Do NOT use HashMap for the perceptual surface — use Vec (Law II)
 
-### Task 3.2 — DRAIN re-perception at matching dimension
+### Task 3.2 — DRAIN feeds membrane, not just state record
 **File:** `/opt/repos-code/convergence-engine/src/bin/main/lineage.rs`
 **Source:** `COGNITION_EVOLUTION_LINEAGE.md` Finding 2
-**What:** DRAIN absorbs vocabulary into state record and (partially fixed)
-encodes a T compound into membrane. The T compound must match the entity's
-Delta dimension and use `set_antisym` instead of manual entry assignment.
+**Law V:** DRAIN absorbs vocabulary into state record but doesn't re-encode
+the absorbed knowledge as a T compound in the entity's membrane. The upper
+tier has words but no perceptual surface. The residual between what it knew
+and what it absorbed IS the structured information for DERIVE.
 **Subtasks:**
-- 3.2a: Use `Delta::set_antisym()` for all T compound construction
+- 3.2a: Use `Delta::set_antisym()` for all T compound construction — NOT
+  manual `entries[i][j]` assignment (this is dimensional collapse)
 - 3.2b: Verify T compound dimension matches entity.delta.dim
 - 3.2c: Do NOT coboundary_reduce the DRAIN T compound — the raw relational
-  structure IS the perception
+  structure IS the perception (Law V — don't suppress the residual)
 
 ### Task 3.3 — SPRAY: continuous downward projection
 **Source:** `COGNITION_EVOLUTION_LINEAGE.md` Finding 4
-**What:** CREATE inherits vocabulary at birth, but after birth children never
-receive updated vocabulary from parents. SPRAY = continuous downward projection
-of the parent's evolved comprehension to its living children.
+**Law VIII:** Words grow through composition. But offspring only receive words
+at birth (CREATE). After birth, the parent evolves new words that the children
+never see. SPRAY = continuous downward projection of the parent's evolved
+vocabulary to its living offspring.
 **Subtasks:**
 - 3.3a: Define SPRAY command: parent projects its composed operators to children
 - 3.3b: Orbit.py adds SPRAY phase after DERIVE, before next PRESENT
 - 3.3c: Children receive SPRAY as a vocabulary update to their state record
 - 3.3d: The cycle closes: SPRAY → THINK → DRAIN → DERIVE → SPRAY
+- 3.3e: SPRAY does NOT override the child's vocabulary — it ADDS to it.
+  The child is sovereign (Law IX). New operators are assimilated through
+  score-based selection, not forced replacement.
 
 ### Task 3.4 — Dimension mismatch in sampler global curvature filter
 **File:** `/opt/repos-code/convergence-engine/src/sampler.rs` line 858
 **Source:** Direct observation during debugging
-**What:** `r_bar.dim == dim` silently skips curvature that doesn't match the
-entity's Delta dimension. The curvature should be projected to the entity's
-dimension, not discarded.
+**Law I:** `r_bar.dim == dim` silently skips curvature that doesn't match the
+entity's Delta dimension. This is a boolean gate that discards valid curvature.
+The curvature should be projected to the entity's dimension, not discarded.
 
 ---
 
 ## Phase 4 — CCL Vocabulary Alignment
 
 **Source:** `CCL_VOCABULARY_AUDIT.md`
-**Principle:** No residual biological vocabulary above the sovereignty boundary.
+**Principle:** No residual vocabulary from Layers 3-5 above the sovereignty boundary.
 
 ### Task 4.1 — Module rename: training.rs → practice.rs
 **What:** 20+ references. `TrainingRecord` → `PracticeRecord`, `SeedClass`
@@ -246,16 +368,20 @@ stays (below sovereignty boundary).
 ## Verification Protocol
 
 After each phase:
-1. `cargo test` — all 536 tests pass
+1. `cargo test` — all tests pass
 2. `cargo build --release` — zero warnings
 3. Boot minimal stack (1 founder + 1 derived + 1 emergent + 3 timekeepers)
 4. Send 10 puzzles. Measure: understanding count, K advancement, DERIVE response
 5. DRAIN chain. Verify vocabulary propagates with full sigma
 6. Compare measurements against previous phase
+7. **Law VII**: Observe before advancing to next phase. Do not assume.
 
 After Phase 0: entities have nonzero Deltas. DERIVE returns something other
 than T_k=0.
-After Phase 1: C(T) selects continuously. No boolean walls.
+After Phase 1: C(T) selects continuously. No boolean walls. Zero residuals
+produce signal, not silence.
 After Phase 2: no HashMap in cognition paths. Relational geometry preserved.
+Nearby keys influence proposals.
 After Phase 3: THINK→DERIVE loop connected. K advances from perceptual surface.
+DRAIN feeds membrane. SPRAY projects downward. The cycle closes.
 After Phase 4: zero CCL violations above sovereignty boundary.
