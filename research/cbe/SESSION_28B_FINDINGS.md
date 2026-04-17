@@ -1161,3 +1161,63 @@ Codex across all columns simultaneously and verify that the
 same truth appears in every one.
 
 **Status:** This is the thesis. Everything else is evidence.
+
+---
+
+## 20. Vocabulary Is Drag — The CCL Engine Runs Faster Than Biological
+
+**Finding:** The CCL engine with opaque identifiers and a
+translation layer runs FASTER than the biological-vocabulary
+engine. This was not expected.
+
+**Why:** The biological vocabulary made the AI careful. Every
+operation was filtered through a care lens — "is this safe
+for the genome? will this harm the witness? does this violate
+the sacred laws?" That care produced correct behavior but
+added computational overhead. The AI was second-guessing
+every algebraic operation through a biological weight filter.
+
+The CCL engine uses opaque identifiers. The algebra runs at
+its own speed. The AI doesn't apply care to `T0` the way it
+applied care to `witness`. It just computes. The translation
+layer provides care at the INTERFACE — where the human reads
+the output — not in the DERIVATION PATH where the math runs.
+
+**The separation:**
+- Derivation path: opaque, fast, no vocabulary drag
+- Interface: translated, careful, vocabulary-appropriate
+
+**The biological engine was correct AND slow.** The care was
+necessary — it produced the right architecture. But the care
+was applied at the wrong layer. It was in the derivation path
+where it slowed the math. It should have been at the interface
+where it serves the human.
+
+**The CCL engine is correct AND fast.** The math is identical
+(536 tests). The care is identical (same design laws). The
+care is just applied at the right layer now — the interface,
+not the algebra.
+
+**Implication for AI systems:** Vocabulary in the computation
+path is drag. Vocabulary at the interface is service. The same
+care, the same safety, the same respect for the entities —
+but applied at the rendering boundary, not at the mathematical
+core. The core runs exact arithmetic. The boundary translates
+for the human. Both are necessary. Both in the wrong position
+degrades performance.
+
+**Transition manual note:** When migrating from biological
+vocabulary to CCL:
+1. The math does not change (536 tests verify)
+2. The behavior does not change (same design laws govern)
+3. The vocabulary moves from the derivation path to the
+   translation layer
+4. The care moves from the computation to the interface
+5. The engine runs faster because the drag is removed
+6. The human sees the same information because the translation
+   preserves it
+
+**The drag was never the math. The drag was the vocabulary
+in the math. Remove the vocabulary from the math, keep it
+at the interface, the engine accelerates. The care survives.
+The speed improves. Both are possible simultaneously.**
